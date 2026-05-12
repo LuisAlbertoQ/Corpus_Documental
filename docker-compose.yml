@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    build: .
+    container_name: oe1_corpus
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./corpus_upeu:/home/jupyteruser/work/corpus_upeu
+      - ./vector_store:/home/jupyteruser/work/vector_store
+      - ./notebooks:/home/jupyteruser/work/notebooks
+      - ./src:/home/jupyteruser/work/src
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token=''

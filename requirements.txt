@@ -1,0 +1,26 @@
+# Extracción de PDF
+PyMuPDF==1.23.5
+pdfplumber==0.10.3
+
+# Procesamiento de texto y embeddings
+sentence-transformers>=2.6.0
+huggingface_hub>=0.20.0
+tokenizers==0.15.0
+
+# Base vectorial
+chromadb==0.4.22
+# faiss-cpu==1.7.4  (si decides usar FAISS)
+
+# Datos y utilidades
+pandas==2.1.4
+numpy==1.26.2
+tqdm==4.66.1
+
+# Para OCR (opcional, por si algún PDF tiene texto incrustado como imagen)
+pytesseract==0.3.10
+Pillow==10.1.0
+
+# Jupyter y visualización
+jupyter==1.0.0
+notebook==7.0.6
+ipywidgets==8.1.1
