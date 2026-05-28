@@ -1,0 +1,2607 @@
+Página 1
+
+UNIVERSIDAD PERUANA UNIÓN
+
+REGLAMENTO DE INVESTIGACIÓN Resolución N 2759-2025/UPeU-CU, v8, del 08 de agosto de 2025.
+
+Resolución N 2555-2021/UPeU-CU, v7, del 23 de setiembre de 2021.
+
+Resolución N 0386-2020/UPeU-CU, v6, del 12 de marzo de 2020.
+
+Resolución N 1848-2019/UPeU-CU, del 14 de noviembre de 2019.
+
+Resolución N 0221-2019/UPeU-CU, v5, del 07 de febrero de 2019.
+
+Resolución N 0986-2018/UPeU-CU, v4, del 09 de agosto de 2018.
+
+Página 2
+
+Página 3
+
+ÍNDICE
+
+GLOSARIO DE TÉRMINOS .............................................................................................................................. 4 TÍTULO I DE LAS DISPOSICIONES GENERALES ...................................................................................................... 8 CAPÍTULO I BASE LEGAL, ALCANCE Y PROPÓSITO ..................................................................................... 8 TÍTULO II DE LA INVESTIGACIÓN FORMATIVA ...................................................................................................... 9 CAPÍTULO I ETAPA I DE LA INVESTIGACIÓN FORMATIVA ........................................................................ 10 CAPÍTULO II ETAPA II DE LA INVESTIGACIÓN FORMATIVA ...................................................................... 10 CAPÍTULO III ETAPA III DE LA INVESTIGACIÓN FORMATIVA .................................................................... 11 TÍTULO III CURSO DEL PLAN DE ESTUDIOS PARA EL DESARROLLO DEL TRABAJO DE INVESTIGACIÓN .. 11 TÍTULO IV DEL DESARROLLO DE LA TESIS EN FORMATO ARTÍCULO PARA OBTENER EL TÍTULO PROFESIONAL Y SEGUNDA ESPECIALIDAD PROFESIONAL ......................................................................................................................... 12 TÍTULO V INFORME DEL TRABAJO DE SUFICIENCIA PROFESIONAL PARA OBTENER EL ...................................... 17 TÍTULO VI TRABAJO ACADÉMICO PARA OBTENCIÓN DEL TÍTULO DE SEGUNDA ESPECIALIDAD PROFESIONAL .. 19 TÍTULO VII DEL DESARROLLO DE TRABAJO DE INVESTIGACION O TESIS PARA OBTENER EL GRADO DE MAESTRO
+
+TÍTULO VIII DEL DESARROLLO DE LA TESIS PARA OBTENER EL GRADO DE DOCTOR .................................................... 26 TÍTULO IX DE LOS PROTOCOLOS DE SUSTENTACIÓN ........................................................................................... 31 TÍTULO X DE LOS DERECHOS DE AUTOR Y DERECHOS CONEXOS ............................................................................ 34 TÍTULO XI DE LA INVESTIGACIÓN DE DOCENTES ................................................................................................. 34 CAPÍTULO I DE LOS PROYECTOS DE INVESTIGACIÓN ................................................................................... 34 CAPÍTULO II DEL FINANCIAMIENTO DE PROYECTOS Y DESTINO DE LOS RECURSOS ECONÓMICOS ....... 35 CAPÍTULO III DE LA PARTICIPACIÓN DE LOS DOCENTES .......................................................................... 35 CAPÍTULO IV DE LA CONVOCATORIA, APROBACIÓN Y REGISTRO DE LOS PROYECTOS ........................... 36 CAPÍTULO V DEL COMITÉ CIENTÍFICO ..................................................................................................... 36 CAPÍTULO VI DE LA EVALUACIÓN, EJECUCIÓN Y CANCELACIÓN DE LOS PROYECTOS ............................. 36 CAPÍTULO VII DE LOS RESULTADOS, DIFUSIÓN Y FINANCIAMIENTO DE LOS PROYECTOS .......................... 37 TÍTULO XII SANCIONES POR PLAGIO Y MALA CONDUCTA .................................................................................... 37 DE LAS DISPOSICIONES FINALES Y TRANSITORIAS........................................................................................................... 38 DE LAS DISPOSICIONES TRANSITORIAS ........................................................................................................................... 39 ANEXO 01 ELEMENTOS DEL PERFIL DE PROYECTO/PROYECTO DE TESIS ................................................. 41 ANEXO 02 COMPROMISO ÉTICO DEL INVESTIGADOR ................................................................................. 43 ANEXO 03. ÁREAS TEMÁTICAS, SUB ÁREAS Y DISCIPLINA DEL CONOCIMIENTO ESTÁNDAR INTERNACIONAL DE LA ORGANIZACIÓN DE COOPERACIÓN Y DESARROLLO ECONÓMICO (OCDE) ............ 45 FE-01 FORMATO DE EVALUACIÓN PARA EL TRABAJO DE REVISIÓN BIBLIOGRÁFICA BÁSICA ................... 50 FE-02 FORMATO DE EVALUACIÓN PARA PERFÍL DE PROYECTO DE INVESTIGACIÓN EVALUACIÓN DE PERFÍL DE PROYECTO DE INVESTIGACIÓN .................................................................................................. 51 FE-03 FORMATO DE EVALUACIÓN PARA EL TRABAJO DE INVESTIGACIÓN/TESIS EN FORMATO ARTÍCULO
+
+FE-04 FORMATO DE EVALUACIÓN PARA PROYECTO DE TESIS DOCTORAL ............................................... 56
+
+Página 4
+
+GLOSARIO DE TÉRMINOS
+
+1) Artículo científico. Informe publicado sobre resultados originales de una investigación científica, según el método científico. Aporta nuevos conocimientos, contiene información suficiente y está disponible para la comunidad científica. Puede tener el estado de:
+
+1.1. Artículo científico sometido. Manuscrito que ha sido enviado a una revista científica para su publicación en la misma. Implica un proceso de revisión por pares.
+
+1.2. Artículo científico publicable: Manuscrito elaborado con todas las características y exigencias para ser publicado en una revista científica, listo para ser sometido a revisión por pares.
+
+2) Autor. Es la persona natural que realiza, materializa o concretizan una creación u obra intelectual.
+
+3) Asesor/es. Es un docente o especialista experimentado en investigación, con conocimiento en la temática de estudio, metodología de investigación, análisis estadístico y redacción científica, nombrado para monitorear, guiar, orientar y supervisar el trabajo de investigación realizado por el estudiante o egresado.
+
+4) Asesoría. Es el servicio ejecutado por un profesional o especialista en investigación o áreas conexas, en la conducción, guía o acompañamiento en el desarrollo de un trabajo de investigación.
+
+5) Centro de Investigación e Innovación (CII). Es la unidad académica que agrupa investigadores (docentes y estudiantes) dedicados a la investigación de una disciplina científica, tecnológica o
+
+humanística, así como al desarrollo de extensión, transferencia tecnológica, ejecución de programas interdisciplinarios o sectoriales, por medio de proyectos financiados por la cooperación internacional, nacional o local, tendientes a solucionar un problema específico o a atender una necesidad.
+
+6) Centro (Instituto) de investigación e innovación adventista (CIIA). Unidad académica que agrupa centros de investigación con propósitos similares. Está conformado por investigadores (docentes y estudiantes) dedicados a la investigación de una disciplina científica, tecnológica o humanística, así como al desarrollo de extensión, transferencia tecnológica, ejecución de programas interdisciplinarios o sectoriales, por medio de proyectos financiados por la cooperación internacional, nacional o local, tendientes a solucionar un problema específico o a atender una necesidad 7) Comité de ética. Es un cuerpo docente encargado de cautelar el respeto a los principios ético- cristianos durante el desarrollo de una investigación, los resultados y su difusión.
+
+8) Comité Dictaminador. Es un cuerpo docente o de especialistas en investigación, responsable de analizar, observar y aprobar, mediante la emisión de un dictamen sobre la originalidad, revisión de la literatura/marco teórico, consistencia y coherencia metodológica, relevancia de los resultados, discusión, conclusiones y recomendaciones, así como la ortografía, gramática y redacción de acuerdo con la lista de verificación para la presentación del informe. La función del comité termina con la emisión del dictamen.
+
+9) Consejo de Escuela de Posgrado (CEPG). Es un órgano de gobierno, dirección y ejecución de la Escuela de Posgrado (EPG). Es convocado y presidido por el director de la EPG.
+
+10) Consejo de Facultad (CF). Es un órgano intermedio de gobierno, dirección que vela el continuo desarrollo académico de la Facultad. Es convocado y presidido por el decano de la Facultad.
+
+11) Consejo Universitario (CU). Es el órgano de gobierno, gestiona la ejecución académica y administrativa de la UPeU. Es convocado y presidido por el rector.
+
+12) Coordinación de Investigación e Innovación (CII). Es la unidad de apoyo y coordinación en el desarrollo del programa de investigación formativa, según corresponda en pregrado o de posgrado, o docente a nivel de las escuelas profesionales (CIIEP) o de la escuela de posgrado y sus unidades de posgrado (CIIUPG).
+
+13) CRAI. Es el Centro de Recursos para el Aprendizaje e Investigación.
+
+14) Curso de trabajo de investigación. Es una asignatura o curso del plan de estudios de la carrera profesional que el estudiante debe cursar en el último semestre del período académico, o en el caso de carreras donde desarrollen internado, pasantías o prácticas intensivas, en el semestre académico anterior más próximo. El contenido y la denominación del curso es definido por cada unidad académica.
+
+15) Derecho de asesoría. Es una facultad otorgada por la UPeU a sus estudiantes o egresados, quienes desarrollan o ejecutan proyectos de investigación conducentes a la obtención de un título profesional o grado académico. El derecho se adquiere después del cumplimiento de los requerimientos académicos, administrativos y financieros respectivos.
+
+16) Derechos de Autor. Es la prerrogativa de orden moral y patrimonial reconocida y otorgada por la
+
+Página 5
+
+ley a todo creador de una obra, desde el mismo momento de la creación, sin registro previo, depósito o formalidad alguna; con rasgos de originalidad distinguible de otros.
+
+17) Dictamen. Es una opinión o juicio técnico, autorizada y estructurada sobre un tema, caso, situación o documento, constituidos en objeto de estudio o investigación.
+
+18) Dictaminador. Especialista, investigador quien, de acuerdo con sus facultades conferidas mediante los reglamentos, emite opinión y juicio sobre trabajos de investigación científica.
+
+19) Dirección General de Investigación (DGI). Es el órgano de más alto nivel en investigación encargado de orientar, coordinar y encargar el desarrollo de las investigaciones en las diversas unidades académicas. Es la unidad de apoyo y asesoramiento en los programas y acciones de investigación formativa y docente de la Universidad Peruana Unión. Tiene como objetivo la gestión del conocimiento en la universidad.
+
+20) Director de Centro de Investigación e Innovación (DCII). Es el responsable de dirigir el centro y asimismo puede desempeñar la dirección o coordinación de investigación de la unidad académica.
+
+21) Director de Investigación (DII). Es el responsable de dirigir, coordinar, monitorear y evaluar las actividades relacionadas con la investigación formativa, conforme los niveles normativos y organizacionales de la UPeU, en la facultad o escuela profesional (EP) y la escuela de posgrado (EPG).
+
+22) Docente. Es el profesional titulado quien se dedica a la enseñanza, tiene la vocación de enseñar y servir con su tiempo, esfuerzos, capacidades y competencias profesionales, contribuyendo de esta manera al desarrollo de la enseñanza, la investigación, la extensión cultural y proyección social, la producción intelectual y la formación integral en la Universidad Peruana Unión.
+
+23) Egresado. Es la persona que ha culminado y aprobado satisfactoriamente todas las asignaturas y los requisitos de su plan de estudios, correspondiente a un programa académico, una carrera profesional, la segunda especialidad, maestría o doctorado.
+
+24) Equipo de investigación. Se considera a un colectivo de docentes, estudiantes y graduados organizados que participan en la investigación o en redes nacionales o internacionales.
+
+Es la unidad de apoyo y coordinación en el desarrollo del programa de investigación formativa o docente a nivel de la facultad en la modalidad presencial y semipresencial.
+
+25) Estudiante. Es la persona que, previa obtención de una vacante en alguna de las carreras profesionales o programa académico de pregrado o posgrado ha procedido a matricularse en la
+
+26) Escenarios o modalidad de desempeño y acción docente, estudiantil o investigador. Es el ámbito educativo, académico, formativo o de intervención en el que el docente, estudiante o investigador está habilitado, adscrito o asignado para el cumplimiento de sus funciones, obligaciones o roles, en la calidad de docente, estudiante o investigador en la UPeU. Estos pueden ser de naturaleza presencial, dentro o fuera del campus, virtual u online, sincrónica o asincrónica, según la modalidad de desarrollo del programa de estudios.
+
+27) Grado académico: Es el reconocimiento de la formación educativa o profesional, otorgada a una persona por parte de una universidad, institución o escuela de educación superior, según corresponda, autorizada a otorgar diplomas de grado de bachiller, maestro o doctor.
+
+28) Informe de conformidad. Es un documento a través del cual el asesor acredita, certifica y valida el tema, propósitos y actividades relevantes, para ser objeto de estudio en un trabajo científico de investigación, conforme al avance requerido.
+
+29) Inscripción. Es un acto formal de registro manual, mecánico o electrónico de un hecho, acto, situación o asunto.
+
+30) Investigador/es. Es un docente, estudiante o trabajador de la universidad, que genera conocimientos a través de la investigación científica.
+
+31) Jurado de Sustentación. Es un equipo de docentes universitarios o de especialistas encargados de administrar el acto de sustentación de la tesis. Este equipo tiene la responsabilidad de observar, examinar y evaluar un trabajo de investigación durante un proceso de sustentación. Está conformado por un presidente, un secretario, dos vocales y el asesor.
+
+32) Línea de Investigación. Es un eje temático integrador intra o interdisciplinario de actividades y proyectos de investigación que se genera para integrar un conjunto amplio de problemas, cuyo tratamiento exige mayor período de tiempo, mayor coordinación de las capacidades investigativas y, consecuentemente, mayores resultados e impacto de la investigación.
+
+33) Matrícula. Es un proceso académico formal, voluntario, personal, obligatorio, renovable, por el cual el estudiante adquiere el derecho de cursar, en un ciclo o período académico, una o más asignaturas ofrecidas y programadas por la UPeU, previo cumplimiento de los requisitos
+
+Página 6
+
+académicos, administrativos y financieros preestablecidos. Se materializa durante el tiempo previsto en el respectivo cronograma.
+
+34) Modalidad de estudios. Es la forma, manera, de implementar y desarrollar la acción educativa, el quehacer educativo del proceso de enseñanza-aprendizaje, además de la investigación, la extensión y proyección social, en tiempos asignados y con la mediación de escenarios y recursos educativos presenciales, virtuales u online, sincrónicos o asincrónicos, conforme la naturaleza del programa de estudios.
+
+35) Obra derivada. Es elaborada y basada sobre otra ya existente, sin perjuicio de los derechos del autor de la obra original y de la respectiva autorización, cuya originalidad se revela en el arreglo, la adaptación o transformación de la obra preexistente, o en los elementos creativos de su traducción a un idioma distinto.
+
+36) Obra individual. Obra creada por una sola persona natural.
+
+37) Obra original. Obra original es la primigeniamente creada.
+
+38) Obra. Es toda creación intelectual personal y original, susceptible de ser divulgada o reproducida de cualquier forma conocida o por conocerse.
+
+39) Observación. Es el cuestionamiento que se propone o se presenta para rechazar, cambiar o mejorar una idea, una propuesta, una parte o el todo de una temática, modelo, teoría, metodología, proceso de investigación. Es presentada por una persona o equipo de expertos en el tema analizado.
+
+40) PID. Programa de Investigación de Docentes.
+
+41) Plazo. Es un período de tiempo determinado y expresado en horas, días, semanas, meses para ejecutar, presentar o abstenerse de hacer algo.
+
+42) Proceso de atención de Enfermería (PAE). Es la aplicación del método científico en la práctica de la enfermería que permite a los profesionales prestar cuidados de calidad que demanda la persona, familia y comunidad en una forma estructurada, lógica y sistemática. Se evidencia a través de un informe semejante a una tesina y supone una sustentación y la aprobación de un jurado, que lo evalúa. Conduce a la obtención del título de segunda especialidad.
+
+43) Propiedad intelectual. Cualquier propiedad de naturaleza intelectual y merecedora de protección, incluida las invenciones científicas y tecnológicas, las producciones literarias o artísticas, las marcas y signos distintivos, los dibujos y modelos industriales, que pertenece a una persona o equipo de personas. Los derechos morales o patrimoniales se cautelan cualquiera sea la modalidad de estudios y de los actores involucrados e intervinientes.
+
+44) Proyecto de investigación. Documento de investigación que contiene la idea sobre un determinado objeto de estudio, para la cual se establece un modo determinado y un conjunto de medios y procedimientos necesarios y requeridos.
+
+45) Perfil de proyecto de investigación (para la obtención de grados o títulos). Es una propuesta planificada de una investigación científica: básica o aplicada, así como cuantitativa, cualitativa, tecnológica u otros, de acuerdo con la naturaleza del campo de estudio, cuyo desarrollo conduce a la obtención del título profesional o grados académicos.
+
+46) Publicación. Es la disposición de ejemplares puestos al alcance del público con el consentimiento del titular y respeto a los derechos legales, siempre que la disponibilidad de tales ejemplares permita satisfacer las necesidades razonables del público, teniendo en cuenta la naturaleza de la obra.
+
+47) Reglamento. Es el conjunto de normas estructuradas que regula determinada materia, asunto o situación del estudiante o egresado, sobre el servicio educativo o académico, las obligaciones económico-financieras y otras, según su materia.
+
+48) RENATI. Es el registro Nacional de Trabajos de Investigación para optar grados académicos y títulos profesionales, otorgados por la UPeU.
+
+49) RENACYT. Es el Registro Nacional Científico, Tecnológico y de Innovación Tecnológica, titulado por el CONCYTEC, el cual registra las personas naturales y jurídicas relacionadas con la ciencia, tecnología o innovación tecnológica, dentro del territorio nacional, así como de nacionales residentes en el extranjero.
+
+50) Resolución. Es la declaración administrativa y documental que contiene la manifestación colectiva, orgánica y ejecutiva sobre un determinado derecho, asunto, hecho, circunstancia o situación del estado, condición o calidad en relación o sobre personas, recursos, bienes o servicios.
+
+51) Resultados de investigación. Los resultados de la investigación son consecuencia o conclusión de los datos obtenidos como producto del proceso respectivo, los cuales corresponden a los objetivos de la investigación.
+
+Página 7
+
+52) Secretaría Académica. Es la responsable del apoyo académico y administrativo en la Facultad. Es gestionado por un secretario académico nombrado por el Consejo de Facultad y ratificado por el Consejo Universitario.
+
+53) Solicitud. Es el documento dirigido a un área o a una autoridad, mediante el cual se pide algo o atención ante quienes se plantea una reclamación con la exposición de los motivos, considerados meritorios para la solicitud.
+
+54) Sustentación. Acto académico, expositivo, argumentativo y de defensa sobre los resultados de un trabajo de investigación ante un jurado, con el propósito de aprobar el trabajo de investigación o la tesis conducente a la obtención de un grado o título.
+
+55) Tesis en formato artículo(s) de investigación básica. Es un documento producto de un trabajo de investigación que contiene uno o más artículos de investigación publicables en revistas de prestigio en torno a un área académica determinada. Dicho documento debe ser original e inédito, y supone la sustentación en acto público ante la comunidad académica en general y la aprobación de un jurado, que lo evalúa. El número de artículos y la condición de estos (sometidos, publicados) estará determinado por el título o grado al que corresponde, como se detalle en el presente reglamento.
+
+56) Tesis en formato artículo(s) de investigación aplicada y de desarrollo tecnológico. Es un documento producto de un trabajo de innovación y desarrollo tecnológico con posibilidad de viabilidad de protección de derecho intelectual en torno a un área académica determinada. Dicho documento debe ser original e inédito, y supone la sustentación en acto público ante la comunidad académica en general y la aprobación de un jurado, que lo evalúa.
+
+57) Trabajo académico. Es un documento que se desarrolla en el marco de un campo de estudio o área de conocimiento y que hace uso de, por lo menos, una herramienta metodológica para su elaboración, puede tener distintos formatos (proyecto, investigación, tesina, disertación, ensayo, monografía y otros), puede tener diversos niveles de rigurosidad científica y desarrollarse bajo estándares de calidad variables. El trabajo académico es una de las formas de obtención del título de segunda especialidad.
+
+58) Trabajo de investigación. Es un documento cuyo desarrollo implica el proceso de generación de conocimiento en un determinado campo de estudio. Puede ser individual o grupal, es de carácter público, y como tal, está sujeto a debate. Supone rigurosidad y objetividad. Tiene un propósito claramente definido, se apoya en conocimiento existente, aplica una metodología determinada, aporta evidencia verificable, proporciona explicaciones objetivas y racionales, y mantiene un espíritu autocrítico. Es la única manera de obtener el grado de bachiller y una de las dos modalidades de obtener el grado de maestro.
+
+59) Trabajo de suficiencia profesional. Es un documento cuyo desarrollo implica que el bachiller está en la capacidad de demostrar y documentar el dominio y la aplicación de competencias profesionales adquiridas a lo largo de la carrera profesional. Es requisito evidenciar tres (3) años de trabajo en temas de su especialidad después de haber obtenido el grado de bachiller, debidamente acreditado por certificados laborales y la presentación de un informe que da cuenta de la experiencia preprofesional. Dicho informe será sustentado públicamente ante un jurado evaluador, en el que se formulan preguntas vinculadas con el informe y un balotario de preguntas de las asignaturas cursadas durante la realización de la carrera.
+
+60) UPeU. Es la Universidad Peruana Unión.
+
+Página 8
+
+REGLAMENTO DE INVESTIGACIÓN
+
+TÍTULO I DE LAS DISPOSICIONES GENERALES CAPÍTULO I BASE LEGAL, ALCANCE Y PROPÓSITO Artículo 1.
+
+Base legal. El presente reglamento se fundamenta en la(el):
+
+1.1. Ley Universitaria Nº 30220.
+
+1.2. Ley Nº 31803, que modifica la ley 30220.
+
+1.3. Estatuto de la Universidad Peruana Unión (UPeU).
+
+1.4. Reglamento General de la UPeU.
+
+1.5. Reglamento General de Grados y Títulos de la UPeU.
+
+1.6. Reglamento del Registro Nacional de Grados y Títulos de la SUNEDU: Resolución N 009-2015- SUNEDU/CD.
+
+1.7. Reglamento del Registro Nacional de Trabajos de Investigación para optar grados académicos y títulos profesionales  RENATI: Resolución N 033-2016-SUNEDU/CD.
+
+1.8. Reglamento del Registro Nacional de Trabajos conducentes a Grados y Títulos (RENATI): Resolución N 174-2019-SUNEDU/CD.
+
+1.9. Reglamento de calificación, clasificación y registro de los investigadores del sistema nacional de ciencia, tecnología e innovación tecnológica (RENACYT): Resolución de Presidencia Nº 090-2021-CONCYTEC-P.
+
+1.10. Manual del Reglamento de Calificación, Clasificación y Registro de los Investigadores del Sistema Nacional de Ciencia, Tecnología e Innovación Tecnológica (RENACYT).
+
+1.11. Resolución de Presidencia N 028-2024-CONCYTEC-P que aprueba el Código Nacional de la Integridad Científica.
+
+1.12. Decreto Legislativo N 822, Ley sobre el derecho de autor.
+
+1.13. Texto Único de procedimientos académico-administrativos (TUPA) de la UPeU.
+
+1.14. Otros reglamentos, directivas o normas de la UPeU, vinculadas al quehacer universitario.
+
+Artículo 2. Función de Investigación. La investigación constituye una función esencial, prioritaria y obligatoria de la UPeU, que la fomenta y realiza a través de diversas modalidades con el propósito de generar conocimiento, el desarrollo de tecnologías y promover la innovación, para satisfacer las necesidades de la sociedad. Es implementada y ejecutada con la participación de estudiantes y graduados, bajo la guía, monitoreo y responsabilidad del docente en la misma UPeU o en redes o alianzas.
+
+Artículo 3. Alcance y ámbito. Este reglamento se aplica a todos los estudiantes, docentes y egresados de todos los niveles o modalidades de estudios, pregrado o posgrado; los programas de estudios de las escuelas profesionales (EPs) en sus modalidades presenciales o semipresenciales o a distancia; la escuela de posgrado (EPG) y sus unidades de posgrado (UPG), en funcionamiento, vigentes y conducentes a la obtención de un grado o título en la UPeU.
+
+Artículo 4. Propósito. El reglamento regula y establece los procedimientos de la planificación, desarrollo y evaluación de la investigación formativa. Así mismo, la ejecución y supervisión del desarrollo y los procesos de evaluación y difusión de los informes de investigación sustentados satisfactoriamente, conducentes a la obtención de título profesional, segunda especialidad profesional, grado académico de maestro o grado académico de doctor y, además, el desarrollo de la investigación por los equipos de investigación de la
+
+Artículo 5. Responsables de ejecución. La UPeU promueve el desarrollo de la investigación en sus actividades educativas de formación y especialización en el marco del respeto y el cumplimiento de las normas éticas, los derechos de autor y propiedad intelectual, conforme el Reglamento de Propiedad Intelectual y el Código de Ética para la
+
+Página 9
+
+Investigación.
+
+Las facultades, a través de las direcciones de los centros de investigación e innovación (CII) o institutos, las coordinaciones de investigación e innovación de la EP (CIIEP) en cada campus de la UPeU, la escuela de posgrado (EPG) a través de la dirección de investigación de la misma escuela (DIIEPG) y sus coordinaciones en las unidades de posgrado (CIIUPG), son las encargadas de cumplir y hacer cumplir el presente reglamento y coordinar su implementación en las unidades respectivas.
+
+En los programas de estudios de la modalidad semipresencial o a distancia, pueden establecer coordinaciones de investigación articuladas y bajo la monitoria de la CIIEP, en la sede o filial respectiva. La dirección general de investigación (DGI) y las direcciones académicas e investigación de las filiales, asumen el mismo rol asignado en la UPeU en estas modalidades de estudios.
+
+Artículo 6. Centros de investigación e innovación (CII). La UPeU a nivel institucional, cuenta con los siguientes centros de investigación e innovación:
+
+6.1. Centro de Innovación y Tecnología Aplicada (CITA).
+
+6.2. Centro de Investigación e Innovación en Geociencia (CIIG) 6.3. Centro de investigación e Innovación Adventista (CIIA).
+
+6.3.1. Centro de Investigación White 6.3.2. Centro de Patrimonio Histórico del adventismo en el Perú 6.3.3. Centro de Patrimonio Histórico de la Universidad Peruana Unión 6.3.4. Índex de Revistas Adventistas en español 6.3.5. Centro de Colección de Materiales Históricos (Museo) 6.3.6. Repositorio Fotográfico y Audiovisual de la Historia del adventismo Artículo 7.
+
+Unidades operativas. La coordinación de investigación e innovación de la EP (CIIEP) en cada campus de la UPeU, la DIIEPG y las CIIUPG, están encargadas de:
+
+7.1. Gestionar todo el proceso de investigación: inscripción, aprobación, desarrollo, seguimiento, evaluación, difusión y publicación de los resultados del perfil de proyecto de investigación, conducente a la obtención de un grado o título.
+
+7.2. Ejecutar los cambios relacionados con el proceso de la ejecución del proyecto:
+
+cambio de asesor, modificación de título del proyecto, ampliación del cronograma de ejecución y cancelación del proyecto.
+
+7.3. Monitorear el cumplimiento de los compromisos financieros relacionados al proyecto: desarrollo del proyecto y la investigación, el asesoramiento y dictamen sobre el informe de investigación.
+
+TÍTULO II DE LA INVESTIGACIÓN FORMATIVA
+
+Artículo 8. Alcance. La investigación formativa es el espacio para el desarrollo de habilidades investigativas a través de un proceso de participación y aprendizaje continuo de los estudiantes y ejecutada por los docentes en el desarrollo del proceso de enseñanza- aprendizaje de cada una de las asignaturas del semestre académico del programa de estudios de pregrado, modalidad presencial, semipresencial o a distancia.
+
+Artículo 9. Articulación de asignaturas. El currículo, del programa de estudios en pregrado, define la articulación curricular en forma expresa, a través del plan de estudios, según la modalidad de estudios: presencial, semipresencial o a distancia, y señala las asignaturas directamente vinculadas a la investigación formativa en un mínimo de seis por ciento (6) a ocho por ciento (8) y distribuidas a lo largo del mismo plan de estudios en cuatro (4) etapas progresivas. La EP define cualquier circunstancia funcional u operativa de la implementación de la investigación formativa en concordancia con el diseño curricular o currículo del programa de estudios.
+
+Página 10
+
+CAPÍTULO I ETAPA I DE LA INVESTIGACIÓN FORMATIVA
+
+Artículo 10. Alcance. La Etapa I comprende al primero (1er) y segundo (2do) año de estudios y el CIIEP coordina con el director de la EP y el comité de diseño y evaluación curricular, conforme la articulación curricular de una o más asignaturas, según el currículo, la(s) que en su desarrollo implementarán las actividades de investigación en esta etapa. La articulación con fines de la investigación formativa es dirigida por la dirección y el comité de diseño y evaluación curricular de la EP, en el diseño curricular o currículo del programa de estudios, y es implementada, aplicada y desarrollada en forma sostenida y plena por la CIIEP respectiva.
+
+Artículo 11. Participación y desarrollo. El CIIEP monitorea el desarrollo de la investigación formativa de la asignatura. Los docentes de la asignatura apoyan el avance de la investigación en el desarrollo de la asignatura articulada. Los docentes antes del inicio y durante el semestre correspondiente deben reunirse, bajo la coordinación del CIIEP, para articular y proponer temas de investigación según los requerimientos del diseño curricular o currículo en cada asignatura articulada.
+
+Artículo 12. Trabajo de revisión bibliográfica básica. Al cumplir el segundo (II) o tercer (III) semestre académico, los estudiantes, en grupos de tres (3) como máximo, deberán presentar un trabajo de revisión bibliográfica básica, de acuerdo con las normas y estilos de redacción de las unidades académicas. El enfoque de este trabajo debe ser en la síntesis, redacción científica, parafraseo, uso de herramientas de búsqueda y gestión bibliográfica, ética en la investigación (evitar el plagio), más no en la producción de nuevos conocimientos.
+
+Artículo 13. Difusión. El trabajo de revisión bibliográfica básica puede ser presentado en las Jornadas Estudiantiles de Investigación, Coloquios de Investigación o en otros eventos académicos, previa evaluación del docente (FE-01) y análisis de coincidencia (plagio).
+
+Artículo 14. Estructura. El trabajo de revisión bibliográfica básica está conformado por cinco partes:
+
+título, introducción, desarrollo, conclusiones y referencias bibliográficas, según el formato de evaluación FE-01.
+
+Artículo 15. Coordinación de actividades y resultados. El CIIEP coordina con el director de la EP, el comité de diseño y evaluación curricular y los docentes de las asignaturas, la articulación curricular de las actividades y representa los resultados de investigación, determinadas en el currículo cuyo contenido debe comprender a todas las asignaturas y determinar el rol de cada uno.
+
+CAPÍTULO II ETAPA II DE LA INVESTIGACIÓN FORMATIVA Artículo 16. Alcance. La Etapa II comprende al segundo (2do) y tercer (3er) año de estudios y el CIIEP coordina con el director de la EP y el comité de diseño y evaluación curricular, la implementación y desarrollo de la articulación curricular de la investigación formativa establecido en el diseño curricular o currículo del programa de estudios. En esta etapa el CIIEP publica las líneas de Investigación perteneciente a la Unidad académica y lista de asesores por cada línea de investigación.
+
+Artículo 17. Perfil de proyecto de investigación. Entre el III y VI semestre, con el apoyo de un docente, cada equipo de investigación de estudiantes, máximo de tres (3), escribe un perfil de proyecto de investigación, el cual deberá ser ejecutado para la tesis en formato artículo que conduce a la obtención del título profesional.
+
+Artículo 18. Estructura. El perfil de proyecto de investigación debe contar con la siguiente estructura (FE-02):
+
+18.1. Título 18.2. Planteamiento del problema 18.3. Metodología, según unidad académica y tema de investigación 18.4. Administración del proyecto 18.5. Referencias bibliográficas
+
+Página 11
+
+18.6. Anexos.
+
+Artículo 19. Difusión. El perfil de proyecto de investigación puede ser presentado en eventos académicos, sea locales o nacionales, previa evaluación del docente (FE-02) y análisis de coincidencia (plagio).
+
+CAPÍTULO III ETAPA III DE LA INVESTIGACIÓN FORMATIVA
+
+Artículo 20. Alcance. La Etapa III comprende el cuarto (4to), quinto (5to) año de estudios en carreras profesionales de cinco (5) años, y el sexto (6to) y séptimo (7mo) año en carreras profesionales de siete (7) años de estudios. En esta etapa el CIIEP publica una lista de asesores de investigación.
+
+El CIIEP además monitorea el proceso de tesis de cada estudiante.
+
+Artículo 21. Tesis en formato artículo. La tesis para la obtención del título profesional debe adoptar, cumplir, el formato de un artículo de investigación publicable en revistas de prestigio disciplinar, según el área o unidad académica, con la documentación adicional especificada en el Título IV.
+
+Artículo 22. Difusión. Los resultados de la tesis en formato artículo deberán ser sometidos a una revista y sustentados públicamente, como se detalla en el Título IV del presente reglamento.
+
+TÍTULO III CURSO DEL PLAN DE ESTUDIOS PARA EL DESARROLLO DEL TRABAJO DE INVESTIGACIÓN Artículo 23. Alcance. Comprende la Etapa III del proceso de la investigación formativa. Es obligatorio para los estudiantes. El estudiante adquirirá los conocimientos necesarios para el desarrollo de un tema de investigación a través del aprendizaje de metodologías de investigación y a través de la lectura, comprensión y discusión de documentación científica. Durante esta etapa el alumno definirá la línea de investigación sobre la cual desarrollará su tema de tesis.
+
+Artículo 24. Curso de trabajo de investigación. Para cumplir el requisito de investigación, el estudiante deberá aprobar el curso de trabajo de investigación correspondiente a su plan de estudios asignado en el último, o el correspondiente, al semestre de estudios de cada carrera.
+
+Artículo 25. Trabajo de investigación. El trabajo de investigación es desarrollado en el curso de investigación perteneciente a la etapa III de investigación formativa. El trabajo de investigación adopta el formato de un artículo de investigación.
+
+Artículo 26. Desarrollo del trabajo de investigación. El(los) estudiante(s), en un máximo de tres (03), desarrollan el trabajo de investigación bajo la orientación del docente del curso.
+
+Artículo 27. Funciones del docente del curso. El docente del curso tiene las siguientes funciones:
+
+27.1. Orienta al(os) estudiante(s) en la selección de la temática de estudio, uso de la información adecuada, diseño metodológico, análisis de resultados, discusión y conclusiones.
+
+27.2. Conduce al(os) estudiante (s) en la redacción del trabajo de investigación. Y cautela la declaración del uso de IA siguiente: Durante la preparación de este trabajo el(los) autor(es) utilizaron NOMBRAR HERRAMIENTA/ SERVICIO a fin de MOTIVO. Tras utilizar dicha herramienta/servicio, el(los) autor(es) revisaron y editaron el contenido según necesidad, asumiendo la plena responsabilidad del contenido de la publicación.
+
+27.3. Revisa el contenido de los trabajos de investigación de los estudiantes.
+
+27.4. Genera el reporte del nivel de coincidencias y uso de herramientas de IA del trabajo de investigación.
+
+27.5. Evalúa el trabajo de investigación siguiendo las indicaciones y normas del sílabo del curso y asigna las calificaciones que hubiere en el mismo período académico.
+
+Página 12
+
+TÍTULO IV DEL DESARROLLO DE LA TESIS EN FORMATO ARTÍCULO PARA OBTENER EL TÍTULO PROFESIONAL Y SEGUNDA ESPECIALIDAD PROFESIONAL Artículo 28. Número de investigadores. El número de investigadores es:
+
+28.1 Título Profesional: Puede ser desarrollado por hasta tres (3) estudiante(s) / graduado(s), dependiendo de la amplitud, naturaleza y características de la tesis determinada por el asesor y la EP en su modalidad presencial, semipresencial y/o a distancia.
+
+28.2 Título de Segunda Especialidad Profesional: Puede ser desarrollado hasta por dos (2) investigadores, siempre que sean del mismo programa de estudios y modalidad.
+
+Artículo 29. Desistimiento y exclusión del(los) estudiante(s). En el procedimiento del proyecto de tesis conducente a la obtención del título profesional o título de segunda especialidad profesional, puede presentarse dos escenarios:
+
+29.1 Desistimiento: Formulada expresamente por el(los) estudiante(s) / graduado(s), ante la CIIEP/CIIUPG, por decisión voluntaria, causas propias o personales, generando:
+
+29.1.1. Renuncia de los derechos de propiedad intelectual, respecto de los demás estudiantes / graduados que continúan con el proceso.
+
+29.1.2. No reembolso de los derechos de trámite abonados.
+
+29.2 Exclusión: Formulada y aplicada obligatoriamente por la CIIEP/CIIUPG, a través de la secretaría académica, es propuesta para su aprobación en el CF/CEP, debido a:
+
+29.2.1 No contar, al momento de solicitar la sustentación de la tesis en formato artículo, en su caso con el:
+
+29.2.1.1. El grado académico de bachiller expedido por la UPeU.
+
+29.2.1.1. El título profesional expedido por la universidad de origen.
+
+29.2.2 Haber sido sancionado con suspensión, separación, vigente y consentida.
+
+La exclusión genera:
+
+29.2.3 Inhabilitación automática para proseguir o continuar cualquier etapa o procedimiento del proyecto e investigación.
+
+29.2.4 Perdida de los derechos de propiedad intelectual, respecto de los demás estudiantes que continúan con el proceso.
+
+29.2.5 Pérdida de los derechos de trámite abonados.
+
+Artículo 30. Elaboración del perfil de proyecto. El(los) estudiante(s) desarrollarán el perfil de proyecto de tesis en formato artículo, de preferencia en asignaturas vinculadas a la investigación formativa. Una vez aprobada por el docente del curso de investigación, si fuera el caso, se puede solicitar la inscripción a través de la plataforma tecnológica oficial.
+
+Esta modalidad es de alcance al(los) graduados que asimismo no efectuaron proyecto de tesis en formato artículo.
+
+Artículo 31. Inscripción de perfil de proyecto y designación de dictaminadores. El(los) estudiante(s) / graduado(s) solicita(n) a través de la plataforma tecnológica oficial la inscripción obligatoria de su perfil de proyecto de tesis en formato artículo. Y la CIIEP/ CIIUPG designa dos (2) dictaminadores.
+
+Artículo 32. Dictamen, roles, observaciones, plazos y registro del perfil del proyecto.
+
+32.1. Revisión preliminar y reuniones: Los dictaminadores deben revisar el perfil de proyecto de tesis y pueden agendar una o más reuniones reunión con el(los) estudiante(s) / graduado(s) para explicar sus observaciones. Las reuniones pueden ser presenciales o virtuales u online.
+
+32.2 Perfil de proyecto revisado y sucesivas observaciones. El(los) estudiante(s) / graduado(s) registran, subirá(n) el documento revisado a la plataforma tecnológica oficial y los dictaminadores lo evaluarán, y si fuera necesario presentarán sus observaciones. Este proceso de levantamiento de observaciones continuará hasta que ambos dictaminadores emitan su visto bueno a través de la plataforma tecnológica
+
+Página 13
+
+oficial.
+
+32.3. Plazo máximo de emisión de dictamen: Los dictaminadores tienen un plazo máximo de diez (10) días hábiles para realizar la reunión y emitir el dictamen.
+
+32.4. Registro del proyecto de investigación: Una vez que los dictaminadores emiten su dictamen favorable a través de la plataforma tecnológica oficial, el CIIEP/CIIUPG, a través de la secretaría académica, eleva la solicitud de registro del proyecto de investigación en formato artículo al CF/CEP correspondiente.
+
+Artículo 33. Asesor y coasesor: Nombramiento y registro. El nombramiento de asesor y coasesor (opcional) sigue los lineamientos siguientes:
+
+33.1. Nombramiento en caso ya cuente con asesor:
+
+33.1.1. El mismo asesor, preferentemente, del proyecto de investigación desarrollado en el curso de investigación, para la tesis en formato artículo; o, 33.1.2. Otro asesor a propuesta del(los) estudiante(s) / graduado(s), en la solicitud de inscripción de perfil de proyecto de tesis en formato artículo a través de la plataforma tecnológica oficial.
+
+33.2. Nombramiento en caso no cuente con un asesor al momento de inscribir el proyecto, el CIIEP/CIIUPG asignará un asesor.
+
+33.3. Registro de nombramiento: En cualquiera de los casos antes mencionados, la CIIEP a través de la secretaría académica propone a través de la plataforma respectiva el nombramiento de asesor y coasesor del proyecto de tesis en formato artículo y el CF/CEP respectivo aprueba y la misma secretaria académica dispone su registro correspondiente.
+
+Artículo 34. Plazo de ejecución. Después de aprobado y registrado el proyecto de tesis, el(los) estudiante(s) / graduado(s) tiene(n) un plazo:
+
+34.1 General máximo de doce (12) meses para su desarrollo y al finalizar deben solicitar la dictaminación de la tesis en formato artículo.
+
+34.2 Excepcional máximo de extensión hasta de seis (6) meses, a criterio la CIIEP / CIIUPG.
+
+34.3 Vencido el plazo, el(los) estudiante(es) /graduado(s) tendrán que realizar el pago correspondiente a la solitud de inscripción de perfil de proyecto.
+
+34.4 El asesor debe dar el visto bueno a la tesis en formato artículo en la plataforma tecnológica adjuntando el reporte de coincidencias y el reporte de uso de herramientas de IA, conforme los límites del Artículo 181 del presente Reglamento.
+
+Artículo 35. Solicitud y designación de dictaminadores.
+
+35.1. Solicitud de dictaminación de la tesis en formato artículo: El(los) estudiante(s) / graduado(s) solicita(n) a través de la plataforma tecnológica la dictaminación obligatoria de la tesis en formato artículo, previo el visto bueno del asesor.
+
+35.2. Designación de dictaminadores: La CIIEP/ CIIUPG designa dos (2) dictaminadores, de preferencia los mismos que dictaminaron el perfil de proyecto de tesis en formato artículo.
+
+Artículo 36. Dictamen, roles, observaciones, plazos y registro de la tesis en formato artículo.
+
+36.1. Revisión preliminar y reuniones: Los dictaminadores deben revisar el artículo y pueden agendar una o más reuniones con el(los) estudiante(s) graduado(s) para explicar sus observaciones. Las reuniones pueden ser presenciales o virtuales u online.
+
+36.2. Artículo revisado y sucesivas observaciones:
+
+El(los) estudiante(s) / graduado(s)registran, subirá(n) el documento revisado a la plataforma tecnológica oficial y los dictaminadores lo evaluarán, y si fuera necesario presentarán sus observaciones. Este proceso de levantamiento de observaciones continuará hasta que ambos dictaminadores emitan su visto bueno al artículo a través de la plataforma tecnológica oficial.
+
+36.3. Plazo máximo de emisión de dictamen: Los dictaminadores después de levantadas o subsanadas las observaciones, tienen un plazo máximo de diez (10) días hábiles desde
+
+Página 14
+
+que reciben la resolución de designación, para realizar la reunión y emitir el dictamen. En caso de incumplimiento, se determinará sanción funcional.
+
+Artículo 37. Artículo culminado: Observaciones, levantamiento y plazos.
+
+37.1. Plazo para estudiante(s)/graduado(s) en el levantamiento de observaciones: Una vez realizada la reunión de dictaminación, el(los) estudiante(s) / graduado(s) tienen un plazo máximo de quince (15) días hábiles para levantar las observaciones y subir el artículo revisado a la plataforma tecnológica oficial.
+
+37.1. Plazo para estudiante(s) / graduado(s) en el levantamiento de observaciones sucesivas: En caso de que hubiera observaciones al artículo revisado, el(los) estudiante(s) / graduado(s) tendrá(n) un plazo máximo de diez (10) días hábiles para levantar las observaciones y subir el artículo revisado a la plataforma tecnológica oficial, y así sucesivamente para cada ronda de observaciones hasta que los dictaminadores aprueban el artículo.
+
+37.2. Vencimiento del plazo y pago de derechos de dictamen. Al vencimiento del plazo para levantar las observaciones, el(los) estudiante(s)/graduado(s) debe(n) pagar nuevamente el derecho de pago de dictaminación.
+
+Artículo 38. Sumisión del artículo. Después de recibir el dictamen favorable al artículo, el(los) estudiante(s) / graduado(s), con la dirección del asesor, deberán:
+
+38.1. Seleccionar una revista indexada mínimamente en SciELO, Scopus o Web of Science.
+
+38.2. Someter el artículo a la revista seleccionada. Se recomienda que el autor corresponsal sea el asesor o coasesor.
+
+Artículo 39. Evidencias del proceso de revisión del artículo. La evidencia de este proceso de revisión debe indicar que el artículo está en proceso de revisión por pares, lo puede acreditarse a través de:
+
+39.1. Constancia emitida por la revista u órgano pertinente, 39.2. E-mail de la revista u órgano que la represente, o, 39.3. Captura de pantalla, screenshot de la web, fan page o sitio oficial donde se muestra el título de su artículo y el estado en proceso de revisión por pares (peer review).
+
+Artículo 40. Afiliación obligatoria a UPeU y orden de autores.
+
+40.1. Primer(os) autor(es): El(los) estudiante(s) / graduado(s) deberá(n) ser el(los) primer(os) autor(es) del artículo y deberá(n) incluir de forma obligatoria y clara la afiliación a la Universidad Peruana Unión, sin traducir o usar la sigla de su denominación social: UPeU.
+
+40.2. Coautor(res): Además, el asesor, y el coasesor si hubiese, pueden ser coautores del artículo sometido a la revista, siempre que hayan participado activamente en todas las etapas de la investigación y cumplan con los requisitos de autoría. La afiliación de asesor y coasesor si hubiese, debe ser de forma obligatoria a la Universidad Peruana Unión.
+
+40.3. Coautor invitado: Puede haber como coautor invitado, hasta un (1) participante adicional, el cual debe cumplir los siguientes criterios:
+
+40.3.1. Haber participado activamente en todas las etapas de la investigación.
+
+40.3.2. Profesional con experiencia en investigación.
+
+40.3.3. Pertenecer al área de investigación de la formación profesional o afin a la temática.
+
+Artículo 41. Solicitud de sustentación. El(los) estudiante(s) / graduado(s) solicita(n) la sustentación de su tesis en formato artículo a través de la plataforma oficial, previo visto bueno expreso del asesor a través del mismo medio.
+
+Para realizar la solicitud, el(los) estudiante(s) / graduado(s) debe(n) subir el documento completo del artículo aprobado, con una hoja en blanco en la que se registrará el acta de sustentación respectiva.
+
+Artículo 42. Jurado de sustentación: Nombramiento y composición. La CIIEP/CIIUPG vista la solicitud de sustentación, a través de la secretaría académica, propone el nombramiento del jurado
+
+Página 15
+
+de sustentación al CF/CEP, quien lo aprueba.
+
+El jurado está conformado por un presidente, secretario y por lo menos un vocal. De preferencia, el asesor y los dos (2) dictaminadores deberían formar parte del jurado.
+
+Artículo 43 Sustentación. La CIIEP/ CIIUPG decide la modalidad, puede ser un acto presencial siempre y cuando todos los integrantes sean de un solo campus universitario, como también puede ser de modo híbrido cuando los integrantes radican en diferentes campus universitarios.
+
+En el caso de tesis multidisciplinaria el responsable de presidir y coordinar el acto de sustentación será la CIIEP donde se inicio el proceso.
+
+Artículo 44. Levantamiento de observaciones. En caso de haber observaciones durante el acto de la sustentación, el(los) estudiante(s)/graduado(s) tiene(n) un plazo máximo de diez (10) días hábiles para levantar las observaciones y registrar, subir, el documento corregido a la plataforma tecnológica oficial. El asesor es responsable de la revisión del levantamiento de observaciones y dar el visto bueno final al documento, bajo sanción de dejar sin efecto la sustentación efectuada por el(los) estudiante(s) / graduado(s) y dar por no cumplida la función de asesoría del asesor.
+
+Artículo 45 Estructura de la tesis en formato artículo. El documento, previo visto bueno del asesor, a presentar a través de la plataforma tecnológica oficial para cerrar el proceso de tesis debe tener la siguiente estructura:
+
+45.1. Las hojas preliminares, según los requisitos del CRAI 45.2. El acta de sustentación 45.3. Agradecimientos y dedicatoria (opcional) 45.4. Índice 45.5. La versión final del artículo, con todas las observaciones levantadas (la estructura dependerá de la revista elegida.) Generalmente la estructura incluye:
+
+45.5.1. Título en español y en inglés 45.5.2. Resumen en español y en inglés 45.5.3. Palabras clave en español y en inglés 45.5.4. Introducción 45.5.5. Metodología 45.5.6. Resultados 45.5.7. Discusión 45.5.8. Referencias bibliográficas 45.5.9. Figuras y tablas 45.6. Anexos 45.6.1. Evidencia de sumisión del artículo y que está en proceso de revisión por pares.
+
+45.6.2. Copia de la resolución de inscripción del perfil de proyecto de tesis en formato artículo aprobado por el CF/CEP correspondiente 45.6.3. Carta de aprobación de comité de ética, si fuera el caso 45.6.4. Instrumento(s) de recolección de datos, si fuera el caso 45.6.5. Figuras, tablas o imágenes adicionales, si fuera el caso Artículo 46. Archivo de datos. Adicionalmente al documento final detallado en el artículo 64, el(los) estudiante(s) / graduado(s) deben registrar, subir el archivo de datos a la plataforma tecnológica oficial para su inclusión en el repositorio institucional. El archivo de datos puede ser en formato: CSV, del software de análisis de datos o el establecido por la CIIEP.
+
+Artículo 47. Proceso de cierre del proceso de tesis en formato artículo. El cierre del trabajo de investigación: tesis en formato artículo sigue el procedimiento siguiente:
+
+47.1. Inclusión: Una vez que el asesor dé su visto bueno a la versión final de la tesis en formato artículo, el(los) estudiante(s) / graduado(s) debe(n) añadir el acta de sustentación 47.2. Revisión: El CIIEP/ CIIUPG revisa la solicitud de cierre del trabajo de investigación a través de la plataforma tecnológica oficial.
+
+Página 16
+
+47.3. Comunicación: En el caso de faltar uno o más requerimientos determinados en el artículo 64, éste informa al(los) estudiante(s) a través de la plataforma tecnológica oficial.
+
+47.4. Plazo de subsanación: El(los) estudiantes en el plazo de diez (10) días hábiles modifican y/o subsanan el documento y deben reenviarlo por el mismo medio tecnológico.
+
+47.5. Emisión de VB, cierre del proceso y registro: La CIIEP/ CIIUPG emite el visto bueno, cierra el proceso y habilita para su registro en el repositorio del CRAI o requeridos que hubiera.
+
+Artículo 48. Emisión de visto bueno y derivar al registro en el repositorio. La CIIEP/ CIIUPG al emitir el visto bueno del documento de cierre, habilita el acceso del CRAI al documento final en la plataforma tecnológica oficial para el registro en el repositorio UPeU.
+
+Artículo 49. Registro en el repositorio, constancia y funciones del CRAI. El CRAI a través del área de análisis documental y repositorio, es encargado de:
+
+49.1. Registrar, subir el documento final, en el repositorio UPeU.
+
+49.2. Generar el enlace correspondiente (URL).
+
+49.3. Emitir una constancia, donde se incluye el enlace, por correo electrónico al(los) estudiante(s) / graduado(s) y al asesor.
+
+49.4. Informar, obligatoriamente y bajo responsabilidad, del registro a Secretaría General, Oficina de grados y títulos.
+
+Artículo 50. Derechos de trámite: Acreditación de Pagos. Los derechos correspondientes a los procedimientos de la tesis en formato artículo se abonan y acreditan obligatoriamente y registran en la plataforma tecnológica oficial, a la presentación de la solicitud de:
+
+50.1. Solicitud de inscripción de perfil de proyecto de tesis en formato artículo.
+
+50.2. Solicitud de dictaminación de la tesis en formato artículo.
+
+50.3. Solicitud de sustentación de la tesis en formato artículo.
+
+Artículo 51. Incumplimiento y conclusión de asesoría de tesis de estudiante(s) / graduado(s). En el caso de incumplimiento del(los) estudiante(s) / graduado(s) de sus obligaciones y responsabilidades, pasados los dos (02) meses, el asesor puede presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis, sin perjuicio para el asesor.
+
+Artículo 52. Incumplimiento y conclusión de asesoría de tesis del asesor. En el caso de incumplimiento del asesor de sus obligaciones y responsabilidades, pasados los dos (02) meses, el(los) estudiante(s) / graduado(s) pueden presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis y el rol de asesor, sin perjuicio para el(los) estudiante(s) / graduado(s).
+
+Artículo 53. Cambio de asesor: Causales y procedimiento. El(los) estudiante(s) / graduado(s) puede(n) solicitar, previa evaluación de la justificación del asesor, ante el CF/CEP respectivo, a través de la CIIEP/CIIUPG, el cambio del asesor, en el caso de:
+
+53.1. Son causales de cambio de asesor:
+
+53.1.1. Cese o renuncia laboral del asesor.
+
+53.1.2. Hecho fortuito o fuerza mayor.
+
+53.1.3. Incumplimiento reiterativo, sucesivo o no, del cronograma, obligaciones y responsabilidades de la asesoría.
+
+53.1.4. Viaje al exterior del país sin posibilidad de retorno o comunicación.
+
+53.1.5. Suspensión o separación de la docencia.
+
+53.2. Procedimiento para nombramiento de nuevo asesor: Formulada la solicitud, la CIIEP/CIIUPG propone el nuevo asesor, a través de la secretaría académica para que el CF/CEP lo apruebe. El nombramiento genera:
+
+Página 17
+
+53.2.1. La cesión automática de los derechos de propiedad intelectual del anterior asesor en favor del(los) estudiante(s) / graduado(s).
+
+TÍTULO V INFORME DEL TRABAJO DE SUFICIENCIA PROFESIONAL PARA OBTENER EL TITULO PROFESIONAL
+
+Artículo 54. Alcance. El trabajo de suficiencia profesional es un informe sistematizado de la experiencia del bachiller. Es de carácter individual e incluye estudio de casos, para la obtención del título profesional, sustentado ante un Jurado evaluador. Este trabajo debe demostrar la capacitad teórica y práctica, así como la reflexión crítica sobre las competencias profesionales obtenidas en la formación y en especial en el mundo laboral.
+
+Artículo 55. Acreditación de años de experiencia laboral. La experiencia laboral del bachiller, debe haber sido efectuada en el área de formación profesional correspondiente al programa de estudios o carrera profesional y por un periodo mínimo de tres (3) años, consecutivos o acumulados, computados a partir de la expedición del grado académico de bachiller. El bachiller debe presentar a la CIIEP, el(los) certificado(s) de trabajo originales que acreditan los tres (3) años de experiencia laboral. Estos deben ser validados por la dirección o coordinación de EP.
+
+Artículo 56. Curso taller de titulación por suficiencia profesional. La EP programa y convoca al curso de titulación por suficiencia profesional, el objetivo del cual es asesorar y acompañar en el desarrollo del informe de trabajo de suficiencia profesional y el proceso de la obtención del título profesional por esta modalidad. La programación del curso comprende un repaso general de las asignaturas de especialidad cursados en la carrera en preparación de la evaluación con balotario de preguntas.
+
+Artículo 57. Balotario. La EP en coordinación con la CIIEP, estructuran el balotario de preguntas que abarca las áreas curriculares de especialidad de la carrera profesional o programa de estudios. El balotario debe contener entre seis (6) y diez (10) temas con un total de cien (100) preguntas. Este balotario es socializado durante el desarrollo del curso de titulación por suficiencia profesional.
+
+Artículo 58. Asesor: Nombramiento y número de asesorados. El docente del curso de titulación por suficiencia profesional es a la vez el asesor de los bachilleres en su curso. Por cada siete (7) bachilleres en el curso, se debe asignar un docente adjunto. La CIIEP propone el nombramiento en forma automática, a través de la secretaría académica, para ser aprobado por el CF respectivo.
+
+El número máximo de asesorados es de siete (7) informes de trabajo de suficiencia profesional durante el periodo académico anual.
+
+Artículo 59. Redacción del informe. El bachiller redacta, de manera individual, el informe que da cuenta de su experiencia pre-profesional de manera individual. En caso de haber laborado en diferentes empresas o instituciones, el bachiller debe escoger una para elaborar el informe.
+
+Artículo 60. Estructura del informe. El informe de trabajo de suficiencia profesional puede variar según el área laboral, pero debe incluir como mínimo los siguientes elementos:
+
+60.1. Las hojas preliminares, según los requisitos del CRAI 60.2. El acta de sustentación 60.3. Agradecimientos y dedicatoria (opcional) 60.4. Índice 60.5. Datos generales de la empresa o institución:
+
+60.5.1. Razón social, RUC, dirección, contacto 60.5.2. Actividad principal de la empresa o institución 60.5.3. Reseña histórica 60.5.4. Visión y Misión 60.5.5. Descripción del área donde el bachiller realizó sus actividades
+
+Página 18
+
+60.6. Descripción del cargo y actividades del bachiller 60.6.1. Descripción del cargo 60.6.2. Descripción de las actividades del bachiller 60.7. Principales logros del bachiller (varía según el área, pero podría incluir:) 60.7.1. Programas ejecutados 60.7.2. Documentos elaborados 60.7.3. Utilidad generada 60.7.4. Innovaciones 60.7.5. Premios 60.8. Conclusiones y recomendaciones 60.9. Anexos 60.9.1. Copia de certificado(s) de trabajo de los 3 años de experiencia profesional 60.9.2. Copia de la dictaminación favorable del informe 60.9.3. Figuras, tablas o imágenes adicionales, si fuera el caso Artículo 61. Redacción del informe. Durante el desarrollo del curso, el bachiller redacta su informe según la estructura del artículo 60 con la orientación del asesor en el curso. Una vez terminado su informe, solicita dictaminación del mismo a través de la plataforma tecnológica oficial.
+
+Artículo 62. Plazo de redacción de informe. Después de registrada la solicitud y la asignación de asesor el estudiante tiene un plazo de tres (3) meses para solicitar dictaminación, previo visto bueno del asesor. Vencido este plazo se tendrá que volver a realizar el pago correspondiente a la solicitud de proceso de obtención de título por esta modalidad.
+
+El asesor debe dar el visto bueno al informe de suficiencia profesional adjuntando el reporte de coincidencias y el reporte de uso de herramientas de IA, conforme los límites del artículo 181 del presente Reglamento.
+
+Artículo 63. Nombramiento de dictaminadores, dictamen, roles, observaciones, plazos y registro del informe.
+
+63.1. Nombramiento de dictaminadores: La CIIEP recibida la solicitud de dictaminación, propone el nombramiento de dos (2) dictaminadores, a través de la secretaría académica, al CF respectivo, quien aprueba.
+
+63.2. Revisión y reuniones: Los dictaminadores deben revisar el informe y agendar una reunión obligatoria con el bachiller para explicar sus observaciones en una o más reuniones con la asistencia de los dictaminadores y el mismo bachiller. Las reuniones pueden ser presenciales o virtuales u online.
+
+63.3. Informe revisado y sucesivas observaciones. El bachiller registra el informe revisado a la plataforma tecnológica oficial y los dictaminadores lo evaluarán, y si fuera necesario presentarán sus observaciones. Este proceso de levantamiento de observaciones continuará hasta que ambos dictaminadores emitan su visto bueno al informe a través del mismo medio tecnológico oficial.
+
+63.4. Plazo máximo de emisión de dictamen: Los dictaminadores tienen un plazo máximo de diez (10) días hábiles para realizar la reunión y emitir el dictamen, bajo sanción funcional por incumplimiento.
+
+63.5. Plazo máximo de emisión de levantamiento de observaciones: En caso de que hubiera observaciones al documento original o revisado, el(los) estudiante(s) / graduado(s) tendrá(n) un plazo máximo de diez (10) días hábiles para levantar las observaciones y subir el documento revisado a la plataforma tecnológica oficial, y así sucesivamente para cada ronda de observaciones hasta que los dictaminadores aprueban el documento. Al vencimiento del plazo para levantar las observaciones, el estudiante deberá pagar nuevamente el derecho de pago de dictaminación.
+
+63.6. Registro del informe: Una vez que los dictaminadores emiten su dictamen favorable a través de la plataforma tecnológica oficial, el CIIEP, a través de la secretaría académica, eleva la solicitud de registro del informe al CF correspondiente.
+
+Página 19
+
+Artículo 64. Solicitud de sustentación. Una vez dictaminado favorablemente, el bachiller solicita la sustentación de su informe a través de la plataforma tecnológica oficial, previo expreso visto bueno del asesor por el mismo medio. Y cumplimiento de registro del informe conforme los requerimientos del artículo 79, con una hoja en blanco para insertar el acta de sustentación.
+
+Artículo 65. Jurado de sustentación: Nombramiento y composición. La CIIEP vista la solicitud de sustentación, a través de la secretaría académica, propone el nombramiento del jurado de sustentación al respectivo CF, quien lo aprueba, señalando día, hora y lugar del acto académico.
+
+El jurado está conformado por presidente, secretario y por lo menos un vocal. De preferencia, el asesor y los dos dictaminadores del informe deben formar parte del jurado.
+
+Artículo 66. Procedimiento de la evaluación de dominio de contenidos de la carrera profesional. El bachiller, además, sucesivamente al acto de sustentación, debe demostrar el dominio de las áreas especializadas de la formación profesional a través de las asignaturas o cursos de especialidad de la carrera profesional o programa de estudios asignados en un balotario.
+
+Para cuyo efecto el Jurado efectúa las preguntas respectivas que considere según sorteo del balotario asignado, escogiendo mínimo una pregunta por cada tema.
+
+Culminada la evaluación de contenidos el Jurado sigue el proceso conforme las reglas de sustentación del Título IX del presente reglamento. La hoja de evaluación debe incluir una sección para la nota de la evaluación de dominio de contenidos.
+
+Artículo 67. Sustentación: Levantamiento de observaciones. En caso de haber observaciones durante el acto de la sustentación, el bachiller tiene un plazo máximo de diez (10) días hábiles para levantar las observaciones y, previo la revisión y expreso visto bueno del asesor, registrar, subir, el documento corregido a la plataforma tecnológica oficial.
+
+Artículo 68. Proceso de cierre del informe. El cierre del informe se efectúa conforme el procedimiento siguiente:
+
+68.1. Inclusión: Una vez que el asesor dé su visto bueno a la versión final del informe, el bachiller debe insertar, añadir, el acta de sustentación.
+
+68.2. Revisión: El CIIEP revisa la solicitud de cierre del trabajo de investigación a través de la plataforma tecnológica oficial.
+
+68.3. Comunicación: En el caso de faltar uno o más requerimientos determinados en el artículo 79, éste informa al bachiller a través de la plataforma tecnológica oficial.
+
+68.4. Plazo de subsanación: El bachiller en el plazo de diez (10) días hábiles modifica y/o subsana el documento y deben reenviarlo por el mismo medio tecnológico.
+
+68.5. Emisión de VB cierre del proceso y registro: La CIIEP emite el visto bueno, y cierra el proceso y habilita para su registro en el repositorio del CRAI o requeridos que hubiera.
+
+Artículo 69. Emisión de visto bueno y derivar al registro en el repositorio. La CIIEP al emitir el visto bueno del documento de cierre, habilita el acceso del CRAI al documento final en la plataforma tecnológica oficial para el registro en el repositorio UPeU.
+
+Artículo 70. Registro en el repositorio, constancia y funciones del CRAI. El CRAI a través del área de análisis documental y repositorio, es encargado de:
+
+70.1. Registrar, subir el documento final, en el repositorio UPeU.
+
+70.2. Generar el enlace correspondiente (URL).
+
+70.3. Emitir una constancia, donde se incluye el enlace, por correo electrónico al bachiller y al asesor.
+
+70.4. Informar, obligatoriamente y bajo responsabilidad, del registro a Secretaría General, Oficina de grados y títulos.
+
+TÍTULO VI TRABAJO ACADÉMICO PARA OBTENCIÓN DEL TÍTULO DE SEGUNDA ESPECIALIDAD PROFESIONAL Artículo 71. Alcance. El trabajo académico es un trabajo de investigación de carácter bibliográfico o
+
+Página 20
+
+con componentes de investigación empírica básica que no requiere ser sustentado ante un jurado evaluador. Es una de las modalidades para obtener el título de segunda especialidad profesional. Son considerados de igual naturaleza los: informes técnicos, proyectos de inversión, proyectos de desarrollo social, proyecto de investigación, artículo de revisión, tesina, planes de negocio (investigación empírica básica), proceso de atención de enfermería (PAE), ensayos filosóficos, monografías temáticas con profundidad y alta complejidad y otros similares que la UPG proponga.
+
+Artículo 72. Aplicabilidad. El trabajo académico es una de las modalidades para optar el título de segunda especialidad profesional, según la disposición de su UPG. Es individual o grupal hasta tres (3) estudiantes. El número máximo de integrantes es a criterio de cada CIIUPG y el asesor, dependiendo de la naturaleza y el alcance del trabajo escogido.
+
+Artículo 73. Nombramiento de asesor. El candidato por trabajo académico presenta una solicitud para la designación del asesor a través de la plataforma tecnológica oficial ante la CIIUPG, ésta propone al asesor, a través de la secretaria académica respectiva al CEP, quien aprueba.
+
+Artículo 74. Plazo. El candidato y el asesor desarrollan el trabajo académico en un plazo:
+
+74.1. General máximo de doce (12) meses, según la estructura establecida en la CIIEPG.
+
+74.2. Excepcional, adicional máximo de hasta tres (3) meses.
+
+74.3. El asesor debe dar el visto bueno al trabajo académico en la plataforma tecnológica adjuntando el reporte de coincidencias y el reporte de uso de herramientas de IA, conforme a los límites establecidos en el artículo 181 del presente Reglamento.
+
+Artículo 75. Dictamen: Nombramiento de dictaminadores y plazo.
+
+75.1. Solicitud de dictamen. Terminado el informe del trabajo académico, el candidato solicita el dictamen a través de la plataforma tecnológica oficial, a la CIIEP o CIIUPG.
+
+75.2. Nombramiento de dictaminadores. La CIIEP o CIIUPG propone el nombramiento de un (1) dictaminador, a través de la secretaria académica respectiva al CEP.
+
+75.3. Plazo del dictamen. Los dictaminadores tienen un plazo máximo de quince (15) días para emitir el dictamen y lo comunican al candidato a través de la plataforma tecnológica oficial, bajo sanción funcional en caso de incumplimiento.
+
+Artículo 76. No levantamiento de Observaciones: Abandono y archivo del trabajo académico. Si el dictamen del trabajo académico es negativo, el candidato tiene treinta (30) días para levantar las observaciones. Vencido el plazo y el candidato incumplió el levantamiento de las observaciones, el proceso deviene automáticamente en abandono y se dispone el archivo, sin derecho a reclamo alguno por el candidato.
+
+Artículo 77. Revisión lingüística. Después de recibir la evaluación favorable por el dictaminador designado, el trabajo debe pasar por revisión lingüística, quedando habilitado para proseguir su registro.
+
+Artículo 78 Registro en el repositorio, constancia y funciones del CRAI. El candidato una vez obtenido el dictamen favorable solicita a la CIIUPG el visto bueno del documento final del trabajo académico, habilitando con ello el acceso al CRAI a través de la plataforma tecnológica oficial, para el registro en el repositorio UPeU. El CRAI a través del área de análisis documental y repositorio, es encargado de:
+
+78.1. Registrar, subir el documento final, en el repositorio UPeU.
+
+78.2. Generar el enlace correspondiente (URL).
+
+78.3. Emitir una constancia, donde se incluye el enlace, por correo electrónico al candidato y al asesor.
+
+78.4. Informar, obligatoriamente y bajo responsabilidad, del registro a Secretaría General, Oficina de grados y títulos.
+
+Artículo 79. Trabajo académico PAE. En las áreas de Enfermería, además de la modalidad de trabajo académico, se puede obtener el título de segunda especialidad profesional a través del Informe de Proceso de Atención de Enfermería (PAE). El documento es de tipo académico que reúne las siguientes etapas:
+
+79.1. Valoración: recolección de datos, objeto de estudio.
+
+Página 21
+
+79.2. Diagnóstico: priorización de los diagnósticos de Enfermería según la NANDA.
+
+79.3. Planeación: presentación de objetivos y resultados esperados.
+
+79.4. Ejecución: intervenciones de Enfermería.
+
+79.5. Evaluación: evaluación de objetivos y resultados.
+
+La presentación del informe del PAE se desarrolla según el formato correspondiente.
+
+TÍTULO VII DEL DESARROLLO DE TRABAJO DE INVESTIGACION O TESIS PARA OBTENER EL GRADO DE MAESTRO
+
+Artículo 80. Propósito. Es el desarrollo de un proyecto de investigación especializado, el cual supone un planteamiento delimitado del tema a analizar o estudio.
+
+Artículo 81. Número de investigadores y exigencia requerida. La obtención del grado de maestro se obtiene en:
+
+81.1. Maestría de Especialización:
+
+81.1.1 Requerimiento: Trabajo de investigación.
+
+81.1.2. Número de investigadores: Individual o grupal de hasta tres (3) estudiantes.
+
+81.1.2.1. A criterio de la CIIUPG y el asesor, dependiendo de tamaño de la población, naturaleza de la investigación, cantidad de variables, cantidad de la muestra, naturaleza del área profesional y naturaleza de la publicación.
+
+81.1.2.2. La CIIUPG considerará cualquier excepción y/o caso no contemplado según su criterio.
+
+81.2. Maestría de Investigación o Académica:
+
+81.2.2. Requerimiento: Tesis.
+
+81.2.3. Número de investigadores: Individual.
+
+Artículo 82. Procedimiento del proyecto de investigación: Etapas. El proyecto de investigación conducente a la obtención del grado de maestro tiene las etapas de cumplimiento obligatorio, siguientes:
+
+82.1. Elaboración del perfil del proyecto.
+
+82.2 Inscripción del perfil del proyecto.
+
+82.3. Dictaminación del perfil del proyecto.
+
+82.4. Defensa pública del perfil del proyecto.
+
+Artículo 83. Estructura del perfil de proyecto. El perfil de proyecto de investigación debe contar con la siguiente estructura (FE-02):
+
+83.1. Título 83.2. Planteamiento del problema 83.3. Metodología, según la CIIUPG y tema de investigación 83.4. Administración del proyecto 83.5. Referencias bibliográficas 83.6. Anexos Artículo 84. Elaboración del perfil de proyecto. El(los) estudiante(s) desarrollarán el perfil de proyecto de investigación en asignaturas vinculadas a la investigación. Una vez aprobada por el docente del curso, se puede solicitar la inscripción a través de la plataforma tecnológica oficial.
+
+Es asimismo aplicable al(los) egresado(s), que no lograron efectuar el proyecto de investigación en su oportunidad respectiva.
+
+Artículo 85. Inscripción y nombramiento de dictaminadores del perfil de proyecto. El(los) estudiante(s) solicita(n) a través de la plataforma tecnológica oficial la inscripción de su perfil de proyecto de investigación.
+
+El CIIUPG propone, a través de la secretaría académica de la EPG, a dos (2) dictaminadores y expresamente el plazo de su labor y organiza la presentación oral del perfil del proyecto por el(los) estudiante(s).
+
+Página 22
+
+Artículo 86. Procedimiento del dictamen del perfil. El procedimiento para la emisión del dictamen del proyecto de investigación, es:
+
+86.1. Evaluación y emisión de juicios de valor: A cargo de los dictaminadores asignados.
+
+86.2. Participantes de la evaluación y emisión de juicios de valor: En la evaluación además de los dictaminadores, por decisión de los mismos, pueden hacer participar otras personas para emitir juicios de valor no vinculantes. Estos terceros pueden ser:
+
+docentes del estudiante en los cursos en desarrollo vinculados al proyecto de investigación.
+
+86.3. Resultado del Dictamen. A finalizar su labor, los dictaminadores emitirán el dictamen escrito, señalando expresamente individualizado una de las siguientes calidades siguientes:
+
+86.3.1. Aprobado, listo para la inscripción.
+
+86.3.2. Aprobado, pero es necesario hacer modificaciones antes de la inscripción.
+
+86.3.3. Desaprobado, es necesario revisar el planteamiento de la investigación y la redacción.
+
+Artículo 87. Observaciones, plazo, rol de dictaminadores y registro del perfil del proyecto.
+
+87.1. Observaciones: El(los) estudiante(s) tienen un plazo máximo de quince (15) días hábiles para levantar las observaciones y registrar el perfil de proyecto de investigación revisado en la plataforma tecnológica oficial.
+
+87.2. Observaciones sucesivas del perfil revisado: El(los) estudiante(s), en el caso de haber observaciones sucesivas al perfil del proyecto revisado, tienen un plazo máximo de diez (10) días hábiles para levantar las mismas y registrar en la plataforma tecnológica oficial.
+
+87.3. Aprobación del perfil del proyecto de investigación final: Los dictaminadores cumplidos el levantamiento del total de las observaciones formuladas, emiten la aprobación del perfil del proyecto de investigación y comunican al CIIUPG.
+
+87.4. Incumplimiento de los plazos y levantamiento de observaciones. En caso de incumplimiento por el(los) estudiantes(s) deben volver a iniciar el procedimiento de dictamen y el pago de los derechos respectivos.
+
+Artículo 88. Asesor: Nombramiento y registro. Aprobado el perfil del proyecto el(los) estudiante(s) solicitan a la CIIUPG el nombramiento de asesor, según los lineamientos siguientes:
+
+88.1. Nombramiento:
+
+88.1.1.
+
+El CIIUPG asigna, a través de secretaría académica respectiva, al CEPG, el asesor y opcionalmente un co-asesor, quienes deben tener el grado de maestro / magister o doctor.
+
+88.1.2.
+
+El(los) estudiante(s) pueden proponer en la solicitud de inscripción de perfil de proyecto el asesor y/o co-asesor.
+
+88.2. Registro de nombramiento: En cualquiera de los casos antes mencionados, la CIIUPG a través de la secretaría académica propone el nombramiento de asesor y/o co-asesor del perfil del proyecto y el CEP lo aprueba.
+
+Artículo 89. Plazo de ejecución. Después de aprobado, registrado el perfil del proyecto de trabajo de investigación y nombrado el asesor, el(los) estudiante(s) tiene(n) el:
+
+89.1. Plazo: En un máximo de doce (12) meses para su desarrollo y al finalizar deben solicitar la dictaminación del artículo concluido. Excepcionalmente se puede otorgar máximo de extensión de un (1) mes hasta seis (6) meses, a criterio la CIIUPG.
+
+89.2. Deber: En caso de no cumplir con los plazos establecidos, el(los) estudiante(s) debe(n) realizar nuevamente el pago correspondiente de asesoría.
+
+89.3. El asesor debe dar el visto bueno al trabajo de investigación en la plataforma tecnológica adjuntando el reporte de coincidencias y el reporte de uso de herramientas de IA, conforme los límites establecidos en el artículo 181 del presente Reglamento.
+
+Artículo 90. Dictamen, roles, observaciones, plazos y registro del artículo.
+
+90.1. Dictamen: El(los) estudiante(s) solicita(n), previo expreso visto bueno del asesor, la
+
+Página 23
+
+dictaminación del artículo a través de la plataforma tecnológica oficial.
+
+90.2. Nombramiento de dictaminadores: El CIIUPG asigna, a través de la secretaria académica de la EPG, dos (2) dictaminadores, con grado de maestro o doctor, de preferencia los mismos que dictaminaron el perfil de proyecto de investigación, aprobado por el CEP.
+
+90.3. Revisión preliminar y reuniones: Los dictaminadores deben revisar el artículo y pueden agendar una reunión con el(los) estudiante(s) para explicar sus observaciones en una o más reuniones. Las reuniones pueden ser presenciales o virtuales u online.
+
+90.4. Perfil de proyecto revisado y sucesivas observaciones: El(los) estudiante(s) registran, subirá(n) el documento revisado a la plataforma tecnológica oficial y los dictaminadores lo evaluarán, y si fuera necesario presentarán sus observaciones. Este proceso de levantamiento de observaciones continuará hasta que ambos dictaminadores emitan su visto bueno del artículo, a través de la plataforma tecnológica oficial.
+
+90.5. Plazo máximo de emisión de dictamen: Los dictaminadores después de levantadas o subsanadas las observaciones, tienen un plazo máximo de treinta (30) días para realizar la reunión y emitir el dictamen, bajo sanción funcional en caso de incumplimiento.
+
+Artículo 91. Artículo culminado: Observaciones, levantamiento y plazos.
+
+91.1. Plazo para estudiante(s) en el levantamiento de observaciones: Una vez realizada la reunión de dictaminación, el(los) estudiante(s) tienen un plazo máximo de quince (15) días hábiles para levantar las observaciones y registrar el artículo revisado en la plataforma tecnológica oficial.
+
+91.2. Plazo para estudiante(s) en el levantamiento de observaciones sucesivas del artículo revisado: En caso de que hubiera observaciones al artículo revisado, el(los) estudiante(s) tendrá(n) un plazo máximo de diez (10) días hábiles para levantar las observaciones y subir el artículo revisado a la plataforma tecnológica oficial, y así sucesivamente para cada ronda de observaciones hasta que los dictaminadores aprueban el artículo.
+
+91.3. Vencimiento del plazo y pago de derechos de dictamen. Al vencimiento del plazo para levantar las observaciones, y no cumplieron el(los) estudiante(s) debe(n) automáticamente pagar nuevamente el derecho de pago de dictaminación.
+
+Artículo 92. Afiliación obligatoria a UPeU y orden de autores.
+
+92.1. Primer(ros) autor(es): El(los) estudiante(s) deberá(n) ser el(los) primer(os) autor(es) del artículo y deberá(n) incluir de forma obligatoria y clara la afiliación a la
+
+92.2 Coautor(es): Además, el asesor, y el coasesor si hubiese, pueden ser coautores del artículo, siempre que hayan participado activamente en todas las etapas de la investigación y cumplan con los requisitos de autoría. La afiliación de asesor y coasesor si hubiese, debe ser de forma obligatoria a la Universidad Peruana Unión.
+
+92.3 Coautor invitado: Puede considerarse como coautor invitado, un (1) participante adicional, el cual debe cumplir los siguientes criterios:
+
+92.3.1. Haber participado activamente en todas las etapas de la investigación, 92.3.2. Tener grado de maestro 92.3.3. Ser docente calificado Renacyt.
+
+92.3.4. Formación profesional y académica alineadas con el programa de maestría.
+
+Artículo 93.Sumisión del artículo. Después de recibir el dictamen favorable al artículo, el(los) estudiante(s), junto con el asesor, deberán sucesiva y consecutivamente: Seleccionar, escoger, una revista indexada mínimamente en: Scopus, Wiley, IEEE Xplore, Mathematical Reviews, Medline, SPIE Digital Library, McGraw- Hill, Springer, Taylor  Francis Group,
+
+Página 24
+
+EconLit, ProQuest, Jstor, Bentham Science o Web of Science, según los requerimientos por la cantidad de participantes conforme la CIIUPG, y, somete el artículo a la revista seleccionada. Se recomienda que el asesor o coasesor someta el trabajo a la revista asumiendo el rol de autor corresponsal.
+
+Artículo 94. Evidencias de la revisión por pares del artículo por parte de la revista y publicación. La evidencia del proceso de sumisión mínimo es el estado de revisión por parte de la revista, según corresponda, puede acreditarse a través de:
+
+94.1. Sumisión:
+
+94.1.1. Constancia emitida por la revista u órgano pertinente, 94.1.2. E-mail de la revista u órgano que la represente, o, 94.1.3. Captura de pantalla, screenshot o pantallazo de la web, fan page o sitio oficial donde se muestra el título de su artículo y el estado de revisión por pares.
+
+94.2. Publicación: En caso de maestrías de investigación y académicas, el estado del artículo debe ser aceptado para publicación o publicado, y se evidencia a través de:
+
+94.2.1.
+
+El Digital Object Identifier (DOI), o, 94.2.2.
+
+El enlace del artículo en línea.
+
+Artículo 95. Solicitud de sustentación. El(los) estudiante(s) para iniciar este proceso debe(n) tener la calidad de egresado(s) del programa de estudios y haber cumplido con el requisito de idioma extranjero o lengua nativa, según corresponda., es decir haber concluido satisfactoriamente todo el plan de estudios, y solo así solicita(n), previo expreso visto bueno del asesor, la sustentación de su trabajo de investigación o tesis en formato artículo a través de la plataforma tecnológica oficial.
+
+La presentación de la solicitud, exige del egresado(s), previamente registrar el documento completo, dejando una hoja en blanco donde se insertará el acta de sustentación.
+
+Artículo 96. Jurado de sustentación. Nombramiento y composición. La CIIUPG vista la solicitud de sustentación, a través de la secretaría académica, propone el nombramiento del jurado de sustentación al CEPG, quien lo aprueba.
+
+El jurado está conformado por un presidente, con el grado de doctor, un secretario y por lo menos dos (2) vocales. Preferentemente, el asesor y los dos (2) dictaminadores deberían formar parte del jurado.
+
+Artículo 97. Participación y validez de miembro externo del jurado de sustentación. La EPG, a través de la CIIUPG puede convocar un docente externo a la UPeU, para que participe obligatoriamente de manera presencial u online sincrónica en el acto de la sustentación.
+
+En el caso de la participación del miembro externo de manera virtual u online sincrónica, el secretario del Jurado de sustentación deja constancia en el acta de su participación en tiempo real, plena y personalísima, la misma que sin la firma o rúbrica del miembro externo, es plenamente válida para todos los efectos legales.
+
+Artículo 98. Estructura del trabajo de investigación/tesis en formato artículo. El documento para el cierre del proceso de investigación conducente al grado de maestro, se presenta y registra en la plataforma tecnológica oficial, previo expreso visto bueno del asesor, y debe tener la siguiente estructura:
+
+98.1. Las hojas preliminares, según los requisitos del CRAI, según el formato 98.2. El acta de sustentación 98.3. Agradecimientos y dedicatoria (opcional) 98.4. Índice 98.5. La versión final del artículo, con todas las observaciones levantadas (la estructura dependerá de la revista elegida.) Generalmente la estructura incluye:
+
+98.5.1.
+
+Título en español y en inglés 98.5.2.
+
+Resumen en español y en inglés 98.5.3.
+
+Palabras clave en español y en inglés 98.5.4.
+
+Introducción 98.5.5.
+
+Metodología
+
+Página 25
+
+98.5.6.
+
+Resultados 98.5.7.
+
+Discusión 98.5.8.
+
+Referencias bibliográficas 98.5.9.
+
+Figuras y tablas 98.6.
+
+Anexos 98.6.1.
+
+Evidencia de revisión por pares, aceptación o publicación del artículo en una revista de prestigio.
+
+98.6.2.
+
+Copia de la inscripción del perfil de proyecto de tesis en formato artículo aprobado por el CEP 98.6.3.
+
+Carta de aprobación de comité de ética, si fuera el caso 98.6.4.
+
+Instrumento(s) de recolección de datos, si fuera el caso 98.6.5.
+
+Figuras, tablas o imágenes adicionales, si fuera el caso Artículo 99. Archivo de datos. Adicionalmente al documento final detallado en el artículo 98, el(los) egresado(s) deben registrar, subir el archivo de datos a la plataforma tecnológica oficial para su inclusión en el repositorio institucional.
+
+El archivo de datos puede ser en formato: CSV, del software de análisis de datos o el establecido por la CIIUPG.
+
+Artículo 100. Proceso de cierre del proceso de tesis en formato artículo. El cierre del trabajo de investigación conducente al grado de maestro sigue el procedimiento siguiente:
+
+100.1. Inclusión: Una vez que el asesor emite el visto bueno a la versión final del trabajo de investigación, el(los) egresado(s) debe(n) añadir el acta de sustentación.
+
+100.2. Revisión: El CIIUPG revisa la solicitud de cierre del trabajo de investigación a través de la plataforma tecnológica oficial.
+
+100.3. Comunicación: En el caso de faltar uno o más requerimientos determinados en el artículo 98, éste informa al(los) egresado(s) a través de la plataforma tecnológica oficial.
+
+100.4. Plazo de subsanación: El(los) egresado(s) en el plazo de diez (10) días hábiles modifican o subsanan el documento y deben reenviarlo por el mismo medio tecnológico.
+
+100.5. Emisión de VB, cierre del proceso y registro: La CIIUPG emite el visto bueno, cierra el proceso y habilita para su registro en el repositorio del CRAI o requeridos que hubiera.
+
+Artículo 101. Emisión de visto bueno y derivar al registro en el repositorio. La CIIUPG al emitir el visto bueno del documento de cierre, habilita el acceso del CRAI al documento final en la plataforma tecnológica oficial para el registro en el repositorio UPeU.
+
+Artículo 102. Registro en el repositorio, constancia y funciones del CRAI. El CRAI a través del área de análisis documental y repositorio, es encargado de:
+
+102.1. Registrar, subir el documento final, en el repositorio UPeU.
+
+102.2. Generar el enlace correspondiente (URL).
+
+102.3. Emitir una constancia, donde se incluye el enlace, por correo electrónico al(los) graduado(s) y al asesor.
+
+102.4. Informar, obligatoriamente y bajo responsabilidad, del registro a Secretaría General, Oficina de grados y títulos.
+
+Artículo 103. Derechos de trámite: Acreditación de Pagos. Los derechos correspondientes a los procedimientos del trabajo de investigación, determinados por la EPG, se abonan y acreditan obligatoriamente y registran en la plataforma tecnológica oficial, a la presentación de la solicitud de:
+
+103.1. Inscripción de perfil de proyecto de tesis en formato artículo.
+
+103.2. Dictaminación de la tesis en formato artículo.
+
+103.3. Sustentación de la tesis en formato artículo.
+
+Artículo 104. Incumplimiento y conclusión de asesoría de estudiante(s). En el caso de incumplimiento del(los) estudiante(s) de sus obligaciones y responsabilidades, pasados los dos (02) meses,
+
+Página 26
+
+el asesor puede presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis, sin perjuicio para el asesor.
+
+Artículo 105. Incumplimiento y conclusión de asesoría del asesor. En el caso de incumplimiento del asesor de sus obligaciones y responsabilidades, pasados los dos (02) meses, el(los) estudiante(s) pueden presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis y el rol de asesor, sin perjuicio para el(los) estudiante(s).
+
+Artículo 106. Cambios. La CIIUPG gestiona los cambios relacionados con el proceso de la ejecución del proyecto / investigación (maestría): cambio de asesor, cambio de dictaminadores, modificación de título del proyecto / investigación (maestría), ampliación del cronograma de ejecución y cancelación del proyecto, conforme los criterios establecidos en el presente Reglamento.
+
+TÍTULO VIII DEL DESARROLLO DE LA TESIS PARA OBTENER EL GRADO DE DOCTOR Artículo 107. Propósito. Es el desarrollo de un proyecto de tesis de una máxima exigencia académica, siguiendo altos estándares metodológicos y científicos, original en sus objetivos, planteamiento, desarrollo y resultados, con la finalidad de aportar nuevos conocimientos teóricos y aplicados. Como resultado de la tesis doctoral deben generarse mínimamente dos (2) artículos científicos que deberán ser publicados en revistas de alto impacto.
+
+Artículo 108. Número de investigadores. La tesis de doctorado debe desarrollarse de manera individual: estudiante o investigador.
+
+Artículo 109. Estructura del proyecto de tesis. El proyecto de tesis doctoral debe contemplar el futuro desarrollo de por lo menos dos (2) artículos científicos derivados de la ejecución del proyecto de la tesis doctoral. El proyecto debe contar con la siguiente estructura (FE-04):
+
+109.1. Título tentativo de la tesis 109.2 Introducción 109.3 Planteamiento del problema 109.3.1 Justificación y objetivos 109.3.2 Hipótesis y variables 109.4 Marco teórico o conceptual 109.5 Aspectos metodológicos 109.6 Administración del proyecto (cronograma y presupuesto) 109.7 Referencias bibliográficas 109.8 Anexos Artículo 110. Elaboración del proyecto de tesis. El estudiante desarrollará el proyecto de tesis en asignaturas vinculadas a la investigación. Una vez aprobado por el docente del curso, se puede solicitar la inscripción a través de la plataforma oficial.
+
+Artículo 111. Inscripción y nombramiento de dictaminadores del proyecto de tesis. El estudiante / investigador solicita a través de la plataforma tecnológica oficial la inscripción de su proyecto de tesis.
+
+El CIIUPG designa tres (3) dictaminadores, a través de la secretaría académica de la EPG y organiza la presentación oral del proyecto.
+
+Artículo 112. Procedimiento del dictamen del proyecto de tesis.
+
+El procedimiento para la emisión del dictamen del proyecto de tesis, es:
+
+112.1. Evaluación y emisión de juicios de valor: A cargo de los dictaminadores asignados.
+
+112.2 Participantes de la evaluación y emisión de juicios de valor: En la evaluación además de los dictaminadores, por decisión de los mismos, pueden hacer participar otras personas para emitir juicios de valor no vinculantes. Estos terceros pueden ser
+
+Página 27
+
+docentes del estudiante en los cursos en desarrollo vinculados al proyecto de investigación.
+
+112.3 Resultado del Dictamen. A finalizar, los dictaminadores emitirán el dictamen escrito, señalando expresamente individualizado una de las siguientes calidades siguientes:
+
+112.3.1 Aprobado, listo para la inscripción.
+
+112.3.2 Aprobado, pero es necesario hacer modificaciones antes de inscripción.
+
+112.3.3 Desaprobado, es necesario revisar el planteamiento de la investigación y la redacción.
+
+Artículo 113. Observaciones, plazo, rol de dictaminadores y registro del proyecto de tesis.
+
+113.1 Observaciones: El estudiante / investigador tiene un plazo máximo de quince (15) días hábiles para levantar las observaciones y registrar el proyecto de tesis revisado en la plataforma tecnológica oficial.
+
+113.2 Observaciones sucesivas del proyecto de tesis revisado: El estudiante / investigador, en el caso de haber observaciones sucesivas al proyecto de tesis revisado, tiene un plazo máximo de diez (10) días hábiles para levantar las mismas y registrar en la plataforma tecnológica oficial.
+
+113.3 Aprobación del proyecto de tesis final: Los dictaminadores cumplidos los levantamientos del total de las observaciones formuladas, emiten la aprobación del perfil del proyecto de investigación y comunican al CIIUPG.
+
+113.4 Incumplimiento de los plazos y levantamiento de observaciones. En caso de incumplimiento por el estudiante / investigador debe volver a iniciar el procedimiento de inscripción y el pago de los derechos respectivos.
+
+Artículo 114. Asesor: Nombramiento y registro. Aprobado el perfil del proyecto el estudiante / investigador solicita a la CIIUPG el nombramiento de asesor, según los lineamientos:
+
+114.1 Nombramiento:
+
+114.1.1 El CIIUPG propone, a través de secretaría académica, al CEPG, el asesor y opcionalmente un co-asesor, quienes deben tener grado de doctor.
+
+114.1.2 El estudiante / investigador puede proponer en la solicitud de inscripción de perfil de proyecto el asesor y/o co-asesor.
+
+114.2 Registro de nombramiento: En cualquiera de los casos antes mencionados, la CIIUPG a través de la secretaría académica propone el nombramiento de asesor y/o co- asesor del perfil del proyecto y el CEPG lo aprueba.
+
+Artículo 115. Plazo de ejecución. Después de aprobado y registrado el proyecto de tesis doctoral, el estudiante / investigador tiene el:
+
+115.1 Plazo: Máximo de veinticuatro (24) meses para su desarrollo hasta solicitar la dictaminación del informe de tesis doctoral. Excepcional, máximo de extensión hasta seis (6) meses, a criterio de la CIIUPG.
+
+115.2 Deber: En caso de no cumplir con el plazo establecido, el estudiante debe realizar nuevamente el pago correspondiente a la asesoría.
+
+115.3 El asesor debe dar el visto bueno al trabajo de investigación en la plataforma tecnológica adjuntando el reporte de coincidencias y el reporte de uso de herramientas de IA, conforme los límites establecidos en el artículo 181 del presente Reglamento.
+
+Artículo 116. Dictamen, roles, observaciones, plazos y registro de la tesis doctoral.
+
+116.1 Dictamen: El estudiante / investigador solicita, previo expreso visto bueno del asesor, la dictaminación del informe de la tesis doctoral a través de la plataforma.
+
+116.2 Nombramiento de dictaminadores: El CIIUPG asigna, a través de la secretaria académica de la EPG, tres (3) dictaminadores, con grado de doctor, de preferencia los mismos que dictaminaron el proyecto de tesis, aprobado por el CEPG. El acuerdo del CEPG consigna el título de la tesis.
+
+116.3 Revisión preliminar y reuniones: Los dictaminadores deben revisar la tesis doctoral y opcionalmente agendar reuniones con el estudiante / investigador para explicar sus
+
+Página 28
+
+observaciones. Las reuniones pueden ser presenciales o virtuales.
+
+116.4 Tesis doctoral revisada y sucesivas observaciones: El estudiante / investigador registra la tesis doctoral revisada a la plataforma tecnológica oficial y los dictaminadores lo evaluarán, y si fuera necesario presentarán sus observaciones.
+
+Este proceso de levantamiento de observaciones continuará hasta que los dictaminadores emitan su visto bueno, a través de la plataforma tecnológica oficial.
+
+116.5 Plazo máximo de emisión de dictamen: Los dictaminadores después de levantadas o subsanadas las observaciones, tienen un plazo máximo de treinta (30) días para realizar la reunión y emitir el dictamen, bajo sanción en caso de incumplimiento.
+
+116.6 Vencimiento del plazo y pago de derechos de dictamen. Al vencimiento del plazo para levantar las observaciones, el estudiante debe pagar nuevamente el derecho de pago de dictaminación.
+
+Artículo 117. Afiliación obligatoria a UPeU y orden de autores en los artículos.
+
+117.1. El estudiante / investigador deberá ser el primer autor de los artículos generados a partir de la ejecución de la tesis. Se deberá incluir de forma obligatoria y clara la afiliación a la Universidad Peruana Unión, sin traducir o usar la sigla de su denominación social: UPeU.
+
+117.2 Además, el asesor, y el coasesor si hubiese, pueden ser coautores del artículo, siempre que hayan participado activamente en todas las etapas de la investigación y cumplan con los requisitos de autoría. La afiliación de asesor y coasesor si hubiese, debe ser de forma obligatoria a la Universidad Peruana Unión.
+
+117.3 Puede considerarse como coautor invitado externo un (1) participante adicional, el cual debe cumplir los siguientes criterios:
+
+117.3.1 Haber participado activamente en todas las etapas de la investigación; 117.3.2 Tener grado de doctor; 117.3.3 Ser docente calificado Renacyt; 117.3.4 Tener índice H (Scopus) superior a 8; 117.3.5 Formación profesional y académica alineadas con el programa de doctorado.
+
+Artículo 118. De las modalidades y/o tipos de artículos. Las modalidades o tipos de artículos requeridos para la obtención del grado de doctor son:
+
+118.1 Primer artículo. Este puede ser empírico, de traducción y/o validación de instrumento(s), desarrollo de nuevo(s) instrumento(s), análisis factorial exploratorio, desarrollo de modelo teórico u otro según la CIIUPG.
+
+118.2 Segundo artículo. Puede ser correlacional, analítico, análisis factorial confirmatorio, modelos predictivos, u otros según la CIIUPG.
+
+Artículo 119. Sumisión y publicación de los artículos. Los artículos científicos derivados de la ejecución del proyecto de tesis doctoral podrán ser sometidos a evaluación y publicación con el acompañamiento y la coautoría del asesor y co-asesor. Esta participación podrá incluir la revisión, orientación técnica y conceptual, así como la coautoría, siempre que dicha contribución cumpla con los criterios éticos y académicos establecidos para la autoría científica. La submisión y eventual publicación de los artículos podrá realizarse posterior a la inscripción del Proyecto de tesis doctoral. Esto permitirá al doctorando avanzar en la difusión de sus resultados de investigación, sin que ello condicione ni sustituya los procesos formales de evaluación establecidos por el programa.
+
+Condiciones de submisión y publicación:
+
+119.1 Seleccionar, escoger, una revista indexada mínimamente en: Scopus, Wiley, IEEE Xplore, Mathematical Reviews, Medline, SPIE Digital Library, McGraw- Hill, Springer, Taylor  Francis Group, EconLit, ProQuest, Bentham Science, JSTOR o Web of Science, y, 119.2 Condiciones de los artículos para sustentar la tesis:
+
+119.2.1 El primer artículo debe ser publicado o aceptado para publicación.
+
+119.2.2 El segundo artículo debe estar en proceso de revisión por pares.
+
+Página 29
+
+Artículo 120. Evidencias de revisión por pares y publicación del artículo. La evidencia del proceso de revisión por pares y/o publicación, según corresponda, puede acreditarse a través de:
+
+120.1 Revisión por pares:
+
+120.1.1 Constancia emitida por la revista u órgano pertinente, 120.1.2 E-mail de la revista u órgano que la represente, o, 120.1.3 Captura de pantalla, screenshot o pantallazo de la web, fan page o sitio oficial donde se muestra el título de su artículo y el estado de revisión por pares.
+
+120.2 Publicación: Según la modalidad requerida, se evidencia en:
+
+120.2.1 El artículo publicado:
+
+120.2.1.1 El Digital Object Identifier (DOI), o, 120.2.1.2 El enlace del artículo en línea.
+
+120.2.2 El artículo aceptado para publicación:
+
+120.2.2.1 E-mail de la revista u órgano que la represente mostrando el título del artículo y el estado de aceptado.
+
+120.2.2.2 El Digital Object Identifier (DOI) al pre-print.
+
+Artículo 121. Solicitud de sustentación. El(los) estudiante(s) para iniciar este proceso debe(n) tener la calidad de egresado(s) del programa de estudios, habiendo cumplido satisfactoriamente con todo el plan de estudios y haber cumplido con el requisito de dos (2) idiomas extranjeros o lengua nativa, según correspondan y solo así solicita(n), previo expreso visto bueno del asesor, la sustentación de su tesis a través de la plataforma tecnológica oficial.
+
+La presentación de la solicitud, exige del(os) egresado(s), previamente registrar el documento completo, dejando una hoja en blanco donde se insertará el acta de sustentación.
+
+Artículo 122. Jurado de sustentación. Nombramiento y composición. La CIIUPG vista la solicitud de sustentación, a través de la secretaría académica de la EPG, propone el nombramiento del jurado de sustentación al CEPG, quien lo aprueba.
+
+El jurado está conformado por un (1) presidente, un (1) secretario, dos (2) vocales y un (1) docente externo. Preferentemente, el asesor y los tres (3) dictaminadores deberían formar parte del jurado.
+
+Artículo 123. Participación y validez de miembro externo del jurado de sustentación. La EPG, a través de la CIIUPG puede convocar uno (1) o más docentes o no externos a la UPeU, con grado de doctor, para que participe obligatoriamente de manera presencial u online sincrónica en el acto de la sustentación.
+
+En el caso de la participación del miembro externo de manera virtual u online sincrónica, el secretario del Jurado de sustentación deja constancia en el acta de su participación en tiempo real, plena y personalísima, la misma que sin la firma o rúbrica del miembro externo, es plenamente válida para todos los efectos legales.
+
+Artículo 124. Estructura de la tesis doctoral. El documento para el cierre del proceso de investigación conducente al grado de doctor, se presenta y registra en la plataforma tecnológica oficial, previo expreso visto bueno del asesor, y debe tener la siguiente estructura:
+
+124.1 Las hojas preliminares, según los requisitos del CRAI, según el formato 124.2 Hoja limpia (para adjuntar el acta de sustentación) 124.3 Agradecimientos y dedicatoria (opcional) 124.4 Índice 124.5 Introducción general 124.5.1 Planteamiento del problema 124.5.2 Justificación 124.5.3 Hipótesis 124.5.4 Objetivos 124.6 Marco teórico o conceptual 124.7 Aspectos metodológicos
+
+Página 30
+
+124.8 Resultados (los dos artículos en forma de capítulos):
+
+124.9 La versión final del primer artículo, en el formato publicado con la cita a la revista (la estructura dependerá de la revista elegida) Generalmente la estructura incluye:
+
+124.9.1 Título en español y en inglés 124.9.2 Resumen en español y en inglés.
+
+124.9.3 Palabras clave en español y en inglés.
+
+124.9.4 Introducción.
+
+124.9.5 Metodología.
+
+124.9.6 Resultados.
+
+124.9.7 Discusión.
+
+124.9.8 Referencias bibliográficas.
+
+124.9.9 Figuras y tablas.
+
+124.10 La versión final del segundo artículo, con todas las observaciones levantadas y prueba de estar en proceso de revisión por pares en una revista de prestigio (la estructura dependerá de la revista elegida) Generalmente la estructura incluye:
+
+124.10.1 Título en español y en inglés 124.10.2 Resumen en español y en inglés 124.10.3 Palabras clave en español y en inglés 124.10.4 Introducción 124.10.5 Metodología 124.10.6 Resultados 124.10.7 Discusión 124.10.8 Referencias bibliográficas 124.10.9 Figuras y tablas 124.11 Conclusiones de la tesis 124.11.1 Conclusiones generales 124.11.2 Recomendaciones 124.12 Anexos 124.12.1 Evidencia de publicación de al menos un (1) artículo en una revista de prestigio 124.12.2 Evidencia de revisión por pares del segundo artículo en una revista de prestigio 124.12.3 Copia de la inscripción del proyecto de tesis aprobado por el CEPG.
+
+124.12.4 Carta de aprobación de comité de ética, si fuera el caso.
+
+124.12.5 Instrumento(s) de recolección de datos, si fuera el caso.
+
+124.12.6 Figuras, tablas o imágenes adicionales, si fuera el caso.
+
+Artículo 125. Archivo de datos. Adicionalmente al documento final detallado en el artículo 124, el egresado / investigador debe registrar, subir el archivo de datos a la plataforma tecnológica oficial para su inclusión en el repositorio institucional.
+
+El archivo de datos puede ser en formato: CSV, del software de análisis de datos o el establecido por la CIIUPG.
+
+Artículo 126. Proceso de cierre del proceso de tesis doctoral. El cierre del proceso de tesis conducente al grado de doctor, sigue el procedimiento siguiente:
+
+126.1. Inclusión: Una vez que el asesor emite el visto bueno a la versión final de la tesis, el egresado / investigador debe añadir el acta de sustentación.
+
+126.2 Revisión: El CIIUPG revisa la solicitud de cierre del proceso de tesis a través de la plataforma tecnológica oficial.
+
+126.3 Comunicación: En el caso de faltar uno o más requerimientos determinados en el artículo 124, éste informa al egresado / investigador a través de la plataforma tecnológica oficial.
+
+126.4 Plazo de subsanación: El egresado / investigador en el plazo de diez (10) días hábiles modifican y subsanan el documento y deben reenviarlo por el mismo medio
+
+Página 31
+
+tecnológico.
+
+126.5 Emisión de VB, cierre del proceso y registro: La CIIEP emite el visto bueno, cierra el proceso y habilita para su registro en el repositorio del CRAI o requeridos que hubiera.
+
+126.6 Vencimiento del plazo y pago de derechos de sustentación. Al vencimiento del plazo para levantar las observaciones, el egresado / investigador debe pagar nuevamente el derecho de pago de sustentación.
+
+Artículo 127. Emisión de visto bueno y derivar al registro en el repositorio. La CIIUPG al emitir el visto bueno del documento de cierre, habilita el acceso del CRAI al documento final en la plataforma tecnológica oficial para el registro en el repositorio UPeU.
+
+Artículo 128. Registro en el repositorio, constancia y funciones del CRAI. El CRAI a través del área de análisis documental y repositorio, es encargado de:
+
+128.1 Registrar, subir el documento final, en el repositorio UPeU.
+
+128.2 Generar el enlace correspondiente (URL).
+
+128.3 Emitir una constancia, donde se incluye el enlace, por correo electrónico al egresado / graduado y al asesor.
+
+128.4 Informar, obligatoriamente y bajo responsabilidad, del registro a Secretaría General, Oficina de grados y títulos.
+
+Artículo 129. Derechos de trámite: Acreditación de Pagos. Los derechos correspondientes a los procedimientos de la tesis doctoral, determinados por la EPG, se abonan y acreditan obligatoriamente y registran en la plataforma tecnológica oficial, a la presentación de la solicitud de:
+
+129.1 Inscripción de proyecto de Tesis doctoral.
+
+129.2 Dictaminación del informe de Tesis doctoral.
+
+129.3 Sustentación de la Tesis doctoral.
+
+Artículo 130. Incumplimiento y conclusión de asesoría de estudiante(s). En el caso de incumplimiento del(los) estudiante(s) o egresado(s) de sus obligaciones y responsabilidades, pasados los dos (02) meses, el asesor puede presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis, sin perjuicio para el asesor.
+
+Artículo 131. Incumplimiento y conclusión de asesoría del asesor. En el caso de incumplimiento del asesor de sus obligaciones y responsabilidades, pasados los dos (02) meses, el(los) estudiante(s) o egresados(s) pueden presentar un informe, adjuntando las copias de las comunicaciones efectuadas a través de: plataforma oficial, email, WhatsApp, mensajes de texto, fechas de llamadas telefónicas, mensajes msn, twitter, Skype y otro, y por el mérito de este informe se da por concluido, finalizada, la asesoría de tesis y el rol de asesor, sin perjuicio para el(los) estudiante(s).
+
+Artículo 132. Cambios. La CIIUPG gestionan los cambios relacionados con el proceso de la ejecución del proyecto / investigación (maestría): cambio de asesor, cambio de dictaminadores, modificación de título del proyecto / investigación (maestría), ampliación del cronograma de ejecución y cancelación del proyecto, conforme los criterios establecidos en el presente Reglamento en otras modalidades.
+
+TÍTULO IX DE LOS PROTOCOLOS DE SUSTENTACIÓN Artículo 133. De las modalidades de sustentación: Presencial y virtual u online. La sustentación tiene las modalidades siguientes:
+
+133.1 Sustentación modalidad presencial. Es aquella que se lleva a cabo en un ambiente académico designado por la Facultad o EPG, en el día y hora, y sobremanera con la presencia física del investigador y el jurado de sustentación nombrado; sin perjuicio
+
+Página 32
+
+de la participación de uno (1) o más miembro(s) del mismo con participación virtual u online sincrónica.
+
+133.2 Sustentación modalidad virtual u online sincrónica. Es aquella que se lleva a cabo en un escenario virtual u online de manera sincrónica, en el día y hora señalado por la Facultad o EPG y con la presencia personal del investigador y el jurado de sustentación nombrado.
+
+Artículo 134. Regulación de las formalidades de las modalidades de sustentación. El Reglamento de Grados y Títulos de la UPeU regula las formalidades legales y administrativas de las modalidades de sustentación.
+
+Artículo 135. Protocolo para la sustentación. La sustentación de la tesis / trabajo de investigación, en acto público, sigue según corresponda al tipo de escenario presencial, virtual u online, el siguiente protocolo:
+
+135.1 Ingreso o registro previo al ambiente o medio virtual u online asignado, presidido por el presidente, de los miembros del Jurado de Sustentación de tesis / investigación, y en su caso investidos de medallas, cuando son docentes ordinarios de la UPeU.
+
+135.1.1 El presidente verifica que antes del inicio del acto académico, en la modalidad virtual u online, y durante todo el mismo, excepto en las deliberaciones, este sea registrado electrónica, digital y visualmente en el soporte oficial de la UPeU.
+
+135.1.2 El presidente recuerda y en su caso señala las normas de conducta de los miembros del Jurado y de los asistentes.
+
+135.2 Bienvenida al acto académico y presentación de los miembros del Jurado de la sustentación, a cargo del presidente.
+
+135.3 Plegaria realizada por un miembro del Jurado.
+
+135.4 Presentación y lectura de la semblanza del investigador, a cargo del asesor.
+
+135.5 Lectura de la resolución de la sustentación de tesis / investigación, a cargo del secretario.
+
+135.6 Instrucciones del presidente sobre el tiempo y modalidad para la sustentación.
+
+135.7 Exposición / disertación / argumentación académica del investigador, previa autorización / invitación para la sustentación, a cargo del presidente, sobre el resultado de la investigación, por un periodo no menor a quince (15) minutos en pregrado y veinte (20) minutos en posgrado.
+
+135.8 Intervenciones, cuestionamientos o interrogatorio: Los miembros del Jurado, bajo la dirección y control del presidente, pueden efectuar las interrogantes, comentarios y argumentaciones.
+
+135.9 Intermedio en el acto académico: Culminada las intervenciones (interrogantes, comentarios u otros) de los miembros del Jurado, el Presidente declara un intermedio para que el investigador se retire y procedan en privado a deliberar. En un ambiente o escenario virtual u online, el presidente dispone y verifica que la sala asignada sea abandona por los todos los que no son parte del jurado e incluido el investigador.
+
+135.10 El Jurado delibera sobre la calidad de defensa de los resultados de la investigación y emiten un dictamen expresado en una calificación vigesimal y literal asignada en mayoría o en consenso, según el artículo 135.
+
+135.11 El Presidente del Jurado invita al investigador a ubicarse en el lugar 135.12 correspondiente.
+
+135.13 El secretario del Jurado lee el acta de sustentación, comunicando el resultado de la evaluación.
+
+135.14 El presidente invita al candidato según corresponda a la modalidad del acto académico, presencial, virtual u online, a firmar el acta de sustentación, el acta de entendimiento y hacer brevemente el uso de la palabra. Y el presidente al concluir, cierra el acto académico, y en la modalidad virtual u online, dispone detener el registro del mismo después de la plegaria final.
+
+135.15 Plegaria al término del acto académico.
+
+Página 33
+
+Artículo 136. Calificación y escalas. El resultado final de la sustentación es expresado en la calificación de aprobado o desaprobado, equivalente a una escala vigesimal, literal y cualitativa conforme a la tabla siguiente:
+
+Clasificación Escalas Mérito Vigesimal Literal Cualitativa a) Aprobado
+
+A Con nominación de Excelente Excelencia
+
+A
+
+A- Con nominanción de Muy Bueno Sobresaliente
+
+B
+
+B Con nominación de Bueno Muy Bueno
+
+B-
+
+C Con nominación de Aceptable Bueno b) Desaprobado Menos de 14 D Con nominación de Deficiente Insuficiente
+
+Artículo 137. Condiciones adicionales de calificación. La sustentación de la tesis / trabajo de investigación es evaluada y calificada en los términos siguientes:
+
+137.1 Aprobada sin observaciones.
+
+137.2 Aprobada con observaciones.
+
+137.3 Desaprobada.
+
+Su calificación aprobatoria meritoria es: aprobado, notable, con distinción o con excelencia.
+
+Artículo 138. Calificación aprobatoria mínima. La calificación por escala, vigesimal, literal y cualitativa mínima es de: catorce (14), o C o con nominación de aceptable o bueno.
+
+Artículo 139. Deliberación de la calificación. Al término de la sustentación, el Jurado delibera en forma privada sobre la calificación respectiva. En la calificación cada uno de los miembros del Jurado emite su decisión y el secretario deja constancia del número de votos o decisiones según la escala de evaluación. No existe ni procede abstención u otra modalidad que impida conocer la decisión del miembro.
+
+Artículo 140. Firma en el acta y difusión de resultado. El secretario del Jurado antes de la difusión y comunicación en el acto del resultado de la evaluación y calificación procede a registrar, según corresponda a la modalidad de sustentación, la decisión en los términos de la escala en el Libro de Sustentación de Tesis / investigación de la Facultad o EPG respectivamente y cada uno de los miembros del jurado proceden a su firma, salvo en el caso de la modalidad de sustentación virtual u online sincrónica.
+
+A continuación de la firma en el acta, el presidente anuncia los resultados al investigador y ante quienes asistan al acto.
+
+La secretaría académica de la facultad o EPG entrega una copia del acta de sustentación al(os) egresado(s) / investigador(es).
+
+Artículo 141. Levantamiento de observaciones. En caso de contar con observaciones durante la sustentación, el(los) egresado(s) / investigador(es) tiene(n) un plazo máximo de diez (10) días hábiles para levantar las observaciones y, previa revisión y expreso visto bueno del asesor, registrar el documento corregido a la plataforma tecnológica oficial.
+
+Artículo 142. Nueva sustentación por desaprobación. Si la sustentación es desaprobada, el(los) egresado(s) / investigador(es) deben mejorar el documento y la presentación de su trabajo y nuevamente solicitar la sustentación, realizando el pago correspondiente a esta última etapa. El CIIEP o CIIUPG correspondiente agendará la sustentación minimo treinta (30) días después de la sustentación desaprobada.
+
+Página 34
+
+TÍTULO X DE LOS DERECHOS DE AUTOR Y DERECHOS CONEXOS
+
+Artículo 143. Cautelar derechos. La EP y EPG a través de sus UPG, en forma individualizada, cautelan los derechos de autor, conexos y derivados de los procesos de tesis: inscripción, ejecución, dictamen, sustentación e informe de resultados.
+
+Artículo 144. Registros. El registro de la tesis, trabajo de investigación, trabajo de suficiencia profesional y trabajo académico, tiene el carácter y naturaleza de documento académico, en éstos se registra lo siguiente:
+
+144.1 Identificación del investigador sea estudiante de pregrado o posgrado (nombres y apellidos completos, según DNI o carné de extranjería).
+
+144.2 El título del documento académico.
+
+144.3 La declaración jurada de la autoría del documento académico 144.4 El día, mes y año de la sustentación.
+
+144.5 La hoja de los miembros del jurado con las firmas correspondientes 144.6 Las resoluciones del proceso por fecha y contenido resolutivo.
+
+144.7 El asesor identificado con el grado; nombres y apellidos completos.
+
+Artículo 145. Estructura del registro. La tesis, trabajo de suficiencia profesional, el Informe de investigación y trabajos académicos está estructurado en forma electrónica o digital, bajo caracteres de seguridad y reporte. La DGI coordina la estructura con la EP y UPG de acuerdo con las necesidades y requerimientos de una gestión de calidad.
+
+Artículo 146. Reconocimiento. El reconocimiento de algún derecho de autor o conexo derivado de la aplicación del presente Reglamento solo es declarado y certificado por la respectiva secretaría académica de las facultades o EPG, sobre la base del material y sustento del Registro de Perfil de proyecto de investigación, en el caso de la obtención de grados o títulos.
+
+Artículo 147. Custodia libros de actas. La secretaría académica de la Facultad y EPG, cautela, custodia y gestiona en forma individualizada, exclusiva y excluyente el Libro de Actas de Sustentación de Tesis / Trabajo de Investigación. El mismo tiene la calidad de documento y registro académico intangible y sustento de los derechos de autor y conexos.
+
+Artículo 148. Adulteración de los registros. Cualquier adulteración o registro de información no sustentada es observada por los interesados, la CIIEP, CIIUPG, la misma Facultad, EPG ante el CF, CEPG en primera instancia y CU en segunda y última instancia. En su caso, el(los) autor(s) es(son) separado(s) de la función o responsabilidad, sin perjuicio de las acciones y responsabilidades civiles, penales o laborales.
+
+TÍTULO XI DE LA INVESTIGACIÓN DE DOCENTES CAPÍTULO I DE LOS PROYECTOS DE INVESTIGACIÓN Artículo 149. Definición. Los proyectos de investigación son propuestas de investigación originales, creativos, y sistemáticos para generar conocimientos en ciencia, tecnología y humanidades y el desarrollo de sus aplicaciones.
+
+Artículo 150. Tipos. Los tipos de investigación considerados son:
+
+150.1 Investigación básica: Es aquella que requiere o demanda de interés cognitivo, con el propósito de incrementar el conocimiento, producir nuevos saberes. Sus resultados pueden ser expresados en modelos, teorías, principios, y otros.
+
+150.2 Investigación aplicada: Es aquella centrada en la utilización del conocimiento (teorías y principios) para la solución de problemas de interés social y técnico.
+
+Permite obtener logros y cumplir metas en un plazo determinado, materializar el conocimiento. Sus resultados suelen ser, entre otros, el diseño de instrumentos o aparatos, nuevos servicios, nuevos procedimientos. Se hace referencia a la
+
+Página 35
+
+investigación histórica, descriptiva y experimental.
+
+150.3 Innovación. Está centrada en la acción de mudar o alterar las cosas, introduciendo novedades en procesos organizacionales, servicios y tecnológicos. Es importante la presencia de dos componentes, novedad y utilidad.
+
+Artículo 151. Alcance. Este reglamento regula las actividades de los siguientes tipos de proyectos:
+
+151.1 Proyectos aprobados con fondos concursables de la UPeU.
+
+151.2 Proyectos autofinanciados aprobados por la UPeU.
+
+151.3 Proyectos con fondos concursables nacionales o extranjeras puede ser con otras instituciones privadas y estatales, nacionales o extranjeras.
+
+CAPÍTULO II DEL FINANCIAMIENTO DE PROYECTOS Y DESTINO DE LOS RECURSOS ECONÓMICOS
+
+Artículo 152. Fuentes de financiamiento. Las fuentes de financiamiento para los proyectos de investigación son:
+
+152.1 Recursos asignados por la UPeU.
+
+152.2 Autofinanciados.
+
+152.3 Recursos asignados por fondos de las unidades académicas de servicio y centros universitarios.
+
+152.4 Donaciones o transferencias públicas o privadas, nacionales o extranjeras.
+
+152.5 Otras fuentes.
+
+Artículo 153. Presupuesto operativo. La UPeU asigna un presupuesto anual para la investigación, acorde con sus políticas y este no contempla los honorarios de investigadores o personal.
+
+Artículo 154. Financiamiento. La UPeU financia las actividades de los proyectos de investigación en ejecución, tales como:
+
+154.1 Pago por las actividades de apoyo o de servicios profesionales o de terceros.
+
+154.2 Materiales, instalaciones, equipos, instrumentos, herramientas, accesorios, insumos y útiles de oficina.
+
+154.3 Publicación de las investigaciones.
+
+154.4 Licencias de software.
+
+154.5 Otros, de acuerdo a la naturaleza del proyecto.
+
+Artículo 155. Otros recursos. Los recursos asignados de otros fondos diferentes a la UPeU, serán utilizados de acuerdo al reglamento de la convocatoria correspondiente.
+
+CAPÍTULO III DE LA PARTICIPACIÓN DE LOS DOCENTES
+
+Artículo 156. Participan en la preparación y ejecución de los proyectos de investigación, los docentes ordinarios y contratados, los no docentes y estudiantes, independientemente de la modalidad y nivel de estudios de pregrado o posgrado, presenciales, semipresenciales o a distancia.
+
+Artículo 157. Para los proyectos de investigación multidisciplinaria, participan docentes de distinta formación profesional con autorización expresa del CF o CEPG respecto al tiempo y recursos.
+
+Artículo 158. Cada proyecto de investigación tiene un (01) director conocido como el investigador principal, con grado académico de maestro, magíster o doctor, quien será responsable de la formulación, ejecución y culminación del mismo.
+
+Artículo 159. Las asignaciones de horas laborales para la ejecución del proyecto de investigación son determinadas según su naturaleza por el CF o CEPG, a propuesta de la CIIF o CIIEPG y visto bueno de la Dirección de Investigación e Innovación (DII).
+
+Artículo 160. El docente puede participar como director de proyecto en uno y como asociado en otro en forma simultánea, sin perjuicio de sus obligaciones académicas, administrativas o de proyección social.
+
+Página 36
+
+CAPÍTULO IV DE LA CONVOCATORIA, APROBACIÓN Y REGISTRO DE LOS PROYECTOS
+
+Artículo 161. Convocatoria. La DGI convoca al concurso interno de financiamiento de proyectos para el Programa de Investigación de Docentes (PID), a través de la plataforma tecnológica oficial, según las bases anuales publicadas en la página web de la DII. Los proyectos autofinanciados deberán seguir el mismo procedimiento, pero podrán ser sometidos en cualquier época del año.
+
+Artículo 162. Evaluación. La DII organiza la evaluación con pares externos de los proyectos concursables y recomienda su aprobación al Consejo Universitario. En el caso de proyectos autofinanciados, estos deben ser aprobados por el CF o CEPG.
+
+Artículo 163. Registro. Todo proyecto de investigación aprobado por el CU debe ser registrado en la DII y publicado en la página web de la DII.
+
+CAPÍTULO V DEL COMITÉ CIENTÍFICO
+
+Artículo 164. Conformación. El Comité Científico de Investigación (CCI) es conformado por el Director de la DII, el Coordinar de Proyectos de la DII y el coordinador de Innovación de la DII.
+
+Artículo 165. Presidencia. El CCI es presidido por el Coordinar de Proyectos de la DII, quien informa periódicamente, sobre el control y el avance de la ejecución de los proyectos aprobados a la DII.
+
+Artículo 166. Funciones. Son funciones del CCI:
+
+166.1 Supervisa la ejecución de los proyectos de investigación.
+
+166.2 Emite opinión para la cancelación de los proyectos de investigación.
+
+166.3 Otras que le asigne el presente reglamento y la DII.
+
+CAPÍTULO VI DE LA EVALUACIÓN, EJECUCIÓN Y CANCELACIÓN DE LOS PROYECTOS
+
+Artículo 167. Monitoreo. El monitoreo de los proyectos de investigación es supervisado, periódicamente, por la DII, que verifica el cronograma y metas establecidas.
+
+Artículo 168. Informes. Para la evaluación y control del avance de los proyectos, el director presenta informes técnicos y económicos a la DII.
+
+Artículo 169. Redacción. Los informes son presentados y expuestos de acuerdo al estilo de redacción correspondiente a la unidad académica dentro de los términos previstos en la plataforma de seguimiento de investigación y el cronograma de actividades según las bases publicadas anualmente por la DII.
+
+Artículo 170. Bienes. Los equipos, instrumentos, el material bibliográfico, los bienes y excedentes en general, derivados de la ejecución de los proyectos de investigación, son destinados por vicerrectorado académico, a las dependencias de la UPeU (CII/Instituto de Investigación), bajo responsabilidad administrativa del director de la DII.
+
+Artículo 171. Cancelación. La DII puede proponer la cancelación de un proyecto de investigación, por razones debidamente justificadas y cuando, a su juicio, la situación así lo requiera, o a solicitud del director del proyecto.
+
+Artículo 172. Proceso. La cancelación de un proyecto procede en los siguientes casos:
+
+172.1 Cuando los informes de avance, periódicamente presentados, no muestren resultados satisfactorios o cuando el desarrollo del proyecto no conduzca al logro de los objetivos y metas propuestas.
+
+172.2 Cuando los recursos asignados al proyecto, no son utilizados de acuerdo con sus fines.
+
+172.3 Por incumplimiento reiterado de los plazos fijados, en la presentación de los informes.
+
+Artículo 173. Comunicación. La cancelación de los proyectos será comunicada por el director de DGI al director del proyecto, al decano y al vicerrector académico, para las acciones administrativas o legales pertinentes.
+
+Página 37
+
+CAPÍTULO VII DE LOS RESULTADOS, DIFUSIÓN Y FINANCIAMIENTO DE LOS PROYECTOS
+
+Artículo 174. Finalización. El CCI dará por concluido el proyecto de investigación con la evaluación del informe final. El director de la DII eleva un informe al vicerrector académico o decano, según sea el caso.
+
+Artículo 175. Propiedad. Los resultados parciales y final de un proyecto constituyen propiedad intelectual de la UPeU y de los investigadores, dando lugar a los derechos legales correspondientes. El CU fijará la forma de distribución de los beneficios económicos que hubiere.
+
+Artículo 176. Difusión y transferencia. El director del proyecto de investigación y la UPeU determinarán la conveniencia, forma y alcance de su difusión y transferencia. La publicación de los resultados de investigación en revistas especializadas, publicadas con revisión de pares es una prioridad para la UPeU. Cada proyecto de investigación registrado en la DGI, será considerado técnicamente finalizado, si contiene la aceptación del artículo producto de la investigación para su publicación en una revista especializada indizadas enSCOPUS, Web of Science, Wiley, IEEE Xplore, Mathematical, Reviews, Medline, SPIE digital Library, Springer, McGraw-Hill, Taylor  Francis Group, EconLit, ProQuest, Bentham Science o JSTOR.
+
+Artículo 177. Financiamiento. El financiamiento para la publicación de las investigaciones (APC) se complementará con un fondo institucional de pagos de APC.
+
+Artículo 178. Cofinanciamiento. El CCI aprueba las solicitudes de financiamiento de las publicaciones.
+
+Instituciones externas participantes de los proyectos podrán cofinanciar las publicaciones aprobadas.
+
+Artículo 179. Trabajos de investigación no financiados. La siguiente nómina de actividades de investigación no es financiada por el Programa de Investigación de Docentes (PID).
+
+179.1 Actividades de docencia.
+
+179.2 Análisis y seguimiento de políticas y programas de la institución.
+
+179.3 Aplicaciones rutinarias de software.
+
+179.4 Actividades de producción y distribución de bienes y servicios.
+
+179.5 Estudios de perfiles de las unidades académicas.
+
+179.6 Informes de ensayo de rutina.
+
+179.7 Planificación estratégica de la institución.
+
+179.8 Planes de negocio.
+
+179.9 Servicios técnicos conexos.
+
+179.10 Semanas de énfasis espiritual.
+
+179.11 Sermones temáticos.
+
+179.12 Tareas administrativas y jurídicas.
+
+TÍTULO XII SANCIONES POR PLAGIO Y MALA CONDUCTA Artículo 180. Definición y sanción. El plagio es la copia o reproducción textual o disimulo mediante ciertas alteraciones atribuyéndose o atribuyendo a otro, la autoría o titularidad ajena. El plagio será sancionado por el órgano correspondiente, sin perjuicio de las acciones civiles o penales.
+
+Artículo 181. Compromiso ético. El candidato a grado o título, el docente asesor y el investigador debe firmar y cumplir con el compromiso ético del investigador (Anexo 02).
+
+Artículo 182. Registro de coincidencias, uso de herramientas de inteligencia artificial (IA) y el asesor. El asesor tiene la obligación de informar a través de la plataforma oficial el nivel de coincidencias y la declaración del uso de herramientas de IA para redacción. Estos datos son obtenidos como resultado del análisis utilizando el software antiplagio oficial usado por la UPeU, antes de someter a dictamen del documento, con los límites máximos de coincidencias y uso de herramienta de IA siguientes:
+
+182.1 Título profesional, en modalidad tesis y suficiencia profesional, coincidencia 20 IA
+
+Página 38
+
+60 182.2 Título de segunda especialidad profesional de veinte por ciento (coincidencia 20; IA 55).
+
+182.3 Maestría, quince por ciento (coincidencia 15; IA 50) 182.4 Doctorado, diez por ciento (coincidencia 10; IA 40) En caso de incumplimiento, no continua el trámite o procedimiento y el docente asesor e investigador serán amonestados. En caso de reiteración, el asesor será suspendido de su tarea de asesor por dos (2) años académicos Artículo 183. Infracción al límite de coincidencias. En caso de haber sustentado y publicado el trabajo de investigación con un nivel de coincidencias, catalogadas como plagio, superior a los estipulado, son sancionados el asesor y el candidato, y además el grado o título es anulado en el registro de grados y títulos de la UPeU y el registro nacional de grados y títulos respectivo. El docente será suspendido definitivamente como asesor, sin perjuicio de las sanciones administrativas y laborales dispuestas por la UPeU.
+
+Artículo 184. Suspensión e inhabilitación del investigador por mala conducta. Los investigadores (docentes y estudiantes), aunque tenga la calidad de egresado(s) o candidato(s) a dictamen o sustentación, serán sancionados, con la suspensión o separación o inhabilitación permanente para obtener un grado o título, sustentar tesis / trabajo de investigación / trabajo académico / informe de suficiencia profesional o similar o análogo.
+
+Así como de tareas o funciones de investigación luego de seguir el proceso administrativo que la UPeU, en el caso de incurrir en malas conductas manifestadas en hechos, actos, tales como:
+
+184.1 Acciones u omisiones relacionadas con idear, organizar, llevar a cabo, evaluar o solicitar proyectos de investigación que, de forma deliberada o descuidada, distorsionan los resultados de la investigación 184.2 Presentan, formulan o aportan información engañosa, falsa o simulada sobre la contribución personal a un proyecto de investigación o violan otras normas de la tarea profesional de los investigadores.
+
+184.3 Es suplantada o suplanta, y participa de ella por interpósita persona en el cumplimiento de algún requisito requerido para la obtención del grado o título, o cumplimiento del proceso para dictamen, declaración de expedito o sustentación de tesis / investigación / trabajo académico o suficiencia profesional.
+
+184.4 Las conductas señaladas en el Reglamento de Estudios de Pregrado, el Reglamento de Estudios de Posgrado, el Reglamento del Estudiante Unionista, el Código Nacional de la Integridad Científica, el Reglamento del Docente Investigador y otros reglamentos pertinentes, que vulneren la buena fe, integridad, ética y honestidad académica.
+
+184.5 En el caso de producirse cualquiera de las malas conductas la CIIEP o CIIUPG, en la facultad o EPG, tienen la obligación de informar e iniciar el proceso de sanción, salvo disposición reglamentaria de la UPeU.
+
+DE LAS DISPOSICIONES FINALES Y TRANSITORIAS PRIMERA: Las EPs, en la implementación del presente reglamento, articulan los requerimientos de lineamientos de las condiciones básicas y así mismo los estándares del Modelo de Calidad de las carreras profesionales y además determinan las metas expresadas en el número de titulados y graduados, mediante la sustentación de tesis.
+
+SEGUNDA: La implementación de los procesos y los procedimientos del presente Reglamento, son priorizados por las facultades y EPG sobre la base de gestión por procesos.
+
+TERCERA: Todo lo no previsto en el presente Reglamento es regulado por el Consejo Universitario, en coordinación con la DGI y CIIEP o CIIUPG.
+
+Página 39
+
+DE LAS DISPOSICIONES TRANSITORIAS PRIMERA: Sobre Grado de Bachiller Automático. Reconocer y ratificar la obtención del grado académico de bachiller automático que regula la UPeU conforme las disposiciones legales vigentes de la Ley Universitaria, el Estatuto, el Reglamento General, el Reglamento de Grados y Títulos de la UPeU, directivas específicas y las reiteradas en el artículo 27 del presente Reglamento, son las siguientes:
+
+1.1. Grado Académico de Bachiller: Aplicable a egresados o estudiantes antes de la vigencia de la Ley Universitaria N 30220, es decir el 10 de julio de 2014, regulado conforme la Segunda Disposición Transitoria del presente Reglamento y el Reglamento de Grados y Títulos de la UPeU.
+
+1.2. Grado Académico de Bachiller: Aplicable a egresados o estudiantes que culminaron sus estudios en los años 2020, 2021, 2022, 2023 y hasta el 31 de marzo de 2024, aun cuando su egreso se debió en los años siguientes por reprogramación de actividades académicas del 2020, 2021, 2022, 2023 o años siguientes que señale la Ley.
+
+SEGUNDA: Sobre Bachiller con trabajo de investigación. Ratificar que la obtención del grado académico de bachiller, conforme lo prescribe el Reglamento de Grados y Títulos de la
+
+2.1.
+
+Ingresantes a una carrera profesional o programa de estudios de pregrado a partir del 10 de julio de 2014 y egresados hasta el 31 de diciembre de 2019, independientemente de su modalidad.
+
+2.2.
+
+Ingresantes bajo la modalidad de traslado externo o interno a una carrera profesional o programa de estudios de pregrado a partir del 10 de julio de 2014, distinto del cursado en la universidad de origen o en la UPeU, y egresado hasta el 31 de diciembre de 2029.
+
+2.3.
+
+Ingresantes a un programa de estudios de pregrado anterior al 10 de julio de 2014, siempre que no curso ni aprobó una o más asignaturas en la carrera profesional o el programa de estudios matriculado y egresó hasta el 31 de diciembre de 2019.
+
+2.4.
+
+Los estudiantes que no estando obligados se someten al proceso, sin derecho a retractación ni desistimiento del mismo.
+
+La obtención del grado de bachiller es previo cumplimiento de los requisitos académicos y administrativos del Reglamento de Grados y Títulos de la UPeU.
+
+TERCERA: Libertad para efectuar trabajo de investigación. Dejar en elección del estudiante o egresado la decisión de si efectúa el trabajo de investigación para obtener el grado académico de bachiller no estando comprendido.
+
+CUARTA: Sobre estudios en curso a la aprobación del presente reglamento. Los estudiantes y egresados de las carreras profesionales o programas de estudios conducentes a la obtención de un grado o título en pregrado o posgrado, con estudios en proceso o culminación de los mismos, al momento de la aprobación del presente reglamento, se sujetan a las reglas siguientes:
+
+4.1.
+
+Plazo hasta 31 diciembre de 2026 para obtener grado o título en modalidad de Sustentación de Tesis para egresados de programas de pregrado o posgrado antes del 21 de marzo de 2020. Los egresados de los programas de estudios de pregrado o posgrado pueden obtener hasta el 31 de diciembre de 2026, el grado o título respectivo, bajo la modalidad de sustentación de tesis, para los egresados antes del 21 de marzo de 2020. Salvo que por decisión expresa decidan adecuar la obtención del grado o título a la sustentación de tesis modalidad artículo conforme el presente Reglamento.
+
+4.2.
+
+Responsable de adecuación de los procesos. La EP o UPG se encarga de adecuar los procesos y procedimientos al presente reglamento.
+
+QUINTA: Sobre estudiantes o egresados de posgrado para obtención de grado. Los estudiantes o egresados de los programas de la EPG que hayan culminado sus estudios anteriores al año
+
+Página 40
+
+2015 y que deseen iniciar el proceso de tesis para la obtención del grado respectivo, deberán cumplir con los requerimientos siguientes:
+
+5.1. De 6 a 15 años: Deben cursar una asignatura o curso de actualización conducente a la sustentación de tesis.
+
+5.2. De 16 años a más: Cursar el total de créditos de los cursos del área curricular de investigación del programa de estudios de posgrado.
+
+Página 41
+
+ANEXO 01 ELEMENTOS DEL PERFIL DE PROYECTO/PROYECTO DE TESIS
+
+La Tabla 1.1 muestra las diferentes partes, funciones y contenido de un perfil de proyecto de investigación/proyecto de tesis.
+
+Tabla 1.1 Partes, funciones y contenido del perfil proyecto de investigación/proyecto de tesis
+
+Partes
+
+Función Contenidos (Guía de instrucciones para saber qué hacer)
+
+Carátula
+
+Identificar Nombre de la universidad, facultad, Escuela Profesional, tipo de documento (proyecto de investigación), título del proyecto; autor o autores, lugar y fecha.
+
+Índice o tabla de contenido Mostrar el contenido del documento Identificación de las partes principales del proyecto de investigación, con la paginación correspondiente.
+
+No debe incluir dedicatorias, reseñas, conclusiones.
+
+Identificación del problema
+
+Presentar el problema en su contexto.
+
+Trata de un tema-problema que expresa una necesidad, ausencia, dificultad, insatisfacción, conflicto o carencia en algún aspecto del conocimiento científico. Es necesario realizar una revisión selectiva, exhaustiva y crítica de las investigaciones sobre dicho problema, consultar a expertos, expresar su magnitud, urgencia o gravedad, importancia y pertinencia. Debe estar localizada espacial y temporalmente.
+
+Objetivos
+
+Establecer qué se pretende hacer y a dónde llegar Señala el resultado de la investigación. El enunciado debe ser claro y preciso. Se formula con un verbo en infinitivo.
+
+Objetivo general: Expresa el logro terminal a alcanzar en el estudio.
+
+Acción  Objeto  Condición Acción: Expresado por verbos activos en infinitivo.
+
+Objeto: Asunto de estudio donde recae la acción del verbo.
+
+Condición: Delimitación del estudio.
+
+Objetivos específicos o parciales: expresan las acciones y operaciones necesarias que hay que realizar para llegar al objetivo general.
+
+Los proyectos de investigación cualitativa no presentan objetivos de carácter terminal, pero sí se establecen proposiciones que sirven de guía para el estudio a realizar.
+
+Partes Función Contenidos (Guía de instrucciones para saber qué hacer)
+
+Justificación Sustenta la utilidad de la investigación
+
+Se argumenta la conveniencia de realizar la investigación.
+
+Página 42
+
+Materiales y Métodos
+
+Describir el proceso a seguir durante el desarrollo de la investigación.
+
+Investigación de corte social cuantitativa:
+
+Descripción del lugar de ejecución.
+
+Población y muestra.
+
+Diseño:
+
+experimental, cuasiexperimental, pre- experimental, no experimental.
+
+Identificación de variables Operacionalización de variables (si fuera aplicable).
+
+Instrumentos de recolección de datos.
+
+Técnicas de recolección de datos, instrumentos y validación de instrumentos.
+
+Plan de procesamiento de datos. Determinar los tipos de análisis de los datos recolectados, establecer las pruebas de hipótesis estadísticas, posibles tablas y figuras a emplear, estimadores y simulación.
+
+Investigación tecnológica. Descripción del lugar de ejecución. Materiales e insumos.
+
+Métodos de análisis y/o evaluación en la materia prima, durante el proceso, y en el producto final.
+
+Diseño del experimento.
+
+Investigación cualitativa: Descripción del lugar de ejecución. Sujetos de estudio.
+
+Métodos y diseño de investigación cualitativa:
+
+Etnográficos, estudio de caso, investigación acción, exégesis bíblica y otros.
+
+Plan de recolección de datos: Técnicas de recolección de datos e instrumentos.
+
+Plan de procesamiento y análisis de acuerdo con el diseño cualitativo.
+
+Investigación documental o teórica Describir el método a seguir en función de su tema.
+
+Cronograma de actividades Determinar el período de ejecución de la investigación Cronograma de actividades: columna de actividades y columnas de las fechas.
+
+Se recomienda usar el diagrama de Gantt.
+
+Partes Función Contenidos (Guía de instrucciones para saber qué hacer)
+
+Presupuesto y Financiamiento
+
+Determinar el costo de desarrollo del proyecto y sus fuentes de financiamiento El presupuesto incluye:
+
+materia prima, materiales de laboratorio, personal, servicio de terceros, viáticos, etc.
+
+Indicar las fuentes de financiamiento para el desarrollo de esta investigación.
+
+Referencias Identificar las fuentes de información consultadas en la redacción del proyecto Listar referencias de acuerdo con el estilo adoptado por la unidad académica. Referencias bibliográficas, revistas, periódicos, publicaciones de internet y otros.
+
+Anexos Documentar con información e instrumentos relevantes.
+
+Figuras, tablas u imágenes adicionales Instrumentos.
+
+Página 43
+
+ANEXO 02 COMPROMISO ÉTICO DEL INVESTIGADOR
+
+COMPROMISO ÉTICO DEL INVESTIGADOR Habiendo asumido la responsabilidad de investigador o docente guía en una investigación de la
+
+respeto a la creencia en Jesucristo como Creador y Redentor (Maestro, modelo y mentor). Declaro que es mi responsabilidad ética como investigador de esta Casa de Estudios, desarrollar las actividades investigativas bajo las siguientes premisas:
+
+1. Manifestar mi respeto a Dios, su Palabra, las creencias y la misión que tiene la Universidad Peruana Unión. Para cumplir con este propósito, declaro que:
+
+a.
+
+Respeto a la Biblia, sus principios y sus consejos.
+
+b.
+
+Desarrollo las investigaciones en un marco de principios y valores cristianos y normativa de la Universidad Peruana Unión.
+
+2. Manifestar respeto a la vida de las personas o de animales que participan en las investigaciones (si hubiera). Así como la privacidad y confidencialidad de datos generados por la organización.
+
+Para cumplir con este propósito, declaro que:
+
+a.
+
+Respeto la privacidad y dignidad de las personas en el levantamiento de información.
+
+b.
+
+Considero las diferentes situaciones de interculturalidad y situaciones especiales de las personas.
+
+c.
+
+Utilizo formularios de consentimiento en el caso de involucrar a seres humanos.
+
+d.
+
+Considero que los animales son seres vivos que forman parte de la naturaleza creada por Dios.
+
+3. Respetar el conocimiento y producción de otros autores. Para cumplir con éste propósito, declaro que:
+
+a.
+
+Consigno los datos, ideas y toda producción científica o tecnológica tomando en cuenta su autoría.
+
+b.
+
+Propugno el respeto a la propiedad intelectual y derechos de autor, en todas las investigaciones donde tengo la función de investigador, asesor o dictaminador.
+
+c.
+
+Promuevo el uso adecuado de las bases de datos, respetando la autoría de los trabajos.
+
+4. Fomentar el pensamiento crítico y analítico que favorece la búsqueda de la verdad y el libre intercambio de ideas. Para cumplir con este propósito, declaro que:
+
+a.
+
+Respeto el libre intercambio de ideas en la búsqueda de nuevos conocimientos sin desmedro de los principios que rigen la educación adventista.
+
+b.
+
+Promuevo la discusión responsable de diversos puntos de vista.
+
+c.
+
+Promuevo aplicar el enfoque bíblico en el desarrollo de las investigaciones.
+
+5. Desarrollar investigaciones tendientes a mejorar la calidad de vida, orientadas a lograr la salvación de las personas. Para cumplir con este propósito, declaro que:
+
+a.
+
+Fomento el desarrollo de investigaciones basadas en los problemas identificados de las personas o comunidad, los mismos que guardan relación con la misión y objetivos institucionales.
+
+b.
+
+Oriento la utilización de los resultados de las investigaciones a fin de mejorar la calidad de vida de las personas.
+
+6. Mantener las más altas normas de integridad en la investigación, los procedimientos y la comunicación de los resultados. Para cumplir con este principio, declaro que:
+
+Página 44
+
+a.
+
+Actúo con integridad en el uso y la interpretación de los resultados de mis investigaciones y de las publicaciones de otros investigadores.
+
+b.
+
+Utilizo apropiadamente el tiempo y los recursos que se me ha confiado para realizar investigaciones.
+
+c.
+
+Cumplo con mis compromisos asumidos con la institución, con otras personas y organizaciones.
+
+d.
+
+Cumplo las normas de utilización de los laboratorios a los que tendría acceso para el desarrollo de la investigación.
+
+e.
+
+Concedo acceso a la información relacionada con mis investigaciones para ser evaluadas y publicadas cuidando los procesos correspondientes.
+
+f.
+
+Respeto la asignación de tareas, la compensación, el acceso a la información g.
+
+Respeto las limitaciones legales, profesionales, y religiosas relacionadas con mis proyectos de investigación Estando conforme con todo lo expuesto y estipulado, lo ratifico y firmo en pleno uso de mis facultades físicas, psíquicas, mentales y civiles.
+
+Nombres y apellidos Firma (DNI) Lugar y fecha
+
+Página 45
+
+ANEXO 03. ÁREAS TEMÁTICAS, SUB ÁREAS Y DISCIPLINA DEL CONOCIMIENTO ESTÁNDAR INTERNACIONAL DE LA ORGANIZACIÓN DE COOPERACIÓN Y DESARROLLO ECONÓMICO (OCDE)
+
+El CONCYTEC usa como áreas del conocimiento el estándar internacional de Áreas de Ciencia y Tecnología de la OCDE.
+
+Área: Ciencias Agrícolas Sub área Disciplina
+
+Agricultura, Silvicultura y Pesca
+
+Agricultura
+
+Forestal
+
+Pesca
+
+Ciencias del Suelo
+
+Horticultura y viticultura
+
+Agronomía
+
+Protección y nutrición de las plantas Ciencias Animales y lechería
+
+Ciencias Animales y lechería
+
+Crías y mascotas Ciencias Veterinarias
+
+Ciencias Veterinarias
+
+Biotecnología Agrícola
+
+Biotecnología Agrícola y de alimentos
+
+Tecnología MG (sembradíos y ganado), clonamiento de ganado, selección asistida, diagnóstico (con chips ADN, biosensores)
+
+Ética relacionada a biotecnología agrícola Otras Ciencias Agrícolas
+
+Otras Ciencias Agrícolas Área: Ciencias Médicas y de Salud Sub área Disciplina
+
+Medicina Básica
+
+Anatomía y Morfología
+
+Genética humana
+
+Inmunología
+
+Neurociencias
+
+Farmacología y Farmacia
+
+Medicina Química
+
+Toxicología
+
+Fisiología (incluye Citología)
+
+Patología
+
+Medicina Clínica
+
+Andrología
+
+Obstetricia y Ginecología
+
+Pediatría
+
+Cardiovascular
+
+Vascular Periférico
+
+Hematología
+
+Respiratoria
+
+Cuidado crítico y de Emergencia
+
+Anestesiología
+
+Ortopédica
+
+Cirugía
+
+Radiología, Medicina Nuclear y de imágenes
+
+Trasplantes
+
+Odontología, Cirugía Oral y Medicina Oral
+
+Dermatología y Enfermedades Venéreas
+
+Alergias
+
+Reumatología
+
+Endocrinología y Metabolismo (Incluye Diabetes y Trastornos Hormonales)
+
+Gastroenterología y Hepatología
+
+Urología y nefrología
+
+Oncología
+
+Página 46
+
+Oftalmología Otorrinolaringología
+
+Medicina Clínica
+
+Psiquiatría
+
+Neurología clínica
+
+Geriatría Medicina General e Interna
+
+Otros temas de Medicina Clínica
+
+Medicina complementaria (sistemas alternativos)
+
+Ciencias de la Salud
+
+Ciencias del Cuidado de la Salud y Servicios (Administración de Hospitales,
+
+financiamiento)
+
+Políticas de Salud y Servicios
+
+Enfermería
+
+Nutrición y Dietas
+
+Salud Pública
+
+Medicina Tropical
+
+Parasitología Enfermedades Infecciosas
+
+Epidemiología
+
+Salud Ocupacional
+
+Ciencias del Deporte
+
+Ciencias Socio Biomédicas (Planificación Familiar, Salud Sexual, Efectos políticos y
+
+sociales de la investigación Biomédica)
+
+Ética
+
+Abuso de substancias
+
+Biotecnología en Salud
+
+Biotecnología relacionada con la salud
+
+Tecnologías para la manipulación de células, tejidos, Órganos o el organismo
+
+(Reproducción asistida)
+
+Tecnología para la Identificación y Funcionamiento del ADN, proteínas y encimas
+
+y como influencian la enfermedad
+
+Biomateriales (Relacionados con implantes, dispositivos, sensores)
+
+Ética relacionada con la Biomedicina
+
+Otras Ciencias Médicas
+
+Forénsicas
+
+Otras Ciencias Médicas
+
+Fonoaudiología Área: Ciencias Naturales Sub área Disciplina
+
+Matemáticas
+
+Matemáticas Puras
+
+Matemáticas Aplicadas
+
+Estadísticas y Probabilidades (Investigación en Metodologías) Computación y Ciencias de la Información
+
+Ciencias de la Computación
+
+Ciencias de la Información y Bioinformática
+
+Ciencias Físicas
+
+Física Atómica, Molecular y Química
+
+Física de la Materia
+
+Física de Partículas y Campos
+
+Física Nuclear
+
+Física de Plasmas y Fluidos
+
+Óptica
+
+Acústica
+
+Astronomía
+
+Página 47
+
+Ciencias Químicas
+
+Química Orgánica
+
+Química Inorgánica y Nuclear
+
+Química Física
+
+Ciencias de los Polímeros
+
+Electroquímica
+
+Química de los Coloides
+
+Química Analítica
+
+Ciencias de la Tierra y Medioambientales
+
+Geociencias (Multidisciplinario)
+
+Mineralogía
+
+Paleontología
+
+Geoquímica y Geofísica
+
+Geografía Física
+
+Geología
+
+Vulcanología
+
+Ciencias del Medio Ambiente
+
+Meteorología y Ciencias Atmosféricas
+
+Investigación del Clima
+
+Oceanografía, Hidrología y Recursos del Agua
+
+Ciencias Biológicas
+
+Biología Celular y Microbiología
+
+Virología
+
+Bioquímica y Biología Molecular
+
+Métodos de Investigación en Bioquímica
+
+Micología
+
+Biofísica
+
+Genética y Herencia
+
+Biología Reproductiva
+
+Biología del Desarrollo
+
+Botánica y Ciencias de las Plantas
+
+Zoología, Ornitología, Entomología, Ciencias Biológicas del Comportamiento
+
+Biología Marina y del Agua
+
+Ecología
+
+Conservación de la Biodiversidad
+
+Biología (Teórica, Matemática, Criobiología, Evolutiva)
+
+Otras Biologías Otras Ciencias Naturales
+
+Otras Ciencias Naturales Área: Ciencias Sociales Sub área Disciplina
+
+Ciencias de la Educación
+
+Educación General (Incluye Capacitación, Pedagogía)
+
+Educación Especial (Para estudiantes dotados y aquellos con dificultades de aprendizaje)
+
+Ciencias Políticas
+
+Ciencias Políticas
+
+Administración Pública
+
+Teoría Organizacional Derecho
+
+Derecho
+
+Penal
+
+Economía y Negocios
+
+Economía
+
+Econometría
+
+Relaciones Industriales
+
+Negocios y Management
+
+Geografía Social y Económica
+
+Ciencias Ambientales (Aspectos Sociales)
+
+Geografía Económica y Cultural
+
+Estudios Urbanos (Planificación y Desarrollo)
+
+Planificación del Transporte y Aspectos Sociales del Transporte
+
+Página 48
+
+Otras Ciencias Sociales
+
+Ciencias Sociales, Interdisciplinaria
+
+Otras Ciencias Sociales
+
+Periodismo y Comunicaciones
+
+Periodismo
+
+Ciencias de la Información (Aspectos Sociales)
+
+Bibliotecología
+
+Medios y Comunicación Social
+
+Psicología
+
+Psicología (incluye relaciones hombre-máquina)
+
+Psicología (incluye terapias de aprendizaje, habla, visual y otras discapacidades físicas y mentales)
+
+Sociología
+
+Sociología
+
+Demografía
+
+Antropología
+
+Etnología
+
+Temas especiales (Estudio de Género, Temas Sociales, Estudios de la Familia, Trabajo Social) Área: Humanidades Sub área Disciplina
+
+Arte
+
+Arte
+
+Historia del Arte
+
+Diseño Arquitectónico
+
+Artes de la Representación (Musicología, Ciencias del Teatro, Dramaturgia)
+
+Estudios del Folclor
+
+Estudios de Cine, Radio y Televisión
+
+Arquitectura y Urbanismo
+
+Diseño Industrial y otros diseños Historia y Arqueología
+
+Historia
+
+Arqueología
+
+Idiomas y Literatura
+
+Estudios Generales del Lenguaje
+
+Idiomas Específicos
+
+Estudios Literarios
+
+Teoría Literaria
+
+Literatura Específica
+
+Lingüística Otras Historias
+
+Historia de la Ciencia y Tecnología
+
+Otras historias especializadas
+
+Otras Humanidades
+
+Otras Humanidades
+
+Filosofía
+
+Teología Área: Ingeniería y Tecnología Sub área Disciplina
+
+Ingeniería Civil
+
+Ingeniería Civil
+
+Ingeniería Arquitectónica
+
+Ingeniería de la Construcción
+
+Ingeniería Estructural y Municipal
+
+Ingeniería del Transporte
+
+Ingeniería Eléctrica, Electrónica e informática
+
+Ingeniería Eléctrica y Electrónica
+
+Robótica y Control Automático
+
+Automatización y Sistemas de Control
+
+Ingeniería de Sistemas y Comunicaciones
+
+Telecomunicaciones
+
+Hardware y Arquitectura de Computadores
+
+Página 49
+
+Ingeniería Mecánica
+
+Ingeniería Mecánica
+
+Mecánica Aplicada
+
+Termodinámica
+
+Ingeniería Aeroespacial
+
+Ingeniería Nuclear
+
+Ingeniería del Audio Ingeniería Química
+
+Ingeniería Química (Plantas y Productos)
+
+Ingeniería de Procesos
+
+Ingeniería de los Materiales
+
+Ingeniería Mecánica
+
+Cerámicos
+
+Recubrimientos y películas
+
+Compuestos (Laminados, Plásticos Reforzados, Fibras Sintéticas y Naturales, etc.)
+
+Papel y Madera
+
+Textiles Ingeniería Médica
+
+Ingeniería Médica Tecnología médica de laboratorio (análisis de muestras, tecnologías para el diagnóstico)
+
+Ingeniería Ambiental y Geológica e
+
+Geotécnicas
+
+Ingeniería del Petróleo (Combustibles, Aceites), Energía y Combustibles Ingeniería Ambiental
+
+Sensores Remotos
+
+Minería y Procesamiento de Minerales
+
+Ingeniería Marina, Naves
+
+Ingeniería Oceanográfica
+
+Biotecnología Medioambiental Biotecnología
+
+Bioremediación, biotecnología para el diagnóstico (chips ADN y biosensores) Medioambiental
+
+en manejo ambiental
+
+Ética relacionada con Biotecnología Medioambiental
+
+Biotecnología Industrial
+
+Biotecnología Industrial
+
+Tecnologías de Bioprocesamiento, Biocatálisis, Fermentación
+
+Bioproductos (productos que se manufacturan usando biotecnología), biomateriales, bioplásticos, biocombustibles, materiales nuevos bioderivados, químicos finos bioderivados Nanotecnología
+
+Nanomateriales (producción y propiedades)
+
+Nanoprocesos (aplicaciones a nanoescala)
+
+Alimentos y Bebidas Otras Ingenierías y Otras Ingenierías y Tecnologías Tecnologías
+
+Ingeniería de Producción
+
+Ingeniería Industrial Referencia: REVISED FIELD OF SCIENCE AND TECHNOLOGY (FOS) CLASSIFICATION IN THE FRASCATI MANUAL. Organization for Economic Co-operation and Development, 26-Feb-2007.
+
+Página 50
+
+FE-01 FORMATO DE EVALUACIÓN PARA EL TRABAJO DE REVISIÓN BIBLIOGRÁFICA BÁSICA
+
+EVALUACIÓN DEL TRABAJO DE REVISIÓN BIBLIOGRÁFICA BÁSICA
+
+a) Título: no más de 15 palabras b) Introducción. Explicación breve del tema y la intención del trabajo.
+
+c) Desarrollo. Desarrollo temático en forma coherente y organizado, colocando las discusiones de las ideas consultadas, presentando fuertes argumentos o evidencias convincentes.
+
+d) Conclusiones. Resumen de los argumentos o evidencias que conducen a la intención del trabajo.
+
+e) Referencias bibliográficas. Se presentan las referencias utilizadas, pertinentes, actualizadas y relacionadas con el tema con uso de un gestor de referencias.
+
+f) Nivel de coincidencias. Informe de análisis de coincidencias (plagio), adjuntar el resultado (20) y sin frases resaltadas por coincidencias de más de 5 palabras seguidas.
+
+Criterios de evaluación del trabajo de revisión bibliográfica básica Criterios Calificación máxima Calificación obtenida Calidad técnica del trabajo Calidad y coherencia de la redacción
+
+Ética en la investigación (plagio)
+
+Calidad de la estructura del trabajo Título
+
+Introducción
+
+Desarrollo
+
+Conclusiones
+
+Referencias
+
+TOTAL
+
+Calidad técnica Calidad de la estructura Vigesimal Calificación 28-30 65-70 19-20 Excelente 25-27 59-64 17-18 Muy Bueno 22-24 53-58 15-16 Bueno 20-21 50-52
+
+Regular 20 50 14 Malo
+
+Fecha (dd/mm/aa):
+
+/ /
+
+Evaluador
+
+Página 51
+
+FE-02 FORMATO DE EVALUACIÓN PARA PERFÍL DE PROYECTO DE INVESTIGACIÓN EVALUACIÓN DE PERFÍL DE PROYECTO DE INVESTIGACIÓN a) Título: no más de 15 palabras b) Planteamiento del problema. (Hasta 800 palabras) Identificación precisa y coherente del alcance de la investigación. Puede variar según el estudio, pero generalmente contiene:
+
+o Justificación o Objetivos o Hipótesis o Variables c) Metodología. (Hasta 1500 palabras) Descripción organizada y precisa de cómo se desarrollará la investigación. Se describen las diferentes técnicas que se utilizarán, diseños estadísticos, simulación, pruebas, instrumentos, delimitaciones, población y muestra, que permitan alcanzar el objetivo de la investigación, según el área académica y tema de investigación.
+
+d) Administración del proyecto. Presentación del cronograma de actividades y el presupuesto proyectado.
+
+e) Referencias bibliográficas. Se presentan referencias utilizadas, pertinentes, actualizadas y relacionadas directamente con el tema de investigación, con uso de un gestor de referencias.
+
+f) Anexos. Se debe incluir instrumentos de recolección de datos con consentimiento informado, si fuera el caso. Se puede incluir la matriz de operacionalización de variables, imágenes, planos, figuras, tablas u otros, según la metodología aplicada.
+
+g) Nivel de coincidencias. Informe de análisis de plagio, adjuntar el resultado.
+
+El perfil de proyecto de investigación debe contar con entre 2000 - 4000 palabras, según las indicaciones de la EP o UPG.
+
+Criterios de evaluación del perfil de proyecto de investigación Criterio Calificación máxima Calificación obtenida Calidad científica Pertinencia de la metodología
+
+del perfil de Calidad y coherencia de la redacción
+
+proyecto de Viabilidad de la propuesta
+
+investigación
+
+Título
+
+Calidad de la Planteamiento del problema
+
+estructura del Metodología
+
+perfil de proyecto Administración del proyecto
+
+de investigación Referencias preliminares
+
+Anexos
+
+TOTAL
+
+Calidad científica Calidad de la estructura Vigesimal Calificación 28-30 65-70 19-20 Excelente 25-27 59-64 17-18 Muy Bueno 22-24 53-58 15-16 Bueno 20-21 50-52
+
+Regular 20 50 14 Malo Fecha (dd/mm/aa): / /
+
+Evaluador 1
+
+Evaluador 2
+
+Página 52
+
+FE-03 FORMATO DE EVALUACIÓN PARA EL TRABAJO DE INVESTIGACIÓN/TESIS EN FORMATO ARTÍCULO
+
+EVALUACIÓN DEL TRABAJO DE INVESTIGACIÓN/TESIS EN FORMATO ARTÍCULO
+
+La estructura del trabajo de investigación presentado pueda variar según el formato exigida por la revista escogida para publicar, pero generalmente incluye las siguientes partes:
+
+Criterios de evaluación del trabajo de investigación/tesis en formato artículo
+
+En proceso (malo) En proceso adelantado (regular) Avanzado (bueno) Completado (muy bueno) Título y filiación La portada contiene el título y los autores La portada contiene al menos: título, autores y afiliación institucional La portada contiene todos los elementos sugeridos por la norma de referencia adoptada: título, autores, afiliación institucional, dirección etc.
+
+La portada sigue en 100 las normas de referencia adoptadas, tanto en los contenidos como en el estilo de redacción El título es descriptivo y está acorde con el problema abordado en la introducción.
+
+Resumen El resumen El resumen está El resumen está El resumen está acorde con las presenta acorde con la acorde con la normas de referencia y contiene:
+
+algunas ideas estructura y estructura y Objetivo, Metodología, Resultados importantes contenidos del contenidos del (Desarrollo, Reflexiones finales, del artículo artículo.
+
+artículo.
+
+etc) y Conclusiones.
+
+Se presentan (Objetivo, Se presentan las palabras clave
+
+palabras clave Metodología, acordes con el tema (3  5).
+
+acordes con el tema.
+
+Resultados El resumen en inglés es coherente
+
+(Desarrollo, y acorde con las normas
+
+Reflexiones gramaticales de dicho idioma
+
+finales, etc) y
+
+Conclusiones.
+
+Se presentan
+
+palabras clave
+
+acordes con el
+
+tema (3  5)
+
+El resumen en
+
+inglés se
+
+corresponde con
+
+el resumen en
+
+español y es
+
+comprensible
+
+Introducción La La introducción La introducción La introducción plantea un introducción plantea un problema plantea un problema a investigar que plantea un a investigar y lo problema a contribuye al avance del problema a justifica con al investigar que es conocimiento científico. Se investigar y lo menos 8 referencias relevante en el describe con claridad y detalles justifica con al bibliográficas de área. Se describe una necesidad en el conocimiento menos 5 revistas indexadas una necesidad y científico del área abordada, con referencias y/o libros un propósito apoyo en referencias bibliográficas académicos (objetivo o bibliográficas. Este problema se
+
+preguntas). Este justifica con referencias
+
+problema se bibliográficas de los últimos 5 años
+
+justifica con en revistas indexadas. Al finalizar
+
+referencias la introducción se plantea el
+
+Página 53
+
+bibliográficas objetivo como una meta rigurosas de considerando los fines y la revistas delimitación del estudio.
+
+indexadas.
+
+La introducción tiene los La introducción siguientes ejes: Contextualización, tiene los Definición del tema, Necesidad a siguientes ejes:
+
+abordar, Importancia del tema, Contextualización, Propósito del estudio.
+
+Definición del
+
+tema, Necesidad
+
+a abordar,
+
+Importancia del
+
+tema, Propósito
+
+del estudio.
+
+Metodología Se establece el tipo de estudio y lo describe.
+
+Se describe instrumentos, técnicas y procedimiento.
+
+Se establece el tipo de estudio en coherencia con el tema y propósito de la introducción. Se describen técnicas, instrumentos, procedimiento y participantes (si los tuviera).
+
+Se describe y explica el tipo de estudio acorde con el problema de investigación, con apoyo de referencias bibliográficas pertinentes.
+
+Para artículos empíricos: Se describen los instrumentos con apoyo de referencias. Todos los aspectos de la metodología son coherentes entre sí y con las metas de investigación.
+
+Describe las características de participantes y explica la obtención de la muestra.
+
+Se explica el procedimiento con base en referencias y considerando las metas de estudio.
+
+Se explica el abordaje ético considerando el código de ética relacionado con el área.
+
+Para artículos empíricos: Se explica cada instrumento indicando aspectos que evalua, autor, número de ítems, confiabilidad y validez. Si se emplean instrumentos que no se han validado se describen los datos de confiabilidad y validez (se presentan los instrumentos en anexo). Se explica el procedimiento estadístico con apoyo en referencias bibliográficas considerando las metas de estudio. Describe con detalles las características de participantes y justifica la obtención de la muestra.
+
+Para artículos de revisión: Delimita la búsqueda bibliográfica, indica las fuentes, años, idiomas y términos de búsqueda.
+
+Para artículos de revisión: Delimita la búsqueda bibliográfica, indica las fuentes, años, idiomas y términos de búsqueda.
+
+Resultados Los resultados Los resultados Los resultados se Los resultados se presentan en Revisión se relacionan responden al presentan en forma sistemática siguiendo el teórica con el tema problema y a las forma sistemática orden de los objetivos específicos Desarrollo abordado metas y/o hipótesis siguiendo el y el general.
+
+del tema, etc.
+
+abordadas en la orden de los En el texto se brinda información
+
+introducción.
+
+objetivos sintética y en tablas información
+
+específicos y el más analítica. La información en
+
+Página 54
+
+general.
+
+las tablas no se repite en el texto.
+
+Los resultados están organizados con apoyo de tablas y/o figuras que sintetizan la información empírica.
+
+Se lleva orden en la organización desde lo más general y concreto a lo más abstracto.
+
+Discusión La discusión se La discusión se La discusión se La discusión se corresponde con el (Si es corresponde corresponde con el corresponde con problema, las metas y/o hipótesis requerido con el problema y os el problema, las y los resultados. Los resultados se dependiendo problema resultados. Se citan metas y/o comparan con otros estudios del área
+
+fuentes hipótesis y los pertinentes. Se presentan con temática)
+
+bibliográficas para resultados. Los claridad las conclusiones, las
+
+contrastar las resultados se cuales llevan un orden.
+
+conclusiones.
+
+comparan con Hay análisis crítico, se muestran
+
+otros estudios los logros del estudio y los posibles
+
+pertinentes. Se vacíos, se sugieren nuevos
+
+citan referencias estudios.
+
+bibliográficas de Se citan referencias bibliográficas
+
+revistas de los últimos 5 años en revistas
+
+indexadas.
+
+indexadas.
+
+Conclusiones Se presentan Las conclusiones Se presentan las Se presentan las conclusiones de (Si es conclusiones.
+
+presentadas repiten conclusiones de forma sistemática siguiendo el requerido
+
+los resultados.
+
+forma sistemática orden de los objetivos sin repetir dependiendo
+
+siguiendo el los resultados.
+
+del tipo de
+
+orden de los Se presentan con claridad las artículo)
+
+objetivos sin conclusiones. Usa lenguaje
+
+repetir los apropiado, técnico y académico.
+
+resultados.
+
+Sigue las normas de estilo de
+
+Se presentan con redacción determinado (APA,
+
+claridad las Vancouver Turabian).
+
+conclusiones.
+
+Referencias Se describen Se describen las Se describen las Se describen las referencias bibliográficas las referencias referencias acordes referencias acordes con las citas del artículo
+
+sin seguir las con las citas del acordes con las siguiendo las normas de referencia
+
+normas de artículo siguiendo las citas del artículo adoptadas. No falta ni sobra
+
+referencia normas de siguiendo las ninguna referencia. Usa algún
+
+adoptadas o referencia normas de gestor de referencias bibliográficas
+
+están adoptadas.
+
+referencia como Mendeley, Endnote, etc.
+
+incompletas.
+
+adoptadas. No Al menos debe contar con 30
+
+falta ni sobra referencias bibliográficas.
+
+ninguna
+
+referencia.
+
+Al menos debe
+
+contar con 20
+
+referencias
+
+bibliográficas.
+
+Anexos Se presentan Se tienen los anexos Los anexos están Los anexos están completos y Si lo tuviera algunos necesarios completos y siguen el orden en el que aparecen
+
+anexos, no
+
+siguen el orden dentro del artículo. Los anexos
+
+están
+
+en el que siguen las normas de referencia
+
+completos, es
+
+aparecen dentro adoptadas.
+
+difícil acceder
+
+del artículo.
+
+a ellos
+
+Página 55
+
+Consideraciones en el proceso de evaluación del artículo:
+
+1. Bachillerato: Se debe alcanzar mínimamente el estado AVANZADO (BUENO) en la calificación de acuerdo a la rúbrica.
+
+2. Maestría y Doctorado: Se debe alcanzar el estado COMPLETADO (MUY BUENO) en la calificación de acuerdo a la rúbrica.
+
+Fecha (dd/mm/aa):
+
+/ /
+
+Dictaminador 1
+
+Dictaminador 2
+
+Página 56
+
+FE-04 FORMATO DE EVALUACIÓN PARA PROYECTO DE TESIS DOCTORAL
+
+EVALUACIÓN DEL PROYECTO DE TESIS DOCTORAL
+
+a) Título tentativo de la tesis: Debe ser claro, específico y reflejar el enfoque del estudio. Evita ambigüedades y utiliza palabras clave pertinentes.
+
+b) Introducción: Presenta en forme breve el tema de investigación de forma general. Describe el contexto histórico, social, científico o académico en el que se enmarca el estudio. Preparar el terreno para el planteamiento del problema. Puede incluir datos relevantes, antecedentes generales y una breve alusión a la importancia del estudio.
+
+c) Planteamiento del problema. Identificación precisa y coherente del alcance de la investigación. Debe contener:
+
+o Justificación o Objetivos o Hipótesis o Variables d) Marco teórico o conceptual. Revisión crítica de la literatura científica actual.
+
+e) Metodología. Descripción organizada y precisa de cómo se desarrollará la investigación. Se describen las diferentes técnicas que se utilizarán, tipo y enfoque de investigación, diseño de estudio, población y muestra, técnicas e instrumentos de recolección de datos, procedimientos de análisis (estadístico, cualitativo, mixto), consideraciones éticas, que permitan alcanzar los objetivos de la investigación, según el área académica y tema de investigación.
+
+f) Administración del proyecto. Presentación del cronograma de actividades y el presupuesto proyectado.
+
+g) Referencias bibliográficas. Se presentan referencias utilizadas, pertinentes, actualizadas y relacionadas directamente con el tema de investigación, con uso de un gestor de referencias y haciendo uso del estilo indicado por la UPG.
+
+h) Anexos. Se debe incluir instrumentos de recolección de datos con consentimiento informado, si fuera el caso. Se puede incluir la matriz de operacionalización de variables, imágenes, planos, figuras, tablas u otros, según la metodología aplicada.
+
+i) Nivel de coincidencias y uso de IA. Informe de análisis de coincidencias y uso de IA, adjuntar el resultado.
+
+Criterios de evaluación del proyecto de tesis doctoral Criterio Calificación máxima Calificación obtenida Calidad científica del proyecto de tesis Pertinencia de la metodología
+
+Calidad y coherencia de la redacción
+
+Viabilidad de la propuesta
+
+Calidad de la estructura del proyecto de tesis Título tentativo de la tesis
+
+Introducción
+
+Planteamiento del problema
+
+Marco teórico/conceptual
+
+Metodología
+
+Administración del proyecto
+
+Referencias preliminares
+
+Anexos
+
+TOTAL
+
+Calidad científica Calidad de la estructura Vigesimal Calificación 28-30 65-70 19-20 Excelente 25-27 59-64 17-18 Muy Bueno 22-24 53-58 15-16 Bueno 20-21 50-52
+
+Regular 20 50 14 Malo
+
+Página 57
+
+Fecha (dd/mm/aa):
+
+/ /
+
+Evaluador 1
+
+Evaluador 2
+
+Evaluador 3
