@@ -1,0 +1,672 @@
+UNIVERSIDAD PERUANA UNIÓN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CÓDIGO DE ÉTICA PARA LA INVESTIGACIÓN 
+ 
+Resolución N° 2554-2021/UPeU-CU, del 23 de setiembre de 2021 
+Resolución N° 2263-2016/UPeU-CU, del 24 de noviembre de 2016 
+Resolución N° 3810-2015/UPeU-CU, del 17 de diciembre de 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2021
+
+--- Pág 2 (OCR) ---
+UNIVERSIDAD PERUANA UNIÓN
+
+Secretaría General
+
+“Año del Bicentenario del Perú: 200 años de Independencia”
+Ñaña, Lima, 23 de setiembre de 2021
+
+Se ha expedido la RESOLUCIÓN N* 2554-2021/UPeU-CU; que sigue:
+
+UNIVERSIDAD PERUANA UNIÓN. - RESOLUCIÓN N* 2554-2021/UPeU-CU.- Ñaña,
+Lima, 23 de setiembre de 2021;
+
+VISTO el acta del Consejo Universitario del 23 de setiembre de 2021;
+CONSIDERANDO:
+
+Que la Universidad Peruana Unión (UPeU), tiene autonomía
+académica, de gobierno, económica, administrativa y normativa, dentro del ámbito
+establecido por la Ley Universitaria N” 30220, el Estatuto y el Reglamento General de la
+Universidad;
+
+Que la UPeU planifica, implementa y desarrolla la investigación e
+innovación en cumplimiento de sus fines y propósitos constitutivos, para ello regula el
+desenvolvimiento y las situaciones éticas vinculadas;
+
+Que el Consejo Universitario, en su sesión del 23 de setiembre de
+2021, aprobó la modificación del Código de Ética para la Investigación de la Universidad
+Peruana Unión, el mismo que consta de cinco (05) Capítulos, veinticinco (25) artículos,
+dos (02) Disposiciones Finales;
+
+De conformidad con el acuerdo tomado por el Consejo
+Universitario en su sesión del 23 de setiembre de 2021; y en uso de las atribuciones
+conferidas por la Ley Universitaria N* 30220, el Estatuto y el Reglamento General de la
+Universidad;
+
+SE RESUELVE:
+
+1. Aprobar la modificación del CÓDIGO DE ÉTICA PARA LA
+INVESTIGACIÓN de la Universidad Peruana Unión, constituido por: cinco (05) Capítulos,
+veinticinco (25) artículos, dos (02) Disposiciones Finales, cuyo documento en su
+estructura y contenido, forma parte adjunta de la presente resolución.
+
+2. Disponer dejar sin efecto la Resolución N* 2263-2016/UPeU-CU
+de fecha 24 de noviembre de 2016.
+
+Regístrese y comuníquese. - (FDO). — Ph.D. Gluder Quispe
+Huanca, Rector de la Universidad Peruana Unión. - (FDO). - Abog. Rene Wilberth
+Gonzales Taco, Secretario General de la Universidad Peruana Unión.
+
+. JAbog. Rene Wilberth ¡Gonzales Taco
+SECRETARIO GENERAL
+
+Carretera Central Km. 19 - Ñaña. Teléf. 359-0060 / 359-0061, Fax: 359-0063, Casilla 3564, Lima 1, Perú
+E-mail: registroadministrativo. sgQWupeu.edu. pe
+
+UPeU eno JJíntegro  E=Misionero == Innovador
+
+/
+
+CÓDIGO DE ÉTICA PARA LA INVESTIGACIÓN 
+ 
+PREÁMBULO 
+La Universidad Peruana Unión (UPeU) como una entidad educativa dedicada a la formación 
+profesional y especialización, desarrolla procesos de investigación que contribuyen al 
+desarrollo del conocimiento en áreas social y tecnológico. 
+El desarrollo de la investigación, cualquiera sea su clase, modalidad o nivel, exige de sus 
+entes operadores, actores y terceros, el cumplimiento del marco axiológico y filosófico 
+institucional, para salvaguardar un proceso basado en principios y valores cristianos. El 
+Código de Ética para la Investigación se fundamenta en un marco filosófico y axiológico bíblico 
+cristiano dentro del cual los estudiantes, docentes y las autoridades, y aún terceros a la UPeU, 
+desarrollan los procesos de investigación científica. 
+En el contexto, donde se ha incrementado la información y el conocimiento, donde los 
+enfoques se han difundido, el cumplimiento de los principios y normas éticas, resulta un 
+aspecto esencial y material, que debe traslucirse en el conjunto de las actividades 
+investigativas. 
+Los investigadores, los operadores logísticos o terceros vinculados a los procesos de 
+investigación, reconocen y respetan la vida y la dignidad humana, considerando al hombre 
+como ser creado por Dios. 
+ 
+ 
+MARCO NORMATIVO 
+ 
+Constitución Política del Estado de 1993, Art. 1° 
+ 
+Ley Universitaria N° 30220, Capítulo VI, Artículos 48° - 50° 
+ 
+Estatuto de la UPeU, Capítulo X, Artículo 174° 
+ 
+Reglamento General de la UPeU. 
+ 
+Reglamento de Investigación UPeU. 
+ 
+Reglamento de Propiedad Intelectual de la UPeU. 
+ 
+Reglamento del Docente Unionista de la UPeU. 
+ 
+Reglamento de Grados y Títulos de la UPeU. 
+ 
+Reglamento de Estudios de la UPeU. 
+ 
+Reglamento Interno de Trabajo. 
+ 
+Reglamento del Estudiante Unionista. 
+ 
+Otros reglamentos, directivas o manuales pertinentes a las actividades de investigación, 
+actividades y acciones derivadas y/o conexas. 
+ 
+ 
+CAPÍTULO I DE LAS GENERALIDADES Y FINALIDAD 
+Artículo 1° 
+El Código de Ética para la Investigación (CEI) se constituye en un documento 
+normativo que guía la conducta y el comportamiento del investigador(es), 
+asesor(es), operador(res) logísticos, autoridades y otras personas vinculadas 
+con el desarrollo de las investigaciones relacionadas con las personas,
+
+animales, el medio ambiente y datos generados por la organización. 
+Artículo 2° 
+El objetivo del CEI es normar el comportamiento ético durante el proceso de 
+investigación, basado en principios y valores bíblico cristianos. Para su aplicación 
+el investigador, sea docente o no, es consciente del escenario de su desenvolvimiento 
+y/o desempeño, en el ámbito educativo, académico, formativo o de intervención en el 
+que este está habilitado, adscrito o asignado para el cumplimiento de sus funciones 
+docentes y/o de investigador en la UPeU. Estos pueden ser de naturaleza física, dentro 
+o fuera del campus, virtual u online, sincrónica o asincrónica, según el programa de 
+estudios y/o naturaleza de la actividad investigativa. 
+Artículo 3° 
+Los derechos de autor, propiedad intelectual, derivados y conexos se regulan 
+por el Reglamento respectivo, cualquiera sea la actividad, acción o desempeño 
+y su realización en un escenario académico, educativo, dentro o fuera del 
+campus UPeU, presencial, virtual u online sincrónico o asincrónico; y el 
+investigador(es), operador(es) logísticos y otros deben observar y respetar bajo 
+sanción de la UPeU, independientemente de las civiles o penales respectivos. 
+ 
+ 
+CAPÍTULO II DE LOS PRINCIPIOS ÉTICOS 
+ 
+Artículo 4° 
+Los principios éticos que rigen el CEI de la UPeU son los siguientes: 
+4.1. Autonomía. La UPeU considera a las personas como seres creados por 
+Dios a su imagen y semejanza, con capacidad de pensar y actuar en 
+libertar, al realizar investigaciones protege la dignidad, libertad y derechos 
+de la persona considerándolas como merecedoras de nuestra especial 
+protección. 
+4.2. Beneficencia/ No maleficencia. Los trabajos de investigación que se 
+desarrollan contemplan el bienestar físico, mental, social y espiritual de las 
+personas para prevenir el daño, minimizando posibles riesgos y daños. 
+4.3. Justicia. Este principio garantiza que los resultados o beneficios obtenidos 
+del proceso de investigación sirve a la persona y a la comunidad sin 
+discriminación alguna. 
+ 
+Artículo 5° Los valores éticos que los investigadores deben evidenciar en el ejercicio de la 
+investigación s o n  confidencialidad, responsabilidad, veracidad y respeto. Sin 
+perjuicio de los establecidos en forma general o específica en el código de ética 
+docente, los reglamentos o marcos normativos aplicables a los estudiantes o 
+terceros de la UPeU. 
+Artículo 6° 
+La coordinación de investigación de la escuela profesional (EP) o de la unidad de 
+posgrado (UPG) debe realizar el seguimiento del desarrollo de la investigación a 
+fin de verificar el cumplimiento de los principios éticos de la investigación. 
+ 
+CAPÍTULO III DE LOS INVESTIGADORES Y SUJETOS DE INVESTIGACIÓN 
+Artículo 7° 
+Los investigadores tienen el deber de proteger los derechos de las personas 
+intervenidas y relacionadas a sus investigaciones, así como, proteger la 
+confidencialidad de los datos generados por las diferentes áreas de la 
+organización que está siendo utilizado para la investigación.
+
+Artículo 8° 
+La realización de un trabajo de investigación supone un riesgo para los 
+participantes, es por ello que los investigadores verifican si el programa de 
+intervención está diseñado correctamente y valoran si la exposición al riesgo 
+es aceptable y justificado. 
+Artículo 9° 
+El investigador realiza una cuidadosa selección de individuos (personas, 
+animales y plantas) que participan en el estudio. 
+Artículo 10° 
+Los participantes de la investigación deben conocer las características del 
+trabajo de investigación aceptando y firmando los términos que se registran en 
+el consentimiento informado. 
+ 
+CAPÍTULO IV DE LAS PRÁCTICAS Y MÉTODOS EN INVESTIGACIÓN 
+ 
+ 
+Artículo 11° 
+El consentimiento informado es un documento básico e ineludible en toda 
+investigación con personas, garantizando que el participante conozca sus 
+alcances, contenido, riesgos y beneficios del trabajo de investigación. 
+Artículo 12 
+La investigación que se desarrolla con seres humanos son de tipo clínico cuya 
+finalidad puede ser diagnóstica, profiláctica o terapéutica e incluye la realización 
+de ensayos de laboratorio. 
+Artículo 13° 
+Los animales, siendo seres vivos, reciben la protección y respeto por la vida 
+cuando éstos son sometidos a prácticas investigativas. 
+Artículo 14° 
+Las investigaciones que se realizan en cadáveres merecen el respeto y el 
+cumplimiento de las normas éticas y legales correspondientes. 
+Artículo 15° 
+En el manejo de los datos e información se observa la confidencialidad 
+necesaria, considerando el respeto por la vida, el honor, imagen y buena 
+reputación de las personas, las instituciones u organizaciones.  La UPeU cuenta 
+con mecanismos antiplagio para la protección de la propiedad intelectual. 
+ 
+CAPÍTULO V DEL COMITÉ DE ÉTICA PARA INVESTIGACIÓN 
+Artículo 16° 
+El Comité de Ética para la Investigación (CoEI), en sus diferentes niveles, es un 
+órgano autónomo, consultivo y resolutivo, establecido por la UPeU. 
+Artículo 17° 
+El CoEI está conformado por un equipo multidisciplinario de profesionales 
+calificados, así como representantes de la UPeU y la sociedad. 
+Artículo 18° 
+Los miembros del CoEI son elegidos tomando en cuenta las siguientes 
+características: 
+18.1. Formación académica 
+18.2. Especialidad en la materia 
+18.3. Experiencia en la investigación 
+18.4. Trayectoria académica y profesional 
+18.5. Interés por la investigación 
+Artículo 19° 
+El CoEI de la DGI está conformado por su director como presidente, el director 
+asociado como secretario y diez (10) vocales, distribuidos entre los directores 
+de investigación de las facultades, el director de investigación de la escuela de 
+posgrado y los directores de investigación de las filiales de Juliaca y Tarapoto,
+
+un representante de la comunidad universitaria y otro de la sociedad civil. 
+Artículo 20°  Cada EP y UPG tiene un Comité de Ética para la  investigación, integrado por 
+un presidente, un secretario y un vocal, nombrados en los consejos de facultad 
+o el consejo de la escuela de posgrado. 
+Artículo 21° 
+El funcionamiento del CoEI está orientado por el marco legal vigente y otros 
+documentos nacionales e internacionales aplicables a la investigación con 
+personas, seres vivos y el ambiente. 
+Artículo 22° 
+Las funciones del CoEI son las siguientes: 
+22.1. Cautelar los derechos, el bienestar y la seguridad de los participantes. 
+22.2. Asegurar el cumplimiento de las responsabilidades éticas y de las 
+regulaciones nacionales e internacionales en relación a la investigación con 
+personas, seres vivos y el ambiente. 
+22.3. Analizar los dilemas éticos que se hayan suscitado en el proceso de 
+investigación y recomendar las alternativas de solución. 
+22.4. Aplicar el CEI, como un mecanismo de autoevaluación de la práctica 
+investigativa. 
+22.5. Promover la bioética en los miembros del equipo. 
+22.6. Otras que el CEI de la DGI le asigne o se deriven de la actividad investigativa. 
+Artículo 23° 
+El CoEI se reúne mensualmente de manera ordinaria y extraordinariamente por 
+convocatoria de su presidente. 
+Artículo 24° 
+El quórum para las sesiones es la mitad más uno de los integrantes del CoEI. 
+Artículo 25°  Se levanta un acta de sesiones donde se registra fecha, lugar, personas 
+asistentes, agenda de trabajo, los puntos que se deliberaron, resultados y 
+conclusiones. 
+ 
+DISPOSICIONES FINALES 
+PRIMERA 
+La aplicación del presente CEI es responsabilidad de las facultades, las 
+escuelas profesionales, la escuela de posgrado, las unidades de posgrado y la 
+DGI. 
+SEGUNDA 
+Todo lo no previsto en el presente documento es regulado por CoEI de la DGI.
+
+--- Pág 7 (OCR) ---
+(ANEXOS)
+
+UPeU ION EBíntegro E3Misionero E3innovador
+
+/
+
+A1 
+ 
+COMPROMISO ÉTICO DEL DOCENTE INVESTIGADOR  
+ 
+COMPROMISO ÉTICO 
+Habiendo asumido la responsabilidad de investigador o docente guía en una investigación de la 
+UPeU, cuya Promotora es la Iglesia Adventista del Séptimo Día, manifiesto    mi respeto a la creencia 
+en Jesucristo como Maestro, modelo y mentor. Declaro que es mi responsabilidad ética como 
+investigador de esta Casa Superior de Estudios, desarrollar las actividades investigativas bajo las 
+siguientes premisas: 
+1. Manifestar mi respeto a Dios, su Palabra, las creencias y la misión que tiene la UPeU. Para 
+cumplir con este propósito, declaro que: 
+a. Respeto a la Biblia, sus principios y sus consejos. 
+b. Desarrollo las investigaciones en un marco de principios y valores cristianos y normativa de 
+la UPeU. 
+ 
+2. Manifestar respeto a la vida de las personas y de animales que participan en las investigaciones. 
+Para cumplir con este propósito, declaro que: 
+a. Respeto la privacidad y dignidad de las personas en el levantamiento de información. 
+b. Considero las diferentes situaciones de interculturalidad y situaciones especiales de las 
+personas. 
+c. Utilizo formularios de consentimiento en el caso de involucrar a seres humanos. 
+d. Considero que los animales son seres vivos que forman parte de la naturaleza creada por 
+Dios. 
+ 
+3. Respetar el conocimiento y producción de otros autores. Para cumplir con éste propósito, 
+declaro que: 
+a. Consigno los datos, ideas y toda producción científica o tecnológica considerando y 
+registrando la autoría. 
+b. Promuevo el respeto a la propiedad intelectual y derechos de autor, en todas las 
+investigaciones donde tengo la función de investigador, asesor o dictaminador. 
+ 
+4. Fomentar el pensamiento crítico y analítico que favorece la búsqueda de la verdad y el libre 
+intercambio de ideas. Para cumplir con este propósito, declaro que: 
+a. Respeto el libre intercambio de ideas en la búsqueda de nuevos conocimientos sin 
+desmedro de los principios que rigen la educación adventista. 
+b. Promuevo la discusión responsable de diversos puntos de vista. 
+c. Respeto el derecho de los estudiantes a asumir su propia posición animándolos a escoger el 
+enfoque bíblico en el desarrollo de las investigaciones. 
+ 
+5. Desarrollar investigaciones tendientes a mejorar la calidad de vida de las personas, 
+orientadas a lograr la salvación de las personas. Para cumplir con este propósito, declaro 
+que: 
+a. Fomento el desarrollo de investigaciones basadas en los problemas identificados de las 
+personas o comunidad los mismos que guardan relación con la misión, objetivos 
+institucionales y objetivos nacionales. 
+b. Oriento la utilización de los resultados de las investigaciones a fin de mejorar la calidad de 
+vida de las personas. 
+ 
+6. Mantener las más altas normas de integridad en la investigación, los procedimientos y la 
+comunicación de los resultados. Para cumplir con este principio, declaro que: 
+a. Actúo con integridad en el uso y la interpretación de los resultados de mis investigaciones y 
+de las publicaciones de otros investigadores.
+
+b. Utilizo apropiadamente el tiempo y los recursos que se me ha confiado para realizar 
+investigaciones. 
+c. Cumplo con mis compromisos profesionales asumidos con los estudiantes, la institución y 
+con otros individuos y organizaciones. 
+d. Concedo acceso a la información relacionada con mis investigaciones para ser evaluadas y 
+publicadas. 
+e. Respeto la asignación de tareas, la compensación, el acceso a la información, 
+f. Respeto las limitaciones legales, profesionales, y religiosas relacionadas con mis proyectos 
+de investigación. 
+ 
+ 
+Firmo la presente, manifestando mi conformidad con las declaraciones que he realizado. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Firma/Huella digital del índice derecho? 
+ 
+ 
+Nombres y apellidos: 
+ 
+ 
+DNI / CE N°: 
+ 
+ 
+Lugar y fecha:
+
+A2 
+ 
+PROTOCOLO DE INVESTIGACIÓN  
+ 
+PROTOCOLO DE INVESTIGACIÓN 
+ 
+Las investigaciones de carácter social, cuando se involucra en el estudio a seres humanos, el protocolo de 
+investigación debe tener los siguientes elementos: 
+1. PRESENTAR UNA CARTA DIRIGIDA AL COMITÉ DE ÉTICA, SOLICITANDO LA APROBACIÓN DE LA APLICACIÓN 
+DE LA INVESTIGACIÓN. 
+ 
+El título de la investigación 
+ 
+Nombres de los autores 
+ 
+Afiliación de los autores 
+ 
+Nombre del docente responsable/asesor/director de investigación (sólo UPeU) 
+ 
+2. COPIA DE LA RESOLUCIÓN DEL DICTAMEN APROBADO DEL PROYECTO DE TESIS. 
+ 
+3. PRESENTAR FORMATO DGI-03. 
+El formato DGI 03 lo obtiene registrando el proyecto online en la página web de la Dirección General de 
+investigación (caso estudiantes y docentes de las UPeU), si es investigador externo a la institución presentar el 
+formulario descargando la ficha en la dirección http://www.upeu.edu.pe/investigacion/comite-etica/ 
+ 
+4. PRESENTAR EL PERFIL DEL PROYECTO, CONSIDERANDO LA INFORMACIÓN SIGUIENTE: 
+a. 
+Título 
+b. 
+Objetivos 
+c. 
+Breve resumen del proyecto (objetivo, metodología y posibles resultados esperados) 
+d. 
+Metodología, demás debe considerar la siguiente información: 
+ 
+Diseño, metodología y tipo de investigación. 
+ 
+Una descripción de los sujetos, indicando en detalles si hay algún menor (menor de 18 años 
+para la ley de Perú) o miembros vulnerables de la población que no tienen capacidad para 
+asegurarse sus derechos o dar su consentimiento. 
+ 
+Una descripción de cómo serán abordados y las implicancias de su participación, incluyendo los 
+criterios de inclusión y exclusión de los sujetos. 
+ 
+Una declaración de los beneficios de la investigación para los sujetos, si hay alguno, y de los 
+beneficios para la humanidad o el conocimiento científico. 
+ 
+Una explicación detallada de la protección de los derechos y el bienestar de los sujetos que dan 
+su consentimiento para participar en la investigación. 
+ 
+Una descripción de los riesgos y molestias para los sujetos, si los hay, estos efectos nocivos 
+pueden  ser físicos, sicológicos, sociales. Algunas investigaciones no producen riesgos o 
+molestias, pero producen una violación de las expectativas normales. Dichas violaciones, si las 
+hay deberían ser especificadas. 
+ 
+Una descripción de los pasos que serán tomados para minimizar los efectos nocivos o 
+violaciones, incluyendo los pasos para proteger la privacidad personal de los sujetos y como se 
+mantendrá la confidencialidad de la información. 
+e. 
+Cronograma de actividades 
+f. 
+Presupuesto  
+g. 
+Financiamiento 
+ 
+5. ADJUNTAR LOS INSTRUMENTOS Y CONSENTIMIENTO INFORMADO 
+ 
+Una copia del formulario de consentimiento que será usado con los sujetos. En caso de ser menor de 
+edad, este debe ser firmado por los padres o tutores. En caso de muestras mayores se puede utilizar en 
+el encabezamiento del cuestionario un consentimiento abreviado. 
+ 
+Cualquier otra información pertinente a las responsabilidades éticas del investigador. 
+ 
+Sus documentos serán evaluados por el Comité de Ética de la Universidad y los resultados serán comunicados a 
+los interesados en la brevedad posible.
+
+A3 
+MODELO DE CARTA  
+ 
+ “Año….” 
+ 
+ 
+Ñaña; (actualizar la fecha) 
+ 
+ 
+Señores 
+COMITÉ DE ÉTICA 
+Universidad Peruana Unión 
+Presente. - 
+ 
+Apreciados señores: 
+ 
+Es grato dirigirnos a usted para hacer llegar un saludo cordial, y a la vez desearle bendiciones del Altísimo en las 
+labores que realizan. 
+ 
+El motivo de la presente es para hacer de su conocimiento que estamos realizando un proyecto de investigación 
+titulado “(título del proyecto de tesis)”, requisito para optar el (título profesional de …/grado de maestro en …, 
+con mención en …/grado de doctor en …, con mención en …) por la Universidad Peruana Unión. Por tal motivo, 
+acudimos a ustedes para solicitar el permiso para desarrollar la investigación ya mencionada en (mencionar la 
+institución/área donde se desarrollará la investigación). Asimismo, presentamos los documentos que describe 
+el protocolo de investigación del Comité de ética, para la evaluación respectiva. Esta investigación es realizada por 
+los siguientes autores. 
+Esta investigación es realizada por los siguientes autores: 
+ 
+Apellidos y Nombres 
+Institución - Facultad 
+Rol 
+email 
+código/DNI 
+Nombre del Investigador (Abreviaturas) 
+Investigador  
+Nombre del Asesor 
+(Abreviaturas) 
+Asesor 
+ 
+ 
+ 
+Para cualquier información, comunicarse al teléfono (número), Sr. (nombre del representante del proyecto); o 
+al correo (email del representante). 
+Conocedores del gran espíritu de colaboración con la educación e investigación, nos despedimos seguros de 
+contar con la aprobación 
+ 
+ 
+Cordialmente, 
+ 
+ 
+ 
+ 
+ 
+Nombre y apellidos del representante 
+Representante del proyecto  
+DNI. (número)
+
+A4 
+CONSENTIMIENTO INFORMADO  
+ 
+CONSENTIMIENTO INFORMADO 
+Título de la investigación: 
+………………………………..…………………………………………………………………… 
+Propósito y procedimientos 
+Se me ha comunicado que el título de esta investigación es “(título del proyecto de investigación)”. El objetivo de este 
+estudio es: (propósito de la investigación). Este proyecto está siendo realizado por el (nombre del investigador), bajo la 
+supervisión de (nombre del asesor y/o supervisor del proyecto, señalando el cargo administrativo y a la institución que 
+pertenece). La entrevista tiene un tiempo de duración de aproximadamente 30 minutos, será grabada y transcrita. La 
+información obtenida en la entrevista será usada para hacer una publicación escrita. En esta publicación yo seré 
+identificado por un número. Alguna información personal básica puede ser incluida como: mi edad y sexo, mi cargo en 
+la Asociación, y mi raza. 
+Riesgos del estudio 
+Se me ha dicho que no hay ningún riesgo físico, químico, biológico y psicológico; asociado con esta 
+investigación. Pero como se obtendrá alguna información personal, está la posibilidad de que mi identidad 
+pueda ser descubierta por la información de la entrevista. Sin embargo, se tomarán precauciones como la 
+identificación por números para minimizar dicha posibilidad. 
+Beneficios del estudio 
+Como resultado de mi participación recibiré una copia completa del informe y además tendré la oportunidad 
+de discutir el informe con el investigador cuando sea necesario. No hay compensación monetaria por la 
+participación en este estudio. 
+ 
+Participación voluntaria 
+Se me ha comunicado que mi participación en el estudio es completamente voluntaria y que tengo el derecho 
+de retirar mi consentimiento en cualquier punto antes que el informe esté finalizado, sin ningún tipo de 
+penalización. Lo mismo se aplica por mi negativa inicial a la participación en este proyecto. 
+Preguntas e información 
+Se me ha comunicado que si tengo cualquier pregunta acerca de mi consentimiento o acerca del estudio 
+puedo comunicarme con: 
+ 
+Nombre del investigador  
+ 
+ 
+ 
+ 
+ 
+Nombre del asesor 
+Dirección  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dirección 
+Institución 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Institución 
+Teléfono 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Teléfono 
+e-mail  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+e-mail 
+ 
+He leído el consentimiento y he oído las explicaciones orales del investigador. Mis preguntas concernientes al 
+estudio han sido respondidas satisfactoriamente. Como prueba de consentimiento voluntario para participar 
+en este estudio, firmo a continuación. 
+ 
+Firma del participante y fecha 
+Nombre del participante 
+ 
+ 
+Firma del testigo y fecha 
+Nombre del testigo 
+ 
+ 
+Firma del investigador y fecha 
+Nombre del Investigador 
+ 
+ 
+ 
+cc: Participante
+
+A5 
+CONSENTIMIENTO ABREVIADO PARA TAMAÑO DE MUESTRAS MAYORES 
+ 
+ 
+CONSENTIMIENTO ABREVIADO 
+ 
+ 
+ 
+ 
+Título del documento / cuestionario 
+ 
+ 
+Hola, mi     nombre     es [nombre     del     investigador], estudiante del programa de [maestría/doctorado que estudia 
+e institución]. Este cuestionario tiene como propósito [expresar el propósito del cuestionario]. Dicha información 
+[expresar la utilidad de la información, estará muy ligada a los objetivos de su investigación]. Su participación es 
+totalmente voluntaria y no será obligatoria llenar dicha encuesta si es que no lo desea. Si decide participar en este 
+estudio, por favor responda el cuestionario, así mismo puede dejar de llenar el cuestionario en cualquier momento, si 
+así lo decide. 
+ 
+Cualquier duda o consulta que usted tenga posteriormente puede escribirme a [colocar una dirección 
+electrónica identificada, no anónima y teléfono si es necesario] 
+ 
+He leído los párrafos anteriores y reconozco que al llenar y entregar este cuestionario estoy dando mi 
+consentimiento para participar en este estudio
+
+A6 
+EJEMPLO DEL CUESTIONARIO CON EL CONSENTIMIENTO ABREVIADO 
+ 
+CUESTIONARIO SOBRE CONOCIMIENTOS, ACTITUDES Y PRACTICAS EN RELACION A LAS MEDIDAS 
+PREVENTIVAS DE NEUMONIA ASPIRATIVA EN LA CLINICA GOOD HOPE 
+ 
+ 
+INTRODUCCIÓN: 
+Hola, mi nombre es Esther Carrascal, estudiante del programa de maestría en enfermería de la Universidad 
+Peruana Unión. Este cuestionario tiene como propósito levantar información sobre los conocimientos, 
+actitudes y prácticas que usted posee sobre las medidas preventivas de la neumonía aspirativa. Dicha 
+información será de mucha importancia para desarrollar programas de capacitación a fin de fortalecer sus 
+habilidades. 
+Su participación es totalmente voluntaria y no será obligatoria llenar dicha encuesta si es que no lo desea. Si 
+decide participar en este estudio, por favor responda el cuestionario, así mismo puede dejar de llenar el 
+cuestionario en cualquier momento, si así lo decide. 
+Cualquier duda o consulta que usted tenga posteriormente puede escribirme a esther.carrascal@yahoo.es 
+ 
+He leído los párrafos anteriores y reconozco que al llenar y entregar este cuestionario estoy dando mi 
+consentimiento para participar en este estudio. 
+ 
+A continuación, detallan las instrucciones o explicaciones para el llenado del cuestionario 
+ 
+INSTRUCCIONES: 
+Lea detenidamente y con atención las preguntas que a continuación se le presentan, tómese el tiempo que considere 
+necesario y luego marque con un aspa (X) la respuesta que crea que sea la correcta. 
+ 
+Observación: 
+Cada participante de la investigación debe recibir una copia de este consentimiento.

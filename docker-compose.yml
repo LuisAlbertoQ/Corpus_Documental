@@ -7,8 +7,25 @@ services:
     volumes:
       - ./corpus_upeu:/home/jupyteruser/work/corpus_upeu
       - ./vector_store:/home/jupyteruser/work/vector_store
+      # >>> Vector stores para comparativa de modelos (notebooks 7, 8, 9)
+      - ./vector_store_miniLM:/home/jupyteruser/work/vector_store_miniLM
+      - ./vector_store_mpnet:/home/jupyteruser/work/vector_store_mpnet
+      - ./vector_store_bge_m3:/home/jupyteruser/work/vector_store_bge_m3
       - ./notebooks:/home/jupyteruser/work/notebooks
       - ./src:/home/jupyteruser/work/src
     environment:
       - PYTHONUNBUFFERED=1
+      # >>> Variables para que PyTorch detecte la GPU dentro del contenedor
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    # >>> GPU: requiere NVIDIA Container Toolkit instalado en el host
+    # (Docker Desktop en Windows lo trae integrado si WSL2 esta habilitado
+    #  y tienes driver NVIDIA 525+)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token=''
