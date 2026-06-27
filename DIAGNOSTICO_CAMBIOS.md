@@ -2,7 +2,7 @@
 
 > Documento generado tras la revisión completa de los notebooks 1–9 del proyecto
 > `oe1_arquitectura_corpus` (Universidad Peruana Unión).
-> **Resultado final: 10/10 cobertura, 7/10 categoría match** con `paraphrase-multilingual-mpnet-base-v2`.
+> **Resultado final: 10/10 cobertura, 8/10 categoría match** con `paraphrase-multilingual-mpnet-base-v2`.
 
 ---
 
@@ -24,7 +24,7 @@
 |---|---|---|---|
 | **Cubiertas** | 8/10 | **10/10** | 10/10 |
 | **Excelentes (d<0.30)** | 5/10 | **6/10** | 2/10 |
-| **Categoría match** | 3/10 | **7/10** | 6/10 |
+| **Categoría match** | 3/10 | **8/10** | 6/10 |
 | **Distancia media** | 0.34 | **0.29** | 0.33 |
 | **Pregunta "beca" → doc correcto** | ❌ | **✅** (d=0.157) | ✅ (d=0.251) |
 | Dimensión | 384 | 768 | 1024 |
@@ -165,7 +165,7 @@ Sin issues. Solo es diagnóstico interactivo.
 
 **Notebook 8** — `8_evaluacion_mpnet_gpu.ipynb` ⭐
 - Modelo: `paraphrase-multilingual-mpnet-base-v2` (768 dim)
-- Resultado: 10/10 cubiertas, 6/10 excelentes, 7/10 cat match, d. media 0.29
+- Resultado: 10/10 cubiertas, 6/10 excelentes, 8/10 cat match, d. media 0.29
 - **Ganador** — es el modelo recomendado para producción
 
 **Notebook 9** — `9_evaluacion_bge_m3_gpu.ipynb`
