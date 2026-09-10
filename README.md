@@ -51,7 +51,8 @@ Está diseñado para documentos en español y categoriza el contenido en áreas 
 3. Ejecuta los notebooks en orden dentro de la carpeta `notebooks/`:
     - `1_extraccion_texto.ipynb`: Extrae texto de PDFs con `pdfplumber`.
     - `2_limpieza_corpus.ipynb`: Normaliza y limpia el texto extraído.
-    - `3_chunking_embeddings.ipynb`: Chunking estructural (300 tokens, overlap 80).
+    - `3_chunking_embeddings.ipynb`: Chunking estructural (300 tokens, overlap 50,
+      1 artículo = 1 chunk desde el fix 2026-08-21; ver `scripts/`).
     - `4_indexacion_vectorial.ipynb`: Indexa en ChromaDB con mpnet (768 dim).
     - `5_verificacion_cobertura.ipynb`: Verifica cobertura con umbrales 0.30/0.50.
     - `6_prueba_manual.ipynb`: Pruebas interactivas.
@@ -74,6 +75,8 @@ oe1_arquitectura_corpus/
 │   ├── txt_limpio/       # Texto limpiado
 │   └── metadatos/        # Chunks, embeddings y reportes
 ├── notebooks/            # Jupyter notebooks del pipeline (1-6) y evaluación (7-9)
+├── scripts/              # Pipeline reproducible del fix 2026-08-21
+│   # (rechunk_fixed.py, reembed_index.py, evaluar_modelos.py)
 ├── vector_store/         # Índice ChromaDB principal (768 dim, mpnet)
 ├── vector_store_miniLM/  # Índice ChromaDB para evaluación MiniLM (opcional)
 ├── vector_store_mpnet/   # Índice ChromaDB para evaluación mpnet (opcional)
@@ -93,9 +96,13 @@ oe1_arquitectura_corpus/
 - El procesamiento puede tomar tiempo dependiendo del tamaño del corpus.
 - Para búsquedas, usa el notebook de pruebas manuales o integra ChromaDB en tu aplicación.
 - **Modelo de embeddings recomendado:** `paraphrase-multilingual-mpnet-base-v2` (768 dim, coseno).
-  Se evaluaron 3 modelos en GPU: MiniLM (384 dim, 8/10), mpnet (768 dim, 10/10), bge-m3 (1024 dim, 10/10).
-  mpnet fue el ganador: mejor distancia promedio (0.29) y mejor match por categoría (7/10 en pruebas, 8/10 en producción).
+  Se evaluaron 3 modelos en GPU (banco 10Q, chunks v2 2026-08-21): MiniLM (384 dim, 9/10),
+  mpnet (768 dim, 10/10), bge-m3 (1024 dim, 10/10).
+  mpnet fue el ganador: 7/10 excelentes y mejor match por categoría (8/10).
 - **Métrica de distancia:** coseno (distancia = 1 - coseno). Umbrales: excelente < 0.30, aceptable < 0.50.
+- **Corpus v2 (2026-08-21):** 48 documentos → **6259 chunks** (chunking 1-artículo-por-chunk,
+  max 300 tokens / overlap 50; media real 156 tokens, mediana 120).
+  Ver `scripts/README.md` para el fix aplicado (cabeceras preservadas + corte en Subcapítulo).
 
 ## Dependencias
 
@@ -103,13 +110,14 @@ Ver `requirements.txt` para las bibliotecas Python utilizadas.
 
 ## Resultados Finales (producción con mpnet)
 
-| Métrica | Inicio | Final |
-|---|---|---|
-| Cobertura del banco de pruebas | 0/10 (falso positivo) | **10/10 (100%)** |
-| Excelentes (d < 0.30) | 0 | **6/10 (60%)** |
-| Categoría match | n/a | **8/10 (80%)** |
-| Distancia promedio | 0.59 (ruido) | **0.2954** |
-| Modelo de embeddings | all-MiniLM-L6-v2 (inglés, por defecto) | **paraphrase-multilingual-mpnet-base-v2** |
+| Métrica | Inicio | Final | Corpus v2 (2026-08-21) |
+|---|---|---|---|
+| Cobertura del banco de pruebas | 0/10 (falso positivo) | **10/10 (100%)** | **10/10 (100%)** |
+| Excelentes (d < 0.30) | 0 | **6/10 (60%)** | **7/10 (70%)** |
+| Categoría match | n/a | **8/10 (80%)** | **8/10 (80%)** |
+| Distancia promedio | 0.59 (ruido) | **0.2954** | — |
+| Total chunks | 2488 | 3886 | **6259** |
+| Modelo de embeddings | all-MiniLM-L6-v2 (inglés, por defecto) | **paraphrase-multilingual-mpnet-base-v2** | **paraphrase-multilingual-mpnet-base-v2** |
 
 Ver `DIAGNOSTICO_CAMBIOS.md` para el análisis técnico completo de los 11 issues corregidos.
 Ver `RESUMEN_FINAL.md` para un resumen ejecutivo del proyecto.

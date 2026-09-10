@@ -103,5 +103,30 @@ Cambios aplicados en `oe5_chatbot_upeu`:
 
 ---
 
+## Actualización 2026-08-21 — Corpus v2 (re-chunking)
+
+**Motivo:** el chatbot oe5 devolvía M04 en preguntas con respuesta en el corpus
+(caso "nota mínima admisión"). Diagnóstico: `chunk_text_estructural` fusionaba
+artículos pequeños conservando solo la primera cabecera (Art. 52/53 absorbidos
+bajo header "Artículo 51°"), más `Subcapítulo` sin partir. 14.5% de chunks
+afectados. Detalle en `scripts/README.md`.
+
+**Cambios:** 1 artículo = 1 chunk (sin fusionar), corte en Subcapítulo,
+cabecera siempre presente. 3886 → **6259 chunks** (el original además
+duplicaba contenido en cada overflow del buffer).
+
+**Re-comparación 3 modelos (mismo banco 10Q):**
+
+| Modelo | Dimensión | Cubiertas | Excelentes | Cat match |
+|---|---|---|---|---|
+| MiniLM-L12-v2 | 384 | 9/10 | 6/10 | 7/10 |
+| **mpnet-base-v2** | **768** | **10/10** | **7/10** | **8/10** |
+| bge-m3 | 1024 | 10/10 | 4/10 | 6/10 |
+
+**Veredicto:** mpnet sigue ganando y mejoró (6→7 excelentes). Caso Art. 53:
+fuera del top-40 → rank #2. Cobertura oe5 en umbral 0.40: 94.1% → 100%.
+
+---
+
 *Documento generado: Junio 2026*
 *Versión recomendada: `paraphrase-multilingual-mpnet-base-v2` (768 dim, coseno)*

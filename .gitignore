@@ -157,3 +157,5 @@ vector_store/
 # Logs y temporales
 *.log
 logs/
+# Backups locales pre-rechunking (300MB, regenerable)
+_backup_*/
