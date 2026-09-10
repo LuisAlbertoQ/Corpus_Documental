@@ -126,6 +126,11 @@ duplicaba contenido en cada overflow del buffer).
 **Veredicto:** mpnet sigue ganando y mejoró (6→7 excelentes). Caso Art. 53:
 fuera del top-40 → rank #2. Cobertura oe5 en umbral 0.40: 94.1% → 100%.
 
+**Validación end-to-end en oe5** (banco 17Q contra `/consulta` en vivo,
+`evaluacion/evaluar_modelo.ps1`): **16/17 M02**, tiempo prom 8.32s.
+Q11 constancia y Q12 cambio de carrera resueltos. Pendiente: Q04 matrícula
+(recupera 4 fuentes d=0.26 pero el LLM no redacta → M04 de generación).
+
 ---
 
 *Documento generado: Junio 2026*
