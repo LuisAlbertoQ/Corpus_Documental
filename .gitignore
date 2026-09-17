@@ -149,10 +149,16 @@ Thumbs.db
 corpus_upeu/pdfs/
 corpus_upeu/txt_bruto/
 corpus_upeu/txt_limpio/
+corpus_upeu/txt_bruto_v2/
 corpus_upeu/metadatos/
+corpus_upeu/metadatos/v2/
 
 # Base vectorial (generada)
 vector_store/
+vector_store_v2/
+vector_store_miniLM/
+vector_store_mpnet/
+vector_store_bge_m3/
 
 # Logs y temporales
 *.log

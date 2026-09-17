@@ -13,6 +13,7 @@ services:
       - ./vector_store_bge_m3:/home/jupyteruser/work/vector_store_bge_m3
       - ./notebooks:/home/jupyteruser/work/notebooks
       - ./src:/home/jupyteruser/work/src
+      - ./scripts:/home/jupyteruser/work/scripts
     environment:
       - PYTHONUNBUFFERED=1
       # >>> Variables para que PyTorch detecte la GPU dentro del contenedor
