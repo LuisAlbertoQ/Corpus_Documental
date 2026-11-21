@@ -239,3 +239,17 @@ def test_cola_diminuta_se_une_a_la_pieza_anterior():
     texto = "uno dos tres cuatro cinco seis siete ocho nueve diez. " * 3 + "fin."
     piezas = C.dividir_span(texto, 0, len(texto), max_tok=31, overlap_tok=0, contar=contar)
     assert all(contar(texto[a:b]) >= C.COLA_MIN_TOKENS or len(piezas) == 1 for a, b in piezas)
+
+
+def test_nbsp_tras_articulo_se_detecta():
+    # PDFs como Jefes de prácticas traen "Artículo\xa01": antes no se detectaba el encabezado.
+    doc = ("[[PAG 1]]\nCAPÍTULO I\nDISPOSICIONES GENERALES\n"
+           "Artículo\xa01.\xa0El presente reglamento regula la función de los jefes de práctica en la universidad.\n"
+           "Artículo\xa02. Los jefes de práctica apoyan al docente en las sesiones de laboratorio y taller.\n")
+    chunks = chunks_de(doc)
+    arts = [c["articulo"] for c in chunks if c["articulo"]]
+    assert len(arts) == 2 and "1" in arts[0] and "2" in arts[1]
+    limpio, _ = C.separar_paginas(doc)
+    assert "\xa0" not in limpio and len(limpio) == len(doc) - len("[[PAG 1]]\n")
+    for ch in chunks:
+        assert limpio[ch["char_inicio"]:ch["char_fin"]] == ch["texto"]

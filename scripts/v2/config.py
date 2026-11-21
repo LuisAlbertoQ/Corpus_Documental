@@ -29,7 +29,10 @@ VERSIONES_PROTEGIDAS = {"v2"}                       # canónica, la consume OE5
 
 META_DIR = CORPUS_DIR / "metadatos" / VERSION
 TXT_DIR = CORPUS_DIR / f"txt_bruto_{VERSION}"
-VSTORE_DIR = CORPUS_DIR / f"vector_store_{VERSION}"
+# VSTORE_DIR permite indexar en una carpeta limpia para desplegar (p.ej. solo el modelo ganador
+# para OE5). Relativa a corpus_upeu/ o absoluta. En Windows, crear la carpeta desde el host.
+VSTORE_DIR = (CORPUS_DIR / os.environ["VSTORE_DIR"]) if os.environ.get("VSTORE_DIR") \
+    else CORPUS_DIR / f"vector_store_{VERSION}"
 
 # --- Modelo de embeddings (M1: configurable por perfil) -----------------------
 # MODEL_KEY elige un perfil. "mpnet" es el de V2/OE5 y conserva los nombres de
@@ -51,7 +54,8 @@ PERFILES_MODELO = {
                           "reglamentos universitarios que la responden\nQuery: "),
         prefijo_documento=""),
     "bgem3": dict(
-        nombre="BAAI/bge-m3", revision=None,
+        # Revisión fijada al elegirlo ganador (2026-11-21): la usada para corpus_upeu_v3_bgem3.
+        nombre="BAAI/bge-m3", revision="5617a9f61b028005a4858fdac845db406aefb181",
         dim=1024, max_seq_entrenado=8192, prefijo_pregunta="", prefijo_documento=""),
     # Requiere transformers>=4.51 (la imagen actual tiene 4.39.3): ver CLAUDE.md §8.
     "qwen3": dict(

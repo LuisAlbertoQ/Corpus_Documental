@@ -21,6 +21,7 @@ import fitz  # PyMuPDF
 import pdfplumber
 
 from config import UMBRAL_PALABRAS_PAGINA, DPI_OCR, IDIOMA_OCR, MARCADOR_PAGINA
+from chunking import normalizar_espacios
 
 RE_FOLIO = re.compile(r"^\s*\d+\s*$")
 RE_HEADER_FOOTER = re.compile(r"^(Universidad Peruana Uni[oó]n|UPeU|www\.upeu\.edu\.pe)\b.*$", re.IGNORECASE)
@@ -41,7 +42,7 @@ class ResultadoExtraccion:
 def limpiar_lineas(texto: str) -> str:
     """Quita líneas vacías, folios y encabezados/pies institucionales."""
     lineas = []
-    for linea in texto.splitlines():
+    for linea in normalizar_espacios(texto).splitlines():
         linea = linea.strip()
         if not linea or RE_FOLIO.match(linea) or RE_HEADER_FOOTER.match(linea) or RE_PIE_DIRECCION.search(linea):
             continue

@@ -36,13 +36,25 @@ RE_MARCADOR_PAGINA = re.compile(
     re.MULTILINE,
 )
 
+# Espacios Unicode (NBSP, espacio fino, etc.) -> espacio normal. Algunos PDFs
+# (Jefes de prácticas, Auditoría interna) traen "Artículo\xa01": sin esto el
+# regex de encabezados ([ \t]) no los detectaba (62 artículos perdidos).
+# Reemplazo 1 a 1: no cambia la longitud, así char_inicio/char_fin siguen valiendo.
+_ESPACIOS_UNICODE = str.maketrans({c: " " for c in "       "
+                                                    "       　"})
+
+
+def normalizar_espacios(texto: str) -> str:
+    return texto.translate(_ESPACIOS_UNICODE)
+
 
 def separar_paginas(texto: str) -> tuple[str, list[tuple[int, int]]]:
     """Quita los marcadores de página.
 
     Devuelve (texto_limpio, paginas) donde `paginas` es una lista ordenada de
-    (offset_en_texto_limpio, numero_pagina).
+    (offset_en_texto_limpio, numero_pagina). También normaliza los espacios Unicode.
     """
+    texto = normalizar_espacios(texto)
     partes, paginas = [], []
     pos, largo = 0, 0
     for m in RE_MARCADOR_PAGINA.finditer(texto):

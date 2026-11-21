@@ -276,4 +276,33 @@ Pendiente: revisar/ampliar el banco a 30–50 preguntas, comparar modelos (`MODE
 - Cargan y codifican en GPU: e5base (1.2 GB pico), e5large (3.4 GB), bgem3 (3.1 GB), **qwen3 (5.9 GB con batch 16 → usar `EMBED_BATCH_SIZE=4`)**. Re-ranker bge-v2-m3 OK. Qwen3 en lote da el mismo vector que solo (pooling last-token correcto con padding a la derecha).
 - El aviso `Failed to send telemetry event … capture()` de chromadb ya existía antes (posthog), es inofensivo.
 
+### Comparación de modelos de embeddings (V3, banco 154+8, 2026-11-21)
+
+Mismos parámetros para todos (articulo, max_seq 384, chunk 350/40, breadcrumb completo). Solo se generaron `chunks/embeddings/MANIFEST_<modelo>` en `metadatos/v3/`; **no se indexó ChromaDB** (09 busca exacto sobre el `.npy`). Los 5 corpus: 0 errores, 100% tokens embebidos, 100% cobertura. Chunks: mpnet/e5large 5,053 · e5base 5,061 · bgem3 5,072 · qwen3 5,723 (su tokenizer cuenta más tokens en español).
+
+| Modelo | Sem. R@1 | Sem. R@5 | **Sem. MRR** (IC95%) | Rerank MRR | AUC pos/neg |
+|---|---|---|---|---|---|
+| mpnet | 0.28 | 0.47 | 0.358 (0.29–0.43) | 0.709 | 0.981 |
+| e5base | 0.60 | 0.81 | 0.689 (0.62–0.75) | 0.743 | 0.994 |
+| e5large | 0.60 | 0.86 | 0.700 (0.64–0.76) | 0.747 | 0.982 |
+| **bgem3** | **0.60** | **0.88** | **0.724** (0.67–0.78) | 0.746 | 0.994 |
+| qwen3 | 0.58 | 0.82 | 0.678 (0.62–0.74) | 0.735 | 0.997 |
+
+- Los 4 modelos nuevos duplican el MRR semántico de mpnet (+0.32 a +0.37, significativo; bgem3 mejora 95 preguntas y empeora 11).
+- Entre los 4 nuevos las diferencias **no son significativas** (bgem3 vs e5base ΔMRR +0.035, IC [-0.016, +0.084]).
+- Con re-ranker todos convergen (0.735–0.747); aun así superan a mpnet (+0.03–0.04).
+- El híbrido (RRF con BM25) **empeora** a los modelos nuevos frente al semántico solo (bgem3 0.724 → 0.657): en OE5 conviene re-rankear sobre candidatos semánticos o ponderar menos BM25.
+- Ojo: la escala de coseno cambia por modelo (e5 deja las negativas en ~0.80–0.87), por eso el umbral de OE5 debe recalibrarse con el modelo elegido.
+
+### Ganador indexado: bge-m3 (2026-11-21)
+
+- Colección **`corpus_upeu_v3_bgem3`** en `corpus_upeu/vector_store_v3/` (5,072 chunks, 1024 dim, coseno, HNSW M16/ef200/ef_search100). Convive con `corpus_upeu_v3` (mpnet, 5,053). Carpeta: 193 MB.
+- Revisión fijada en `config.py`: `BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181` (reproduce los embeddings guardados, coseno ≥ 0.9999999). Sin prefijos de pregunta/documento.
+- HNSW vs búsqueda exacta (162 preguntas): top-1 igual 161/162, solapamiento top-10 99.4%.
+- `07_indexacion_v2.py`: la descripción de la colección ahora usa el nombre real del modelo (antes decía "mpnet" fijo).
+- **Corrección NBSP (2026-11-21):** `chunking.normalizar_espacios()` convierte espacios Unicode (` ` etc.) a espacio normal en `separar_paginas` (05 y 06) y en `extraccion_comun.limpiar_lineas`; reemplazo 1 a 1, offsets intactos. Test nuevo (39 tests). Recupera **62 artículos**: Jefes de prácticas 0 → 24, Auditoría interna 4 → 42; los otros 46 documentos quedan idénticos chunk a chunk. Solo se regeneró **bge-m3**: 5,117 chunks, 0 errores / 5 warnings (chunks cortos). Los archivos de mpnet/e5/qwen3 en `metadatos/v3/` siguen con el chunking anterior (la comparación fue justa: todos con el mismo fallo).
+- **bge-m3 tras la corrección:** semántico R@1 0.636 · R@5 0.916 · **MRR 0.756** (antes 0.724) · re-ranker MRR 0.776. Las 6 preguntas de esos 2 reglamentos: 5 en el puesto 1.
+- **Carpeta para OE5: `corpus_upeu/vector_store_v3_bgem3/`** (81 MB, solo la colección `corpus_upeu_v3_bgem3`, 5,117 chunks; HNSW vs exacto top-1 161/162). Creada con `VSTORE_DIR=vector_store_v3_bgem3` (nueva variable opcional en `config.py`). `vector_store_v3/` también tiene la colección (más la de mpnet y carpetas huérfanas de colecciones recreadas; no se usa para desplegar). OE5 tiene chromadb 0.4.22 (igual).
+- **Para OE5:** modelo `BAAI/bge-m3` (misma revisión) para codificar preguntas, colección `corpus_upeu_v3_bgem3`, recalibrar el umbral de distancia (las distancias cambian de escala respecto a mpnet) y re-rankear sobre candidatos semánticos (el RRF con BM25 empeora a bge-m3). V2 sigue siendo la canónica hasta probar en OE5.
+
 Primera corrida V3 + mpnet con este banco: semántico MRR 0.358 · BM25 0.496 · híbrido 0.448 · **re-ranker 0.709 (R@1 0.64, R@5 0.81, Rdoc@5 0.95)**. Coseno top-1: positivas 0.71 vs negativas 0.49.

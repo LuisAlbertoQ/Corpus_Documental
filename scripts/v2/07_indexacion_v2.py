@@ -61,7 +61,7 @@ def main():
 
     collection = client.create_collection(
         name=C.COLLECTION_NAME,
-        metadata={"description": f"Corpus UPeU {C.VERSION} - {C.CHUNK_MODE} - mpnet max_seq {C.MAX_SEQ_LENGTH}",
+        metadata={"description": f"Corpus UPeU {C.VERSION} - {C.CHUNK_MODE} - {C.MODEL_NAME} max_seq {C.MAX_SEQ_LENGTH}",
                   **C.HNSW_PARAMS},
     )
     print(f"Colección '{C.COLLECTION_NAME}' creada con {C.HNSW_PARAMS}")
