@@ -1,9 +1,25 @@
 # CLAUDE.md — Estado actual del proyecto `oe1_arquitectura_corpus`
 
 > Auditoría realizada el **2026-11-20** leyendo los archivos reales del repo (no solo la documentación).
-> Último commit: `d591bc2` (`V2 Pipeline: semantic chunking, unified taxonomy, OE5 migration ready`).
-> **Actualización 2026-11-21:** V3 regenerada con las mejoras M1–M6 (ver §9): 5,053 chunks. Con re-ranker, V3 supera claramente a V2 en el banco provisional (MRR 0.82 vs 0.57), pero el banco **aún no está revisado**. **V2 sigue siendo la canónica** hasta revisar el banco y probar en OE5.
-> Los números de §2 siguen siendo los de la V2 en disco.
+> Commits: `73d1f58` (pipeline V3), `3da49fe` (dependencias para comparar modelos), `b872e1a` (normalización de espacios Unicode), todos del 2026-11-21.
+> **Estado al cierre de OE1 (2026-11-21):** corpus **V3 + `BAAI/bge-m3`** generado, validado e indexado en
+> **`corpus_upeu/vector_store_v3_bgem3/`** (colección `corpus_upeu_v3_bgem3`, 5,117 chunks, MRR semántico 0.756 vs 0.358 de mpnet).
+> **OE5 sigue usando la V2** (mpnet) hasta su migración; el banco de preguntas aún no tiene revisión humana.
+> Los números de §2 son los de la V2 en disco; lo nuevo está en §8–§10.
+
+---
+
+## 0. Línea de tiempo
+
+| Fecha | Hito | Resultado clave |
+|---|---|---|
+| 2026-06 | V1 en notebooks: 11 bugs corregidos, mpnet elegido (banco 10Q) | 0/10 → 10/10 cubiertas |
+| 2026-08-21 / 09-10 | "corpus v2": 1 artículo = 1 chunk | 6,259 chunks; OE5 16/17 M02 |
+| 2026-09-17 | V2 en scripts reproducibles, migrada a OE5 | 5,126 chunks, 0 errores |
+| 2026-11-20 | Auditoría (§2–§5) y código V3 (§8) | V2 trunca el 50.6% de tokens; V3: 100% embebido |
+| 2026-11-21 | M1–M6 y banco 154+8 (§9) | mpnet V3 + re-ranker MRR 0.709 |
+| 2026-11-21 | Imagen con transformers 4.51.3 y comparación de 5 modelos (§9) | bge-m3 0.724, sin diferencia significativa con e5/qwen3; todos ≫ mpnet |
+| 2026-11-21 | Fix NBSP + indexación del ganador (§9, §10) | +62 artículos; bge-m3 0.756 / re-ranker 0.776; `vector_store_v3_bgem3/` |
 
 ---
 
@@ -11,12 +27,13 @@
 
 Convierte **48 PDFs oficiales de la Universidad Peruana Unión (UPeU)** en un corpus vectorial para **RAG**, consumido por el chatbot **OE5** (repo hermano `../oe5_chatbot_upeu`).
 
-Pipeline: `PDF → texto bruto → diagnóstico/clasificación → chunking semántico → embeddings mpnet → ChromaDB → OE5`.
+Pipeline: `PDF → texto bruto → diagnóstico/clasificación → chunking por artículo → embeddings → validación → ChromaDB (+ BM25) → evaluación → OE5`.
 
 - Idioma: español.
 - Categorías temáticas: **A** gobierno, **B** académico, **C** investigación, **D** bienestar, **E** políticas.
-- Modelo de embeddings: **`sentence-transformers/paraphrase-multilingual-mpnet-base-v2`** (768 dim, distancia coseno).
-- OCR: **Tesseract** vía `pytesseract`, con `lang="spa"` y 250 DPI. No hay OCR propio ni modelos de deep learning.
+- Modelo de embeddings: **V3 → `BAAI/bge-m3`** (1024 dim, coseno, revisión `5617a9f6…`, sin prefijos).
+  V2/OE5 actual → `sentence-transformers/paraphrase-multilingual-mpnet-base-v2` (768 dim).
+- OCR: **Tesseract** vía `pytesseract`, con `lang="spa"`; 250 DPI en V2, **300 DPI en V3**. No hay OCR propio ni modelos de deep learning.
 
 ---
 
@@ -120,7 +137,7 @@ OE5 usa `paraphrase-multilingual-mpnet-base-v2` en `backend/rag_pipeline.py:138`
 
 ---
 
-## 5. Problemas conocidos (pendientes de mejora)
+## 5. Problemas conocidos de la V2 (resueltos en V3, ver §6)
 
 ### P1 — 🔴 Truncamiento real a 128 tokens (lo más importante)
 
@@ -155,7 +172,12 @@ OE5 usa `paraphrase-multilingual-mpnet-base-v2` en `backend/rag_pipeline.py:138`
 
 ---
 
-## 6. Plan de mejora propuesto (aún no ejecutado)
+## 6. Plan de mejora (estado al 2026-11-21)
+
+> Fases 1, 3 y 4 hechas; 2a probada y descartada (mpnet no mejora con 384); 2b innecesaria porque se cambió de
+> modelo (bge-m3 lee hasta 8,192 tokens, se usa 384 sin truncar). **Fase 5 (OE5) pendiente.**
+> Estado de P1–P5: P1 ✅ (0 tokens truncados) · P2 ✅ (0 errores / 5 warnings reales) · P3 ✅ (`pagina` 100%, `seccion`, títulos,
+> sin duplicados ni marcadores OCR) · P4 ✅ (`MANIFEST*.json` con hashes) · P5 ✅ parcial (banco 154+8, falta revisión humana).
 
 | Fase | Acción | ¿Toca corpus? | Resultado esperado |
 |---|---|---|---|
@@ -172,7 +194,8 @@ OE5 usa `paraphrase-multilingual-mpnet-base-v2` en `backend/rag_pipeline.py:138`
 
 ## 7. Reglas para el asistente
 
-1. **V2 (5,126 chunks) es la versión canónica**; OE5 ya la consume. No reemplazarla sin crear una versión nueva y comparar.
+1. **V2 (5,126 chunks) es la versión que OE5 consume hoy**; no tocarla. La versión a desplegar es V3 + bge-m3 (`vector_store_v3_bgem3/`), solo junto con los cambios de código de OE5.
+   - **No hacer commits ni operaciones de GitHub**: el usuario los hace; solo indicarle archivos y comandos.
 2. No borrar `vector_store*` ni `corpus_upeu/metadatos/v2/*` sin confirmación explícita; están en git pero son la evidencia del trabajo.
 3. Antes de afirmar una mejora, medir: `% de tokens embebidos`, 0 errores de validación, banco de preguntas y end-to-end.
 4. Cualquier cambio en el modelo de embeddings exige re-generar embeddings, re-indexar Chroma **y** ajustar OE5.
@@ -296,7 +319,7 @@ Mismos parámetros para todos (articulo, max_seq 384, chunk 350/40, breadcrumb c
 
 ### Ganador indexado: bge-m3 (2026-11-21)
 
-- Colección **`corpus_upeu_v3_bgem3`** en `corpus_upeu/vector_store_v3/` (5,072 chunks, 1024 dim, coseno, HNSW M16/ef200/ef_search100). Convive con `corpus_upeu_v3` (mpnet, 5,053). Carpeta: 193 MB.
+- Colección **`corpus_upeu_v3_bgem3`** en `corpus_upeu/vector_store_v3/` (5,072 chunks al indexarse; 5,117 tras el fix NBSP; 1024 dim, coseno, HNSW M16/ef200/ef_search100). Convive con `corpus_upeu_v3` (mpnet, 5,053). Carpeta: 289 MB (incluye carpetas huérfanas de colecciones recreadas).
 - Revisión fijada en `config.py`: `BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181` (reproduce los embeddings guardados, coseno ≥ 0.9999999). Sin prefijos de pregunta/documento.
 - HNSW vs búsqueda exacta (162 preguntas): top-1 igual 161/162, solapamiento top-10 99.4%.
 - `07_indexacion_v2.py`: la descripción de la colección ahora usa el nombre real del modelo (antes decía "mpnet" fijo).
@@ -306,3 +329,28 @@ Mismos parámetros para todos (articulo, max_seq 384, chunk 350/40, breadcrumb c
 - **Para OE5:** modelo `BAAI/bge-m3` (misma revisión) para codificar preguntas, colección `corpus_upeu_v3_bgem3`, recalibrar el umbral de distancia (las distancias cambian de escala respecto a mpnet) y re-rankear sobre candidatos semánticos (el RRF con BM25 empeora a bge-m3). V2 sigue siendo la canónica hasta probar en OE5.
 
 Primera corrida V3 + mpnet con este banco: semántico MRR 0.358 · BM25 0.496 · híbrido 0.448 · **re-ranker 0.709 (R@1 0.64, R@5 0.81, Rdoc@5 0.95)**. Coseno top-1: positivas 0.71 vs negativas 0.49.
+
+---
+
+## 10. Cierre de OE1 (2026-11-21)
+
+**Entregable:** `corpus_upeu/vector_store_v3_bgem3/` (81 MB: `chroma.sqlite3` + 1 carpeta de segmento HNSW).
+
+| Dato | Valor |
+|---|---|
+| Colección | `corpus_upeu_v3_bgem3` · 5,117 chunks · 48 documentos |
+| Modelo | `BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181`, 1024 dim, sin prefijos, `normalize_embeddings=True` |
+| Chunking | articulo · max_seq 384 · chunk 350/40 · breadcrumb completo · 0 tokens truncados · cobertura 100% |
+| Índice | coseno · HNSW M16 / construction_ef 200 / search_ef 100 · top-1 = búsqueda exacta en 161/162 |
+| Validación | 0 errores · 5 warnings · 84 índices descartados |
+| Retrieval (banco 154+8) | semántico R@1 0.636 · R@5 0.916 · MRR 0.756 · re-ranker MRR 0.776 · híbrido 0.681 · BM25 0.510 |
+| Coseno top-1 | positivas 0.690 vs negativas 0.484 |
+| Trazabilidad | `metadatos/v3/MANIFEST_bgem3.json` (config, estadísticas, sha256) |
+
+Documentación actualizada el mismo día: `README.md`, `RESUMEN_FINAL.md`, `DIAGNOSTICO_CAMBIOS.md` (§10),
+`scripts/README.md`, `scripts/v2/README_PIPELINE_V2.md`, `scripts/v2/MIGRACION_OE5_V2.md` (pasos de la migración V3).
+
+Pendientes fuera de OE1: migración de OE5 (colección, modelo, umbral, re-ranker, recortes de contexto).
+Opcionales en OE1: revisión humana del banco; multi-documento (`alt:`) y NFC en `09`; regenerar los archivos de
+mpnet/e5/qwen3 con el fix NBSP si se quisiera repetir la comparación; carpetas huérfanas de `vector_store_v3/`
+(no borrar sin confirmación).

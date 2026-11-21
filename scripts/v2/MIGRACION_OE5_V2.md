@@ -1,6 +1,51 @@
-# Guía de Migración V2 → OE5 Chatbot
+# Guía de Migración a OE5 Chatbot
+
+> **Actualizado 2026-11-21.** La migración V2 (septiembre 2026) **ya está aplicada** en OE5 y se conserva abajo
+> como registro. La próxima migración es **V3 + bge-m3**, todavía **pendiente** (se hará en la fase OE5).
+
+---
+
+## 🆕 Migración V3 + bge-m3 (pendiente)
+
+A diferencia de la V2, **esta migración sí cambia el modelo de embeddings**, así que copiar la carpeta no basta:
+OE5 tiene fijo `corpus_upeu_v2` y codifica las preguntas con mpnet (768 dim). Si se copia la carpeta sin
+cambiar el código, el chatbot falla (colección inexistente o dimensión 768 frente a 1024).
+
+| Componente | Origen (OE1 V3) | Destino (OE5) |
+|---|---|---|
+| Base vectorial | `corpus_upeu/vector_store_v3_bgem3/` (81 MB) | `vector_store/` (montado en `/data/vector_store`) |
+| Colección | `corpus_upeu_v3_bgem3` (5,117 chunks) | `backend/rag_pipeline.py:137` y `backend/config.py:200` (hoy `corpus_upeu_v2`) |
+| Modelo de preguntas | `BAAI/bge-m3`, revisión `5617a9f61b028005a4858fdac845db406aefb181`, 1024 dim, sin prefijo | `backend/rag_pipeline.py:138` y `EMBEDDING_MODEL` en `backend/config.py:199` |
+| ChromaDB | 0.4.22 | 0.4.22 (igual, compatible) |
+| Umbral fuera de dominio | coseno top-1: positivas 0.69 vs negativas 0.48 (banco OE1) | `UMBRAL_DISTANCIA_COSENO` 0.40 → recalibrar con bge-m3 |
+| Re-ranker | `BAAI/bge-reranker-v2-m3` sobre candidatos semánticos (MRR 0.756 → 0.776) | nuevo en el pipeline |
+| Metadatos nuevos | `nombre_documento`, `pagina`, `grupo_articulo_id`, `char_inicio/fin`, `titulo_estructura` | opcional: citar página, reconstruir artículo completo |
+
+Pasos previstos:
+
+1. Respaldar `oe5_chatbot_upeu/vector_store` → `vector_store_backup_v2_YYYYMMDD`.
+2. Copiar `oe1_arquitectura_corpus/corpus_upeu/vector_store_v3_bgem3` como `oe5_chatbot_upeu/vector_store`.
+3. Cambiar colección y modelo (con la misma revisión) en `config.py` y `rag_pipeline.py`.
+4. Recalibrar el umbral con las preguntas negativas del banco.
+5. Añadir el re-ranker y revisar los recortes de contexto (`MAX_CHARS_POR_FRAGMENTO`, `num_ctx`, `TOP_K`, `MAX_PALABRAS_RESPUESTA`).
+6. Prueba end-to-end (banco 17Q de OE5 + preguntas del banco OE1) antes de dejar la V2.
+
+Verificación rápida tras copiar:
+
+```powershell
+docker exec oe5_backend python -c "import chromadb; c=chromadb.PersistentClient('/data/vector_store'); col=c.get_collection('corpus_upeu_v3_bgem3'); print(col.count(), len(col.get(limit=1, include=['embeddings'])['embeddings'][0]))"
+# Esperado: 5117 1024
+```
+
+Rollback: restaurar la carpeta de respaldo y revertir los cambios de colección y modelo.
+
+---
+
+## 📜 Migración V2 (aplicada en septiembre 2026)
 
 **Objetivo:** Reemplazar el índice vectorial del chatbot OE5 por la versión V2 (chunking semántico, mpnet 768, taxonomía unificada).
+
+> Corrección (2026-11-20): en OE5 la colección se llama **`corpus_upeu_v2`**, no `corpus_upeu` como decía esta guía.
 
 ---
 

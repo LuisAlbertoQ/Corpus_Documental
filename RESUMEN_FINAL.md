@@ -133,5 +133,66 @@ Q11 constancia y Q12 cambio de carrera resueltos. Pendiente: Q04 matrícula
 
 ---
 
-*Documento generado: Junio 2026*
-*Versión recomendada: `paraphrase-multilingual-mpnet-base-v2` (768 dim, coseno)*
+## Actualización 2026-09-17 — V2 en scripts reproducibles
+
+El pipeline pasó de notebooks a 7 scripts (`scripts/v2/`): 4 rutas de extracción según diagnóstico
+(DIGITAL / MIXTO / TUPA_TABLAS / ESCANEADO), 18 metadatos, relaciones padre-hijo y taxonomía unificada con OE5
+(becas = D). Resultado: **5,126 chunks**, 0 errores de validación, "beca" → Art. 49° (d = 0.245, categoría D).
+Es la versión que OE5 tiene en producción.
+
+---
+
+## Actualización 2026-11-20/21 — V3 y cambio de modelo a bge-m3
+
+### ¿Qué se hizo?
+
+1. **Auditoría de la V2 con los archivos reales (2026-11-20).** El problema principal: mpnet solo lee
+   **128 tokens** y la V2 tenía chunks de hasta 700, así que **el 50.6% del texto nunca llegaba al embedding**.
+   Además, la validación daba ~1,400 falsos positivos, el campo `pagina` estaba vacío, las tablas del TUPA
+   quedaban revueltas (~53% de cobertura) y no había forma de reproducir los resultados.
+2. **Pipeline V3 (2026-11-20).** Configuración central, versiones protegidas, tablas en su página, chunks que
+   nunca superan el límite del modelo, breadcrumb de contexto, validación de cobertura, tests automáticos.
+3. **Mejoras M1–M6 (2026-11-21).** Perfiles para comparar modelos, evaluación con R@k/MRR (semántico, BM25,
+   híbrido y re-ranker), limpieza del pie de página postal y descarte de tablas de contenido.
+4. **Banco de preguntas (2026-11-21).** 154 preguntas con documento y artículo esperado (2–5 por cada uno de
+   los 48 documentos) + 8 preguntas fuera de dominio. Provisional (sin revisión humana).
+5. **Comparación de 5 modelos (2026-11-21)** con los mismos chunks y el mismo banco.
+6. **Corrección NBSP (2026-11-21).** Dos reglamentos usaban un espacio no separable después de "Artículo";
+   se recuperaron 62 artículos.
+7. **Base de datos final (2026-11-21):** `corpus_upeu/vector_store_v3_bgem3/`.
+
+### Resultados
+
+| Modelo | Dimensión | MRR semántico | Artículo correcto en top-5 | Con re-ranker |
+|---|---|---|---|---|
+| mpnet (el de V2/OE5) | 768 | 0.358 | 47% | 0.709 |
+| e5-base | 768 | 0.689 | 81% | 0.743 |
+| e5-large-instruct | 1024 | 0.700 | 86% | 0.747 |
+| Qwen3-Embedding-0.6B | 1024 | 0.678 | 82% | 0.735 |
+| **bge-m3** | **1024** | **0.724** | **88%** | **0.746** |
+| **bge-m3 + fix NBSP (final)** | **1024** | **0.756** | **92%** | **0.776** |
+
+| Corpus | V2 | V3 + bge-m3 |
+|---|---|---|
+| Chunks | 5,126 | 5,117 |
+| Texto que llega al embedding | 49.4% | **100%** |
+| Cobertura del texto del PDF | ~94.7% | **100%** |
+| Errores / warnings de validación | 0 / 1,403 | 0 / 5 |
+
+### ¿Por qué cambió la conclusión de junio?
+
+En junio bge-m3 "perdió" frente a mpnet, pero esa prueba usaba 10 preguntas, medía solo la distancia del
+primer resultado (las distancias no son comparables entre modelos) y se hizo con chunks que fusionaban artículos.
+Con chunks correctos, sin truncamiento y midiendo si se recupera **el artículo correcto**, bge-m3 duplica a
+mpnet. Los cuatro modelos modernos quedan sin diferencia significativa entre sí; se eligió bge-m3 por tener las
+mejores cifras, no necesitar prefijos y tener licencia MIT.
+
+### Pendiente
+
+- Migrar OE5 (colección, modelo, umbral, re-ranker). Hasta entonces OE5 sigue con la V2.
+- Revisión humana del banco de preguntas.
+
+---
+
+*Documento generado: Junio 2026 · última actualización: 2026-11-21*
+*Versión recomendada: `BAAI/bge-m3` (1024 dim, coseno) sobre el corpus V3 — OE5 aún usa mpnet/V2*

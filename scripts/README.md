@@ -1,5 +1,10 @@
 # Scripts de re-chunking y re-evaluación (2026-08-21)
 
+> **Legacy.** Estos scripts generaron el "corpus v2" de agosto (6,259 chunks). El pipeline vigente es
+> `scripts/v2/` (V3, 2026-11-21, modelo bge-m3): ver `scripts/v2/README_PIPELINE_V2.md`.
+> La advertencia sobre lotes de 1024 dim (abajo) no se reprodujo en V3: bge-m3 se indexó con lotes de 500
+> en chromadb 0.4.22 y el índice quedó correcto (5,117 elementos, top-1 igual a la búsqueda exacta en 161/162).
+
 Pipeline reproducible que corrige el bug de fusión de artículos
 detectado en `notebooks/3_chunking_embeddings.ipynb`.
 

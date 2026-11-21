@@ -1,276 +1,175 @@
-# Arquitectura de Corpus UPeU
+# Arquitectura de Corpus UPeU (OE1)
 
-Este proyecto implementa un sistema de procesamiento e indexación de un corpus de documentos universitarios de la Universidad Peruana Unión (UPeU). Convierte documentos PDF en un corpus de texto limpio, dividido en fragmentos (chunks), con embeddings vectoriales para búsqueda semántica utilizando ChromaDB.
+Convierte **48 PDFs oficiales de la Universidad Peruana Unión (UPeU)** en un corpus vectorial para RAG
+(Retrieval-Augmented Generation). Lo consume el chatbot **OE5** (`../oe5_chatbot_upeu`).
 
-## Descripción
-
-El sistema sigue un pipeline de procesamiento:
-1. **Extracción de texto**: Convierte PDFs a texto bruto.
-2. **Limpieza**: Normaliza y limpia el texto extraído.
-3. **Chunking**: Divide el texto en fragmentos con superposición.
-4. **Embeddings**: Genera representaciones vectoriales usando modelos de transformers.
-5. **Indexación**: Almacena los embeddings en una base vectorial para búsquedas semánticas.
-6. **Verificación**: Evalúa la cobertura del corpus con consultas de prueba.
-
-Está diseñado para documentos en español y categoriza el contenido en áreas como estatutos, estudiantes, investigación, etc.
-
-## Requisitos Previos
-
-- Docker y Docker Compose instalados.
-- Al menos 4GB de RAM disponible (para procesamiento de embeddings).
-- Espacio en disco: ~2GB para datos y modelos.
-
-## Instalación
-
-1. Clona este repositorio:
-   ```bash
-   git clone <url-del-repositorio>
-   cd oe1_arquitectura_corpus
-   ```
-
-2. Construye la imagen Docker:
-   ```bash
-   docker-compose build
-   ```
-
-3. Coloca los documentos PDF en la carpeta `corpus_upeu/pdfs/` (esta carpeta está montada en el contenedor).
-
-4. **(Opcional) GPU:** Si tienes NVIDIA Container Toolkit y driver 525+, las evaluaciones
-   (notebooks 7-9) usarán GPU automáticamente. El `docker-compose.yml` ya incluye GPU
-   passthrough (PyTorch 2.1.2 + CUDA 12.1 dentro del contenedor).
-
-## Ejecución
-
-1. Inicia el contenedor con Jupyter Notebook:
-    ```bash
-    docker-compose up
-    ```
-
-2. Abre tu navegador en `http://localhost:8888` (sin token, como configurado).
-
-3. **Pipeline V2 (Recomendado — Scripts reproducibles):**
-   ```bash
-   # 1. Levantar entorno (requiere GPU para embeddings)
-   docker-compose up -d
-
-   # 2. Ejecutar pipeline V2 en orden (dentro del contenedor)
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/01_inventario.py
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/02_clasificacion.py
-   # Revisar/editar corpus_upeu/metadatos/v2/clasificacion_v2.csv
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/03_diagnostico.py
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/04_extraccion_v2.py
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/05_chunking_v2.py
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/06_validacion_corpus.py
-   # Verificar 0 errores en corpus_upeu/metadatos/v2/reporte_validacion_v2.md
-   docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/07_indexacion_v2.py
-   ```
-
-   Ver documentación completa: `scripts/v2/README_PIPELINE_V2.md`
-   Guía migración OE5: `scripts/v2/MIGRACION_OE5_V2.md`
-
-4. **Pipeline V1 (Legacy — Notebooks):**
-   Ejecutar en orden dentro de la carpeta `notebooks/`:
-   - `1_extraccion_texto.ipynb`: Extrae texto de PDFs con `pdfplumber`.
-   - `2_limpieza_corpus.ipynb`: Normaliza y limpia el texto extraído.
-   - `3_chunking_embeddings.ipynb`: Chunking estructural (300 tokens, overlap 50).
-   - `4_indexacion_vectorial.ipynb`: Indexa en ChromaDB con mpnet (768 dim).
-   - `5_verificacion_cobertura.ipynb`: Verifica cobertura con umbrales 0.30/0.50.
-   - `6_prueba_manual.ipynb`: Pruebas interactivas.
-   - `7_evaluacion_miniLM_gpu.ipynb` (opcional): Evaluación MiniML-L12 con GPU.
-   - `8_evaluacion_mpnet_gpu.ipynb` (opcional): Evaluación mpnet con GPU.
-   - `9_evaluacion_bge_m3_gpu.ipynb` (opcional): Evaluación bge-m3 con GPU.
-
-5. Los resultados se guardan en:
-    - `corpus_upeu/metadatos/v2/` — chunks, embeddings, informes (V2 centralizado)
-    - `vector_store_v2/` — índice principal V2 (5126 chunks, mpnet, padre-hijo)
-    - `vector_store/` — índice V1 legacy (3886 chunks)
-    - `vector_store_miniLM/`, `vector_store_mpnet/`, `vector_store_bge_m3/` — índices de evaluación
-
-## Pipeline V2 — Novedades vs V1
-
-| Aspecto | V1 (Notebooks) | V2 (Scripts `scripts/v2/`) |
-|---|---|---|
-| **Chunking** | 300 tokens fijos + overlap 50 | **1 artículo = 1 chunk** (100-700 tok), overlap 12% solo si >500 tok |
-| **Estructura detectada** | Art/Cap/Sec/Título | **Art/Cap/Sec/Título/Lista/Paso/Tabla/Imagen** + contexto jerárquico |
-| **Metadatos** | 6 campos | **18 campos** + relaciones **padre-hijo** (500) |
-| **Extracción** | Método único híbrido | **4 rutas** según diagnóstico: DIGITAL/MIXTO/TUPA_TABLAS/ESCANEADO |
-| **Validación** | Solo retrieval (notebook 5) | **12 checks automatizados** (integridad, estructura, embeddings, padre-hijo) |
-| **Reproducibilidad** | Notebooks manuales | **7 scripts Python versionados** (`scripts/v2/`) |
-| **Categorías** | Keywords locales (becas=B) | **Unificadas OE5** (becas=D Bienestar) |
-
-## Resultados V2 (Corpus Producción `vector_store_v2/`)
-
-| Métrica | Valor V2 |
-|---|---|
-| Documentos procesados | 48 |
-| Chunks generados | **5,126** |
-| Tokens promedio | 179 |
-| Tokens máximos | **700** (límite estricto) |
-| Chunks tipo `articulo` | **3,973 (77%)** |
-| Chunks partidos (>500 tok) | **500 (10%)** |
-| Relaciones padre-hijo | **500 (100% consistentes)** |
-| Embeddings | **(5126, 768)** mpnet normalizados |
-| Validación | **0 errores**, 1,403 warnings (no bloqueantes) |
-| Test "beca" → Art. 49° | **dist=0.245**, Cat **D (Bienestar)** ✅ |
-
-## Migración a OE5 (Chatbot)
-
-El índice de producción V2 está en `corpus_upeu/vector_store_v2/`. Para migrar a OE5:
-
-```bash
-# 1. Backup OE5 actual
-cd oe5_chatbot_upeu
-mv vector_store vector_store_backup_$(date +%Y%m%d)
-
-# 2. Copiar índice V2
-cp -r ../oe1_arquitectura_corpus/corpus_upeu/vector_store_v2 vector_store
-
-# 3. Actualizar taxonomía en OE5 (backend/config.py) — becas=D unificada
-# Ver scripts/v2/MIGRACION_OE5_V2.md
-
-# 4. Reiniciar backend OE5
-docker-compose restart backend
+```
+PDF → inventario → clasificación → diagnóstico → extracción (4 rutas + OCR)
+    → chunking por artículo → embeddings → validación → ChromaDB (+ BM25) → evaluación → OE5
 ```
 
-Ver guía completa: `scripts/v2/MIGRACION_OE5_V2.md`
+> **Estado al 2026-11-21**
+> - **Versión entregable: V3 + `BAAI/bge-m3`** → `corpus_upeu/vector_store_v3_bgem3/`
+>   (colección `corpus_upeu_v3_bgem3`, 5,117 chunks, 1024 dim, coseno).
+> - **OE5 todavía usa la V2** (mpnet, colección `corpus_upeu_v2`, 5,126 chunks). Pasar a V3 exige
+>   cambios en el código de OE5 (ver [Migración a OE5](#4-migración-a-oe5)).
+> - El banco de 162 preguntas usado para elegir es **provisional** (`revisado = no`).
 
-## Estructura del Proyecto
+---
+
+## 1. Resultados principales
+
+### Evolución del corpus
+
+| Fecha | Versión | Chunks | Modelo | Qué cambió | Resultado |
+|---|---|---|---|---|---|
+| 2026-06 | V1 (notebooks) | 2,488 → 3,886 | MiniLM → mpnet | 11 bugs corregidos; modelo multilingüe | Banco 10Q: 0/10 → 10/10 cubiertas |
+| 2026-08-21 / 09-10 | "corpus v2" (agosto) | 6,259 | mpnet | 1 artículo = 1 chunk (antes se fusionaban) | Art. 53 Admisión: fuera del top-40 → rank 2; OE5 16/17 M02 |
+| 2026-09-17 | **V2** (scripts) | 5,126 | mpnet | Pipeline en 7 scripts, 4 rutas de extracción, taxonomía unificada | 0 errores, 1,403 warnings. **En producción en OE5** |
+| 2026-11-20 | V3 (código) | 5,260 | mpnet | Auditoría: 50.6% de tokens truncados en V2; `config.py`, tablas en su página, `pagina`, tests | 100% tokens embebidos, 100% cobertura |
+| 2026-11-21 | V3 + M1–M6 | 5,053 | mpnet | Perfiles de modelo, evaluación R@k/MRR, limpieza de pies e índices | Con re-ranker MRR 0.709 (banco 162) |
+| 2026-11-21 | **V3 + bge-m3** | **5,117** | **bge-m3** | Comparación de 5 modelos; corrección NBSP (+62 artículos) | **Semántico MRR 0.756** (mpnet 0.358) |
+
+### V2 frente a V3 + bge-m3
+
+| Métrica | V2 (OE5 hoy) | V3 + bge-m3 |
+|---|---|---|
+| Chunks | 5,126 | 5,117 |
+| Modelo / dimensión | mpnet / 768 | bge-m3 / 1024 |
+| Tokens que llegan al embedding | **49.4%** (mpnet trunca a 128) | **100%** (máx 382 de 384) |
+| Cobertura de texto del PDF | ~94.7% (TUPA ~53%) | **100%** |
+| Campo `pagina` | 0% lleno | **100%** |
+| Validación | 0 errores / 1,403 warnings (mayoría falsos positivos) | 0 errores / 5 warnings (artículos cortos legítimos) |
+| TUPA | texto revuelto | filas limpias (`1.3 \| Pre-Ingreso … \| S/. 120.00`) |
+
+### Comparación de modelos (V3, banco de 154 positivas + 8 negativas, nivel artículo)
+
+| Modelo | Sem. R@1 | Sem. R@5 | **Sem. MRR@10** (IC95%) | Re-ranker MRR | AUC pos/neg | Chunks |
+|---|---|---|---|---|---|---|
+| mpnet (V2/OE5) | 0.28 | 0.47 | 0.358 (0.29–0.43) | 0.709 | 0.981 | 5,053 |
+| e5base | 0.60 | 0.81 | 0.689 (0.62–0.75) | 0.743 | 0.994 | 5,061 |
+| e5large-instruct | 0.60 | 0.86 | 0.700 (0.64–0.76) | 0.747 | 0.982 | 5,053 |
+| bge-m3 | 0.60 | 0.88 | 0.724 (0.67–0.78) | 0.746 | 0.994 | 5,072 |
+| qwen3-0.6B | 0.58 | 0.82 | 0.678 (0.62–0.74) | 0.735 | 0.997 | 5,723 |
+| **bge-m3 tras fix NBSP** | **0.64** | **0.92** | **0.756** | **0.776** | — | **5,117** |
+
+- Los 4 modelos nuevos **duplican** el MRR semántico de mpnet (+0.32 a +0.37, significativo).
+- Entre los 4 nuevos la diferencia **no es significativa**; se eligió **bge-m3** por tener el mejor MRR y R@5,
+  no necesitar prefijos y tener licencia MIT.
+- Con re-ranker (`BAAI/bge-reranker-v2-m3`) todos convergen (0.735–0.776).
+- El híbrido RRF con BM25 **empeora** a bge-m3 (0.756 → 0.681): en OE5 conviene re-rankear sobre candidatos semánticos.
+- Detalle: `corpus_upeu/metadatos/v3/evaluacion/resumen.csv` y `CLAUDE.md` §9.
+
+---
+
+## 2. Requisitos e instalación
+
+- Docker + Docker Compose, GPU NVIDIA con NVIDIA Container Toolkit (CUDA 12.1 en la imagen).
+- ~4 GB de VRAM para bge-m3 (Qwen3 necesita ~6 GB con lote 16; usar `EMBED_BATCH_SIZE=4`).
+- Modelos de HuggingFace en `.hf_cache/` (se descargan la primera vez).
+
+Versiones fijas (`requirements.txt`): torch 2.1.2+cu121, sentence-transformers 3.1.1, transformers 4.51.3,
+tokenizers 0.21.1, huggingface_hub 0.36.2, chromadb 0.4.22, rank-bm25 0.2.2, pytest 8.2.2.
+La imagen anterior (transformers 4.39.3, con la que se generó V2) quedó respaldada como
+`oe1_arquitectura_corpus-jupyter:tf439`; se verificó que mpnet produce los mismos vectores en ambas.
+
+```powershell
+docker-compose build
+docker-compose up -d          # contenedor oe1_corpus, Jupyter en http://localhost:8888
+docker exec oe1_corpus python -m pytest /home/jupyteruser/work/scripts/v2/tests -q   # 39 tests
+```
+
+---
+
+## 3. Ejecución del pipeline V3
+
+La versión se elige con `CORPUS_VERSION` (por defecto `v3`) y el modelo con `MODEL_KEY`
+(`mpnet` | `e5base` | `e5large` | `bgem3` | `qwen3`). La V2 está protegida contra escritura.
+
+```powershell
+# Etapas 01-04 (no dependen del modelo)
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/01_inventario.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/02_clasificacion.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/03_diagnostico.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/04_extraccion_v2.py
+
+# Etapas 05-09 con el modelo ganador
+docker exec -e MODEL_KEY=bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/05_chunking_v2.py
+docker exec -e MODEL_KEY=bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/06_validacion_corpus.py
+docker exec -e MODEL_KEY=bgem3 -e VSTORE_DIR=vector_store_v3_bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/07_indexacion_v2.py --force
+docker exec -e MODEL_KEY=bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/08_indice_bm25.py
+docker exec -e MODEL_KEY=bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/09_evaluacion.py
+```
+
+- `VSTORE_DIR` (opcional) indexa en una carpeta limpia; sin ella se usa `corpus_upeu/vector_store_v3/`.
+- En Windows, las carpetas nuevas (`txt_bruto_vN`, `vector_store_*`) deben crearse **desde el host**.
+- En Git Bash, anteponer `MSYS_NO_PATHCONV=1` a los `docker exec`.
+- Documentación completa: [`scripts/v2/README_PIPELINE_V2.md`](scripts/v2/README_PIPELINE_V2.md).
+
+---
+
+## 4. Migración a OE5
+
+**Pendiente** (se hará en la fase OE5). Copiar la carpeta sola no basta, porque OE5 busca la colección
+`corpus_upeu_v2` y codifica las preguntas con mpnet.
+
+| Qué | Dónde en OE5 | Cambio |
+|---|---|---|
+| Carpeta | `vector_store/` | Respaldar la actual y copiar `corpus_upeu/vector_store_v3_bgem3/` (81 MB) |
+| Colección | `backend/rag_pipeline.py:137`, `backend/config.py:200` | `corpus_upeu_v2` → `corpus_upeu_v3_bgem3` |
+| Modelo | `backend/rag_pipeline.py:138`, `backend/config.py:199` | `BAAI/bge-m3`, revisión `5617a9f61b028005a4858fdac845db406aefb181`, sin prefijos |
+| Umbral | `UMBRAL_DISTANCIA_COSENO` (0.40) | Recalibrar: la escala de distancias cambia con el modelo |
+| Re-ranker | pipeline | Re-rankear sobre candidatos semánticos (no RRF con BM25) |
+
+Guía detallada: [`scripts/v2/MIGRACION_OE5_V2.md`](scripts/v2/MIGRACION_OE5_V2.md).
+
+---
+
+## 5. Estructura del proyecto
 
 ```
 oe1_arquitectura_corpus/
-├── corpus_upeu/           # Datos del corpus
-│   ├── pdfs/             # Documentos PDF originales (no en Git)
-│   ├── txt_bruto/        # Texto extraído crudo (V1 legacy)
-│   ├── txt_limpio/       # Texto limpiado (V1 legacy)
-│   ├── txt_bruto_v2/     # Texto extraído V2 (48 archivos, por ruta diagnóstico)
-│   └── metadatos/
-│       ├── v2/           # ← V2 CENTRALIZADO
-│       │   ├── inventario_v2.csv
-│       │   ├── clasificacion_v2.csv
-│       │   ├── diagnostico_v2.csv
-│       │   ├── extraccion_v2_metadatos.csv
-│       │   ├── chunks_v2.csv          # 5,126 chunks × 18 metadatos
-│       │   ├── embeddings_v2.npy      # (5126, 768) mpnet
-│       │   ├── chunk_ids_v2.npy
-│       │   ├── reporte_validacion_v2.md
-│       │   └── validacion_v2_detalle.csv
-│       └── (archivos V1 legacy...)
-├── notebooks/            # Jupyter notebooks V1 (1-6 pipeline, 7-9 evaluación)
+├── corpus_upeu/
+│   ├── pdfs/                         # 48 PDFs (no en git)
+│   ├── config/
+│   │   ├── clasificacion_manual.csv  # clasificación revisada (entrada de 02)
+│   │   └── banco_preguntas.csv       # 154 positivas + 8 negativas (revisado = no)
+│   ├── txt_bruto_v2/  txt_bruto_v3/  # texto extraído por versión
+│   ├── metadatos/
+│   │   ├── v2/                       # V2 canónica (OE5)
+│   │   └── v3/                       # chunks/embeddings/MANIFEST por modelo (_e5base, _bgem3…)
+│   │       └── evaluacion/           # resumen.csv + detalle por corrida
+│   ├── vector_store_v2/              # V2 (mpnet, 5,126) — la que usa OE5
+│   ├── vector_store_v3/              # V3 mpnet + bge-m3 (de trabajo, con carpetas huérfanas)
+│   └── vector_store_v3_bgem3/        # ← ENTREGABLE PARA OE5 (solo corpus_upeu_v3_bgem3)
 ├── scripts/
-│   ├── v2/               # ← PIPELINE V2 REPRODUCIBLE (7 scripts)
-│   │   ├── 01_inventario.py
-│   │   ├── 02_clasificacion.py
-│   │   ├── 03_diagnostico.py
-│   │   ├── 04_extraccion_v2.py
-│   │   ├── 05_chunking_v2.py
-│   │   ├── 06_validacion_corpus.py
-│   │   ├── 07_indexacion_v2.py
-│   │   ├── extraer_faltantes.py
-│   │   ├── check_missing.py
-│   │   ├── README_PIPELINE_V2.md
-│   │   └── MIGRACION_OE5_V2.md
-│   └── (scripts V1 legacy...)
-├── vector_store/         # Índice ChromaDB V1 (3886 chunks, mpnet)
-├── vector_store_v2/      # ← ÍNDICE V2 PRODUCCIÓN (5126 chunks, mpnet, padre-hijo)
-├── vector_store_miniLM/  # Índice evaluación MiniLM
-├── vector_store_mpnet/   # Índice evaluación mpnet
-├── vector_store_bge_m3/  # Índice evaluación bge-m3
-├── src/                  # Código fuente adicional
-├── DIAGNOSTICO_CAMBIOS.md    # Documentación técnica bugs/optimizaciones V1
-├── RESUMEN_FINAL.md      # Resumen ejecutivo stakeholders
-├── Dockerfile            # Imagen Docker (PyTorch 2.1.2 + CUDA 12.1)
-├── docker-compose.yml    # Config contenedor (GPU passthrough)
-├── requirements.txt      # Dependencias Python
-└── README.md
+│   ├── v2/                           # pipeline 01–09 + config.py, chunking.py, tests/
+│   └── *.py                          # legacy agosto 2026 (rechunk_fixed, reembed_index…)
+├── notebooks/                        # legacy V1 (1–9)
+├── vector_store*/                    # legacy V1/agosto (6,259 chunks cada uno)
+├── CLAUDE.md                         # estado detallado y bitácora técnica
+├── RESUMEN_FINAL.md                  # resumen ejecutivo por etapas
+├── DIAGNOSTICO_CAMBIOS.md            # diagnóstico V1 (histórico)
+├── Dockerfile, docker-compose.yml, requirements.txt
 ```
 
-## Pipeline V2 — Novedades vs V1
+---
 
-| Aspecto | V1 (Notebooks) | V2 (Scripts `scripts/v2/`) |
-|---|---|---|
-| **Chunking** | 300 tokens fijos + overlap 50 | **1 artículo = 1 chunk** (100-700 tok), overlap 12% solo si >500 tok |
-| **Estructura detectada** | Art/Cap/Sec/Título | **Art/Cap/Sec/Título/Lista/Paso/Tabla/Imagen** + contexto jerárquico |
-| **Metadatos** | 6 campos | **18 campos** + relaciones **padre-hijo** (500) |
-| **Extracción** | Método único híbrido | **4 rutas** según diagnóstico: DIGITAL/MIXTO/TUPA_TABLAS/ESCANEADO |
-| **Validación** | Solo retrieval (notebook 5) | **12 checks automatizados** (integridad, estructura, embeddings, padre-hijo) |
-| **Reproducibilidad** | Notebooks manuales | **7 scripts Python versionados** (`scripts/v2/`) |
-| **Categorías** | Keywords locales (becas=B) | **Unificadas OE5** (becas=D Bienestar) |
+## 6. Historia (resumen)
 
-## Resultados V2 (Corpus Producción `vector_store_v2/`)
-
-| Métrica | Valor V2 |
-|---|---|
-| Documentos procesados | 48 |
-| Chunks generados | **5,126** |
-| Tokens promedio | 179 |
-| Tokens máximos | **700** (límite estricto) |
-| Chunks tipo `articulo` | **3,973 (77%)** |
-| Chunks partidos (>500 tok) | **500 (10%)** |
-| Relaciones padre-hijo | **500 (100% consistentes)** |
-| Embeddings | **(5126, 768)** mpnet normalizados |
-| Validación | **0 errores**, 1,403 warnings (no bloqueantes) |
-| Test "beca" → Art. 49° | **dist=0.245**, Cat **D (Bienestar)** ✅ |
-
-## Migración a OE5 (Chatbot)
-
-El índice de producción V2 está en `corpus_upeu/vector_store_v2/`. Para migrar a OE5:
-
-```bash
-# 1. Backup OE5 actual
-cd oe5_chatbot_upeu
-mv vector_store vector_store_backup_$(date +%Y%m%d)
-
-# 2. Copiar índice V2
-cp -r ../oe1_arquitectura_corpus/corpus_upeu/vector_store_v2 vector_store
-
-# 3. Actualizar taxonomía en OE5 (backend/config.py) — becas=D unificada
-# Ver scripts/v2/MIGRACION_OE5_V2.md
-
-# 4. Reiniciar backend OE5
-docker-compose restart backend
-```
-
-Ver guía completa: `scripts/v2/MIGRACION_OE5_V2.md`
-
-## Pipeline V1 (Legacy — Notebooks)
-
-Mantenido para referencia histórica. Ejecutar en orden:
-1. `1_extraccion_texto.ipynb`
-2. `2_limpieza_corpus.ipynb`
-3. `3_chunking_embeddings.ipynb`
-4. `4_indexacion_vectorial.ipynb`
-5. `5_verificacion_cobertura.ipynb`
+- **Junio 2026 — V1:** se corrigieron 11 bugs de los notebooks (marcadores de página indexados, whitelist que
+  borraba `°`, chunks de 400 tokens, ChromaDB usando un modelo en inglés por defecto…). Se eligió mpnet
+  frente a MiniLM y bge-m3 con un banco de 10 preguntas. Detalle en `DIAGNOSTICO_CAMBIOS.md`.
+- **Agosto/septiembre 2026 — corpus v2 y V2:** se corrigió la fusión de artículos (6,259 chunks) y luego se
+  pasó todo a scripts reproducibles (V2, 5,126 chunks), que es lo que OE5 consume (16/17 M02 end-to-end).
+- **20–21 noviembre 2026 — V3:** auditoría con los archivos reales. Hallazgo principal: mpnet truncaba a 128
+  tokens y la mitad del texto nunca llegaba al embedding. Se reescribió el pipeline (V3), se creó un banco
+  de 162 preguntas con artículo esperado, se compararon 5 modelos y se eligió **bge-m3**. La conclusión de
+  junio (mpnet > bge-m3) se invierte: con chunks bien hechos, sin truncamiento y midiendo aciertos de artículo
+  (no solo distancia top-1), bge-m3 duplica el MRR de mpnet.
 
 ## Notas
 
-- Los documentos PDF en `corpus_upeu/pdfs/` no deben subirse a Git (están en .gitignore).
-- El procesamiento puede tomar tiempo dependiendo del tamaño del corpus.
-- Para búsquedas, usa el notebook de pruebas manuales o integra ChromaDB en tu aplicación.
-- **Modelo de embeddings recomendado:** `paraphrase-multilingual-mpnet-base-v2` (768 dim, coseno).
-  Se evaluaron 3 modelos en GPU (banco 10Q, chunks v2 2026-08-21): MiniLM (384 dim, 9/10),
-  mpnet (768 dim, 10/10), bge-m3 (1024 dim, 10/10).
-  mpnet fue el ganador: 7/10 excelentes y mejor match por categoría (8/10).
-- **Métrica de distancia:** coseno (distancia = 1 - coseno). Umbrales: excelente < 0.30, aceptable < 0.50.
-- **Corpus v2 (2026-08-21):** 48 documentos → **6259 chunks** (chunking 1-artículo-por-chunk,
-  max 300 tokens / overlap 50; media real 156 tokens, mediana 120).
-  Ver `scripts/v2/README_PIPELINE_V2.md` para el fix aplicado.
-
-## Dependencias
-
-Ver `requirements.txt` para las bibliotecas Python utilizadas.
-
-## Resultados Finales (producción con mpnet)
-
-| Métrica | Inicio | Final V1 | Corpus V2 (2026-09-17) |
-|---|---|---|---|
-| Cobertura del banco de pruebas | 0/10 (falso positivo) | **10/10 (100%)** | **10/10 (100%)** |
-| Excelentes (d < 0.30) | 0 | **6/10 (60%)** | **7/10 (70%)** |
-| Categoría match | n/a | **8/10 (80%)** | **8/10 (80%)** |
-| Distancia promedio | 0.59 (ruido) | **0.2954** | **0.245** (test beca) |
-| Total chunks | 2488 | 3886 | **5,126** |
-| Modelo de embeddings | all-MiniLM-L6-v2 (inglés, por defecto) | **paraphrase-multilingual-mpnet-base-v2** | **paraphrase-multilingual-mpnet-base-v2** |
-
-Ver `DIAGNOSTICO_CAMBIOS.md` para el análisis técnico completo de los 11 issues corregidos en V1.
-Ver `RESUMEN_FINAL.md` para un resumen ejecutivo del proyecto.
-Ver `scripts/v2/README_PIPELINE_V2.md` para documentación completa del pipeline V2.
-Ver `scripts/v2/MIGRACION_OE5_V2.md` para guía de migración a OE5.
+- Los PDFs no se suben a git. Las carpetas `corpus_upeu/vector_store_v*/` están en `.gitignore`
+  (versionarlas requiere `git add -f`).
+- Distancia = 1 − coseno. Los umbrales 0.30/0.50 de V1 eran para mpnet y no aplican a bge-m3.

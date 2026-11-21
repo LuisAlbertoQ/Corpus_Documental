@@ -4,6 +4,11 @@
 > `oe1_arquitectura_corpus` (Universidad Peruana Unión).
 > **Resultado final: 10/10 cobertura, 8/10 categoría match** con `paraphrase-multilingual-mpnet-base-v2`.
 
+> ⚠️ **Documento histórico (junio 2026, pipeline V1 en notebooks).** Sus conclusiones sobre el modelo
+> quedaron superadas el **2026-11-21**: con el corpus V3 (sin truncamiento) y un banco de 162 preguntas que
+> mide si se recupera el artículo correcto, **bge-m3 obtiene MRR 0.756 frente a 0.358 de mpnet**.
+> Ver la [sección 10](#10-actualización-2026-11-21--revisión-de-las-conclusiones), `RESUMEN_FINAL.md` y `CLAUDE.md` §9.
+
 ---
 
 ## 1. Resumen ejecutivo
@@ -441,3 +446,18 @@ Copiar `vector_store/` de OE1 a `oe5_chatbot_upeu/vector_store/` y reiniciar bac
 **Estado del proyecto:** ✅ Funcional y optimizado con mpnet
 **Última actualización:** Junio 2026
 **Versión recomendada para OE5:** `paraphrase-multilingual-mpnet-base-v2`
+
+---
+
+## 10. Actualización 2026-11-21 — Revisión de las conclusiones
+
+| Conclusión de junio | Qué se encontró en noviembre | Estado |
+|---|---|---|
+| mpnet supera a bge-m3 | Con corpus V3 y banco de 154 positivas a nivel artículo: bge-m3 MRR 0.756 vs mpnet 0.358 | ❌ Invertida |
+| Distancia top-1 < 0.30 = "excelente" | La escala de distancias cambia por modelo (e5 deja negativas en coseno 0.80–0.87); hay que medir aciertos (R@k, MRR) | ❌ Métrica reemplazada |
+| Chunks de 300 tokens | mpnet solo lee 128 tokens: en V2 el 50.6% del texto no llegaba al embedding | ✅ Corregido en V3 (0 tokens truncados) |
+| Hybrid search rescataría consultas | Con bge-m3, RRF con BM25 baja el MRR (0.756 → 0.681); el re-ranker sí ayuda (0.776) | ⚠️ Usar re-ranker, no RRF |
+| Re-rank con cross-encoder "+5-10%" | `bge-reranker-v2-m3`: mpnet 0.358 → 0.709; bge-m3 0.756 → 0.776 | ✅ Medido |
+
+Por qué bge-m3 "perdió" en junio: banco de 10 preguntas, criterio de distancia absoluta (no comparable entre
+modelos), chunks con artículos fusionados y prefijos `query:/passage:` que bge-m3 no usa.

@@ -1,8 +1,56 @@
-# Pipeline V2 — Construcción del Corpus UPeU
+# Pipeline V2/V3 — Construcción del Corpus UPeU
 
-**Versión:** 2.0  
-**Fecha:** Septiembre 2026  
-**Estado:** ✅ Completado (10 etapas, 0 errores de validación)
+**Versión del código:** V3 (los scripts conservan el nombre `*_v2.py`)  
+**Última actualización:** 2026-11-21  
+**Estado:** ✅ V3 + bge-m3 generada e indexada (`corpus_upeu/vector_store_v3_bgem3/`, 5,117 chunks, 0 errores).
+La V2 (septiembre 2026, mpnet, 5,126 chunks) sigue siendo la que usa OE5 hasta la migración.
+
+> Las secciones desde "Resumen Ejecutivo" hacia abajo describen la **V2 de septiembre 2026** y se conservan
+> como registro histórico. Lo vigente está en esta primera parte.
+
+---
+
+## 🏁 Resultado V3 (2026-11-21)
+
+| Fecha | Paso | Resultado |
+|---|---|---|
+| 2026-11-20 | Auditoría de V2 con los archivos en disco | mpnet trunca a 128 tokens: **50.6% de los tokens no llegaba al embedding**; validación con ~1,400 falsos positivos; `pagina` y `seccion` vacíos |
+| 2026-11-20 | Código V3 (`config.py`, `chunking.py`, `extraccion_comun.py`, tests) + primera corrida | 5,260 chunks, 100% tokens embebidos, 100% cobertura, 0 errores / 11 warnings |
+| 2026-11-20 | Experimento 2a (mpnet con max_seq 384) | No mejora el retrieval semántico (mpnet se entrenó a 128) |
+| 2026-11-21 | M1–M6 (perfiles de modelo, breadcrumb, evaluación, limpieza de pies e índices) | 5,053 chunks; 84 índices descartados; re-ranker MRR 0.82 en banco de 14 preguntas |
+| 2026-11-21 | Banco ampliado | 154 positivas (2–5 por documento, 127 con artículo esperado) + 8 negativas |
+| 2026-11-21 | Imagen Docker con transformers 4.51.3 | mpnet idéntico (coseno mín 0.9999998, top-10 igual en 162/162) |
+| 2026-11-21 | Comparación de 5 modelos | bge-m3 MRR semántico 0.724 vs mpnet 0.358; los 4 modelos nuevos sin diferencia significativa entre sí |
+| 2026-11-21 | Corrección NBSP (`\xa0` tras "Artículo") | +62 artículos (Jefes de prácticas 0 → 24, Auditoría interna 4 → 42); bge-m3 MRR **0.756**, re-ranker 0.776 |
+| 2026-11-21 | Indexación del ganador | `vector_store_v3_bgem3/` (81 MB), HNSW vs búsqueda exacta: top-1 igual en 161/162 |
+
+### Métricas de bge-m3 (banco 154+8, nivel artículo)
+
+| Modo | R@1 | R@3 | R@5 | R@10 | MRR@10 | Rdoc@1 | Rdoc@5 |
+|---|---|---|---|---|---|---|---|
+| Semántico | 0.636 | 0.851 | 0.916 | 0.948 | **0.756** | 0.786 | 0.955 |
+| BM25 | 0.409 | 0.565 | 0.656 | 0.766 | 0.510 | 0.688 | 0.903 |
+| Híbrido (RRF k=60) | 0.552 | 0.799 | 0.838 | 0.890 | 0.681 | 0.779 | 0.974 |
+| Re-ranker (bge-reranker-v2-m3) | 0.675 | 0.851 | 0.896 | 0.968 | **0.776** | 0.779 | 0.974 |
+
+Coseno top-1: positivas 0.690 vs negativas 0.484 (base para calibrar el umbral "fuera de dominio" en OE5).
+
+### Corpus V3 + bge-m3 (`MANIFEST_bgem3.json`)
+
+| Métrica | Valor |
+|---|---|
+| Chunks / documentos | 5,117 / 48 |
+| Tokens de texto (media / mediana / máx) | 169.2 / 131 / 350 |
+| Tokens de embedding máx (límite 382) | 382 → 0 chunks truncados |
+| Artículos partidos | 1,791 |
+| tipo_bloque | articulo 4,632 · texto_libre 211 · capitulo 120 · preambulo 67 · seccion 46 · titulo 41 |
+| Índices descartados | 84 (`chunks_descartados_v3_bgem3.csv`) |
+| Validación | 0 errores · 5 warnings (chunks cortos legítimos) |
+| Modelo | `BAAI/bge-m3@5617a9f61b028005a4858fdac845db406aefb181`, 1024 dim, sin prefijos |
+| Parámetros | articulo · max_seq 384 · chunk 350/40 · breadcrumb completo · HNSW coseno M16 / ef 200 / search_ef 100 |
+
+> Nota: `scripts/README.md` (agosto) advertía que chromadb 0.4.22 corrompía índices de 1024 dim en lotes de 500.
+> En V3 se indexó bge-m3 con lotes de 500 sin problema: `count()` = 5,117 y el top-1 coincide con la búsqueda exacta en 161/162.
 
 ---
 
@@ -32,6 +80,14 @@ docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/09_evaluacion.py
 
 Otro modelo dentro de la misma versión (archivos y colección con sufijo `_<modelo>`):
 `docker exec -e MODEL_KEY=e5large oe1_corpus python .../05_chunking_v2.py` → 06 → 07 → `09_evaluacion.py`.
+Para comparar modelos no hace falta 07: `09_evaluacion.py` busca exacto sobre el `.npy`.
+Qwen3: añadir `-e EMBED_BATCH_SIZE=4` (con 16 usa 5.9 GB de GPU).
+
+Modelo ganador en una carpeta limpia para desplegar (la que se copia a OE5):
+
+```powershell
+docker exec -e MODEL_KEY=bgem3 -e VSTORE_DIR=vector_store_v3_bgem3 oe1_corpus python /home/jupyteruser/work/scripts/v2/07_indexacion_v2.py --force
+```
 Ablación de contexto: `09_evaluacion.py --breadcrumb ninguno` (re-codifica sin re-chunkear).
 
 > **Windows + Docker Desktop:** dentro del contenedor `corpus_upeu/` aparece como `root 755`,
@@ -67,6 +123,11 @@ Plan 2b: añadir `-e CHUNK_MODE=pequeno` (chunks ≤120 tokens, max_seq_length 1
 | M4 evaluación R@k / MRR (semántico, BM25, híbrido, re-ranker) | `09_evaluacion.py`, `config/banco_preguntas.csv` | Distancias top-1 no miden aciertos |
 | M5 pie de página postal fuera, colas < 15 tokens unidas | `extraccion_comun.py`, `chunking.py` | Ruido residual |
 | M6 índices (tablas de contenido) descartados y registrados | `chunking.py`, `05`, `06` | 191 chunks de índice competían con artículos reales |
+| transformers 4.51.3 / tokenizers 0.21.1 | `requirements.txt` | Qwen3-Embedding exige transformers ≥ 4.51 |
+| Revisión de bge-m3 fijada | `config.py` | Había dos snapshots en caché; se fijó la que reproduce los embeddings |
+| `normalizar_espacios()` (NBSP y espacios Unicode → espacio, 1 a 1) | `chunking.py`, `extraccion_comun.py`, test nuevo | 62 artículos sin detectar en 2 reglamentos |
+| `VSTORE_DIR` opcional | `config.py`, `07` | Indexar solo el ganador en una carpeta limpia para OE5 |
+| Descripción de colección con el modelo real | `07` | Decía "mpnet" fijo |
 
 ---
 
@@ -314,10 +375,15 @@ docker cp oe1_corpus:/home/jupyteruser/work/corpus_upeu/vector_store_v2 \
 
 ## 🐛 Issues Conocidos / Próximos Pasos
 
-1. **Warnings OCR residual** (1,403) — ruido de sellos/firmas en páginas finales; no afecta retrieval
-2. **Páginas no mapeadas** — campo `pagina` vacío; requeriría mapeo PDF→chunk
-3. **Re-ranking** — evaluar cross-encoder para mejorar top-k
-4. **Hybrid search** — BM25 + embeddings para consultas con keywords exactas
+Estado en V3 (2026-11-21) de los puntos que quedaron abiertos en V2:
+
+1. ~~Warnings OCR residual (1,403)~~ — eran casi todos falsos positivos de la validación; en V3: 5 warnings.
+2. ~~Páginas no mapeadas~~ — resuelto con marcadores `[[PAG N]]`: `pagina` lleno al 100%.
+3. **Re-ranking** — evaluado: `bge-reranker-v2-m3` sube bge-m3 de 0.756 a 0.776 MRR. Falta integrarlo en OE5.
+4. **Hybrid search** — evaluado: RRF con BM25 empeora a bge-m3 (0.681). BM25 sigue disponible (`08`) para casos de cifras exactas.
+
+Pendientes: revisión humana del banco (`revisado = no`); soporte multi-documento (`alt:`) y normalización NFC en `09`;
+migración de OE5.
 
 ---
 
