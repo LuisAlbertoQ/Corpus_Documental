@@ -268,4 +268,12 @@ Pendiente: revisar/ampliar el banco a 30–50 preguntas, comparar modelos (`MODE
 - 6 preguntas de Jefes de prácticas y Auditoría interna apuntan a artículos que el chunking no detecta (espacio no separable ` ` tras "Artículo"): hoy solo pueden acertar a nivel documento.
 - Nombres de archivo con tilde descompuesta (NFD): usar subcadenas sin la letra acentuada (p.ej. `Acoso y Hostigamiento Sexual`).
 
+### Imagen Docker actualizada para comparar modelos (2026-11-21)
+
+- `requirements.txt`: `transformers 4.39.3 → 4.51.3`, `tokenizers 0.15.0 → 0.21.1` (Qwen3). Imagen anterior respaldada como `oe1_arquitectura_corpus-jupyter:tf439`.
+- Diferencias con la imagen anterior (`pip freeze`): solo esos 2 paquetes + `decorator`/`wcwidth` (menores). `pip check` limpio; 38 tests pasan; ChromaDB V3 se lee y consulta.
+- **mpnet idéntico:** 5,053/5,053 conteos de tokens iguales, coseno mínimo vs `embeddings_v3.npy` = 0.9999998, top-10 idéntico en las 162 preguntas. V2/V3 siguen siendo reproducibles.
+- Cargan y codifican en GPU: e5base (1.2 GB pico), e5large (3.4 GB), bgem3 (3.1 GB), **qwen3 (5.9 GB con batch 16 → usar `EMBED_BATCH_SIZE=4`)**. Re-ranker bge-v2-m3 OK. Qwen3 en lote da el mismo vector que solo (pooling last-token correcto con padding a la derecha).
+- El aviso `Failed to send telemetry event … capture()` de chromadb ya existía antes (posthog), es inofensivo.
+
 Primera corrida V3 + mpnet con este banco: semántico MRR 0.358 · BM25 0.496 · híbrido 0.448 · **re-ranker 0.709 (R@1 0.64, R@5 0.81, Rdoc@5 0.95)**. Coseno top-1: positivas 0.71 vs negativas 0.49.
