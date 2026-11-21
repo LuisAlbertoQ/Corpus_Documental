@@ -160,6 +160,16 @@ vector_store_miniLM/
 vector_store_mpnet/
 vector_store_bge_m3/
 
+# Artefactos de versiones nuevas del corpus (v3, v4...); su huella queda en metadatos/<v>/MANIFEST.json
+corpus_upeu/txt_bruto_v*/
+corpus_upeu/vector_store_v*/
+
+# Papelera de Jupyter/Linux (se había subido por error)
+corpus_upeu/.Trash-*/
+
+# Caché de modelos HuggingFace (montada en Docker)
+.hf_cache/
+
 # Logs y temporales
 *.log
 logs/

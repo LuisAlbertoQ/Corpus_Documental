@@ -25,9 +25,12 @@ WORKDIR /home/jupyteruser/work
 # Esto sobrescribe la version CPU-only que pip instalaria desde PyPI.
 # Compatible con drivers NVIDIA 525+ (RTX 30/40 series y la mayoria de GTX 16+).
 # Para cambiar la version de CUDA, ver: https://pytorch.org/get-started/locally/
+# --extra-index-url PyPI: el índice de PyTorch ya no resuelve solo algunas dependencias
+# de torch (typing_extensions, flit_core) y el build fallaba (detectado 2026-11-20).
 RUN pip install --no-cache-dir \
     torch==2.1.2 \
-    --index-url https://download.pytorch.org/whl/cu121
+    --index-url https://download.pytorch.org/whl/cu121 \
+    --extra-index-url https://pypi.org/simple
 
 # Copiar requirements e instalar (sentence-transformers usara el torch CUDA ya instalado)
 COPY requirements.txt .

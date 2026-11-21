@@ -14,8 +14,13 @@ services:
       - ./notebooks:/home/jupyteruser/work/notebooks
       - ./src:/home/jupyteruser/work/src
       - ./scripts:/home/jupyteruser/work/scripts
+      # >>> Caché de HuggingFace persistente: el modelo no se re-descarga al recrear
+      # el contenedor y se usa siempre la revisión fijada en scripts/v2/config.py
+      - ./.hf_cache:/home/jupyteruser/.cache/huggingface
     environment:
       - PYTHONUNBUFFERED=1
+      # >>> Versión del corpus que generan los scripts (la v2 está protegida)
+      - CORPUS_VERSION=v3
       # >>> Variables para que PyTorch detecte la GPU dentro del contenedor
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility

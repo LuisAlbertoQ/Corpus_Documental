@@ -15,10 +15,10 @@ from pathlib import Path
 import fitz  # PyMuPDF
 import pandas as pd
 
-PDF_FOLDER = Path(__file__).resolve().parents[1] / "corpus_upeu" / "pdfs"
-METADATA_FOLDER = Path(__file__).resolve().parents[1] / "corpus_upeu" / "metadatos"
-OUTPUT_CSV = METADATA_FOLDER / "inventario_v2.csv"
+from config import PDF_DIR as PDF_FOLDER, META_DIR as METADATA_FOLDER, INVENTARIO_CSV as OUTPUT_CSV
+from config import asegurar_version_escribible
 
+asegurar_version_escribible()
 os.makedirs(METADATA_FOLDER, exist_ok=True)
 
 # --- Heurísticas sobre nombre de archivo ---

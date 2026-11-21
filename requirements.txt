@@ -3,9 +3,19 @@ PyMuPDF==1.23.5
 pdfplumber==0.10.3
 
 # Procesamiento de texto y embeddings
-sentence-transformers>=2.6.0
-huggingface_hub>=0.20.0
+# Versiones fijas (F9): los embeddings deben ser reproducibles. La revisión del
+# modelo se fija en scripts/v2/config.py (MODEL_REVISION).
+# Son las versiones que tenía la imagen con la que se generó la V2 (verificado con pip freeze).
+sentence-transformers==3.1.1
+transformers==4.39.3
+huggingface_hub==0.36.2
 tokenizers==0.15.0
+
+# Búsqueda léxica (BM25) para el índice híbrido (scripts/v2/08_indice_bm25.py)
+rank-bm25==0.2.2
+
+# Tests (scripts/v2/tests)
+pytest==8.2.2
 
 # Base vectorial
 chromadb==0.4.22

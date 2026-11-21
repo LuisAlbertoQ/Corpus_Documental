@@ -1,123 +1,101 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-07_indexacion_v2.py — Indexación en ChromaDB persistente
-Lee: chunks_v2.csv, embeddings_v2.npy, chunk_ids_v2.npy
-Escribe: corpus_upeu/vector_store_v2/ (colección corpus_upeu_v2)
+07_indexacion_v2.py — Indexa chunks + embeddings en ChromaDB.
+
+Salida: corpus_upeu/vector_store_<version>/  colección corpus_upeu_<version>
+
+Cambios V3 respecto a V2:
+  * F7  No borra nada por defecto: si la colección ya existe, aborta.
+        `--force` la reemplaza; la V2 sigue protegida por config.asegurar_version_escribible().
+  * Parámetros HNSW explícitos (search_ef=100 > top_k de OE5; V2 usaba el default 10).
+  * Metadatos nuevos: nombre_documento, grupo_articulo_id, pagina, char_inicio/char_fin.
+    Se mantienen los de V2 (documento, articulo, categoria_tematica, titulo_documento…)
+    para que OE5 siga funcionando sin cambios.
+  * Corrige el "nan" que V2 guardaba como padre_chunk_id.
+  * El texto guardado como `document` es el texto limpio (sin breadcrumb) que verá el LLM.
 """
 
+import argparse
+import json
+
 import chromadb
-from chromadb.config import Settings
 import numpy as np
-import pandas as pd
-from pathlib import Path
+from chromadb.config import Settings
 from tqdm import tqdm
 
-BASE = Path(__file__).resolve().parents[1]
-META_FOLDER = BASE / "corpus_upeu" / "metadatos"
-CHUNKS_CSV = META_FOLDER / "chunks_v2.csv"
-EMBEDDINGS_NPY = META_FOLDER / "embeddings_v2.npy"
-CHUNK_IDS_NPY = META_FOLDER / "chunk_ids_v2.npy"
-VECTOR_STORE = BASE / "corpus_upeu" / "vector_store_v2"
-COLLECTION_NAME = "corpus_upeu_v2"
+import config as C
+from chunking import leer_chunks
 
-VECTOR_STORE.mkdir(parents=True, exist_ok=True)
+CAMPOS_TEXTO = ["documento", "nombre_documento", "chunk_id", "tipo_documental", "categoria_tematica",
+                "ruta_extraccion", "titulo_documento", "titulo_estructura", "capitulo", "seccion",
+                "articulo", "pagina", "pagina_fin", "tipo_bloque", "grupo_articulo_id", "padre_chunk_id"]
+CAMPOS_INT = ["parte_num", "total_partes", "num_tokens", "num_tokens_embedding", "num_chars",
+              "char_inicio", "char_fin"]
 
-# Cargar datos
-print("Cargando datos...")
-df = pd.read_csv(CHUNKS_CSV)
-embeddings = np.load(EMBEDDINGS_NPY)
-chunk_ids = np.load(CHUNK_IDS_NPY, allow_pickle=True)
 
-print(f"Chunks: {len(df)} | Embeddings: {embeddings.shape} | IDs: {len(chunk_ids)}")
+def main():
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--force", action="store_true", help="reemplazar la colección si ya existe")
+    args = parser.parse_args()
 
-# Verificaciones
-assert len(df) == embeddings.shape[0] == len(chunk_ids), "Inconsistencia en datos"
-assert (df["chunk_id"] == chunk_ids).all(), "Chunk IDs no coinciden"
+    C.asegurar_version_escribible()
+    df = leer_chunks(C.CHUNKS_CSV)
+    embeddings = np.load(C.EMBEDDINGS_NPY)
+    chunk_ids = np.load(C.CHUNK_IDS_NPY, allow_pickle=True)
+    print(f"Chunks: {len(df)} | Embeddings: {embeddings.shape} | IDs: {len(chunk_ids)}")
+    assert len(df) == embeddings.shape[0] == len(chunk_ids), "Inconsistencia en datos"
+    assert (df["chunk_id"].values == chunk_ids).all(), "Chunk IDs no coinciden"
+    assert embeddings.shape[1] == C.EMBEDDING_DIM, f"Dimensión {embeddings.shape[1]} != {C.EMBEDDING_DIM}"
 
-# Cliente ChromaDB persistente
-client = chromadb.PersistentClient(
-    path=str(VECTOR_STORE),
-    settings=Settings(anonymized_telemetry=False, allow_reset=True)
-)
+    C.VSTORE_DIR.mkdir(parents=True, exist_ok=True)
+    client = chromadb.PersistentClient(path=str(C.VSTORE_DIR),
+                                       settings=Settings(anonymized_telemetry=False, allow_reset=True))
+    existentes = [c.name for c in client.list_collections()]
+    if C.COLLECTION_NAME in existentes:
+        if not args.force:
+            raise SystemExit(f"❌ La colección '{C.COLLECTION_NAME}' ya existe en {C.VSTORE_DIR}. "
+                             "Usa --force para reemplazarla (o cambia CORPUS_VERSION).")
+        client.delete_collection(name=C.COLLECTION_NAME)
+        print(f"Colección previa '{C.COLLECTION_NAME}' eliminada (--force).")
 
-# Eliminar colección si existe
-try:
-    client.delete_collection(name=COLLECTION_NAME)
-    print(f"Colección previa '{COLLECTION_NAME}' eliminada.")
-except Exception:
-    pass
-
-# Crear colección con espacio coseno
-collection = client.create_collection(
-    name=COLLECTION_NAME,
-    metadata={"description": "Corpus UPeU v2 - chunking semántico mpnet 768", "hnsw:space": "cosine"}
-)
-print(f"Colección '{COLLECTION_NAME}' creada (cosine).")
-
-# Preparar listas para inserción
-ids = df["chunk_id"].astype(str).tolist()
-documentos = df["texto"].tolist()
-metadatos = []
-for _, row in df.iterrows():
-    meta = {
-        "documento": row["documento"],
-        "chunk_id": str(row["chunk_id"]),
-        "tipo_documental": row["tipo_documental"],
-        "categoria_tematica": row["categoria_tematica"],
-        "ruta_extraccion": row["ruta_extraccion"],
-        "titulo_documento": row["titulo_documento"],
-        "capitulo": row["capitulo"],
-        "seccion": row["seccion"],
-        "articulo": row["articulo"],
-        "tipo_bloque": row["tipo_bloque"],
-        "padre_chunk_id": str(row["padre_chunk_id"]) if row["padre_chunk_id"] else "",
-        "es_parte": bool(row["es_parte"]),
-        "parte_num": int(row["parte_num"]) if not pd.isna(row["parte_num"]) else 0,
-        "total_partes": int(row["total_partes"]) if not pd.isna(row["total_partes"]) else 1,
-        "num_tokens": int(row["num_tokens"]),
-        "num_chars": int(row["num_chars"]),
-    }
-    metadatos.append(meta)
-
-embeddings_list = embeddings.tolist()
-
-# Insertar por lotes
-BATCH_SIZE = 500
-total = len(ids)
-print(f"Insertando {total} chunks en lotes de {BATCH_SIZE}...")
-
-for i in tqdm(range(0, total, BATCH_SIZE), desc="Indexando"):
-    end = min(i + BATCH_SIZE, total)
-    collection.add(
-        ids=ids[i:end],
-        documents=documentos[i:end],
-        metadatas=metadatos[i:end],
-        embeddings=embeddings_list[i:end]
+    collection = client.create_collection(
+        name=C.COLLECTION_NAME,
+        metadata={"description": f"Corpus UPeU {C.VERSION} - {C.CHUNK_MODE} - mpnet max_seq {C.MAX_SEQ_LENGTH}",
+                  **C.HNSW_PARAMS},
     )
+    print(f"Colección '{C.COLLECTION_NAME}' creada con {C.HNSW_PARAMS}")
 
-# Verificación final
-count = collection.count()
-print(f"\n✅ Indexación completada.")
-print(f"   Documentos en colección: {count}")
-print(f"   Ubicación: {VECTOR_STORE}")
+    metadatos = []
+    for _, row in df.iterrows():
+        meta = {c: str(row[c]) for c in CAMPOS_TEXTO if c in df.columns}
+        meta.update({c: int(row[c]) for c in CAMPOS_INT if c in df.columns})
+        meta["es_parte"] = bool(row["es_parte"])
+        metadatos.append(meta)
 
-# Test rápido
-print("\n--- Test de recuperación ---")
-test_query = "¿Cómo solicito una beca en la UPeU?"
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer("paraphrase-multilingual-mpnet-base-v2")
-q_emb = model.encode([test_query], normalize_embeddings=True)[0].tolist()
+    ids, docs, embs = df["chunk_id"].tolist(), df["texto"].tolist(), embeddings.tolist()
+    for i in tqdm(range(0, len(ids), C.INDEX_BATCH_SIZE), desc="Indexando"):
+        j = i + C.INDEX_BATCH_SIZE
+        collection.add(ids=ids[i:j], documents=docs[i:j], metadatas=metadatos[i:j], embeddings=embs[i:j])
+    count = collection.count()
+    print(f"\n✅ {count} chunks indexados en {C.VSTORE_DIR}")
 
-results = collection.query(
-    query_embeddings=[q_emb],
-    n_results=3,
-    include=["documents", "metadatas", "distances"]
-)
+    if C.MANIFEST_JSON.exists():
+        manifest = json.loads(C.MANIFEST_JSON.read_text(encoding="utf-8"))
+        manifest["indice"] = {"vector_store": str(C.VSTORE_DIR.relative_to(C.BASE)),
+                              "collection": C.COLLECTION_NAME, "count": count, "hnsw": C.HNSW_PARAMS}
+        C.MANIFEST_JSON.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
-for i, (doc, meta, dist) in enumerate(zip(results["documents"][0], results["metadatas"][0], results["distances"][0])):
-    print(f"\n  Resultado {i+1} (dist={dist:.4f}):")
-    print(f"    Doc: {meta['documento']}")
-    print(f"    Art: {meta['articulo']}")
-    print(f"    Cat: {meta['categoria_tematica']}")
-    print(f"    Texto: {doc[:200]}...")
+    # Prueba rápida (el modelo debe ser el mismo y con la misma revisión)
+    from sentence_transformers import SentenceTransformer
+    model = SentenceTransformer(C.MODEL_NAME, revision=C.MODEL_REVISION)
+    for q in ["¿Cómo solicito una beca en la UPeU?", "¿Cuánto cuesta el trámite de pre-ingreso?"]:
+        r = collection.query(query_embeddings=[model.encode([C.PREFIJO_PREGUNTA + q], normalize_embeddings=True)[0].tolist()],
+                             n_results=3, include=["metadatas", "distances"])
+        print(f"\n  {q}")
+        for meta, dist in zip(r["metadatas"][0], r["distances"][0]):
+            print(f"    d={dist:.4f}  {meta['nombre_documento']} · {meta['articulo'] or meta['tipo_bloque']} · cat {meta['categoria_tematica']}")
+
+
+if __name__ == "__main__":
+    main()

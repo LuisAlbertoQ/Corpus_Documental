@@ -6,6 +6,70 @@
 
 ---
 
+## 🆕 Código V3 (noviembre 2026) — cómo ejecutarlo
+
+Los mismos scripts generan ahora versiones nuevas sin tocar la V2 (que usa OE5).
+Rutas y parámetros viven en `config.py`; la versión se elige con `CORPUS_VERSION`
+(por defecto `v3`, ya definida en `docker-compose.yml`). La V2 está protegida.
+
+```powershell
+docker-compose build          # requirements.txt cambió (versiones fijas, rank-bm25, pytest)
+docker-compose up -d
+docker exec oe1_corpus python -m pytest /home/jupyteruser/work/scripts/v2/tests -q
+
+# Pipeline completo V3 (PDF → Chroma)
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/01_inventario.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/02_clasificacion.py   # aplica corpus_upeu/config/clasificacion_manual.csv
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/03_diagnostico.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/04_extraccion_v2.py    # --faltantes / --solo "X.pdf"
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/05_chunking_v2.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/06_validacion_corpus.py  # exit 1 si hay errores
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/07_indexacion_v2.py      # --force para reemplazar
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/08_indice_bm25.py
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/09_evaluacion.py                 # banco: corpus_upeu/config/banco_preguntas.csv
+docker exec oe1_corpus python /home/jupyteruser/work/scripts/v2/09_evaluacion.py --version v2    # comparar con V2 (solo lectura)
+```
+
+Otro modelo dentro de la misma versión (archivos y colección con sufijo `_<modelo>`):
+`docker exec -e MODEL_KEY=e5large oe1_corpus python .../05_chunking_v2.py` → 06 → 07 → `09_evaluacion.py`.
+Ablación de contexto: `09_evaluacion.py --breadcrumb ninguno` (re-codifica sin re-chunkear).
+
+> **Windows + Docker Desktop:** dentro del contenedor `corpus_upeu/` aparece como `root 755`,
+> así que `jupyteruser` no puede crear carpetas nuevas ahí. Antes de una versión nueva,
+> créalas desde Windows: `mkdir corpus_upeu\txt_bruto_v3, corpus_upeu\vector_store_v3`
+> (las subcarpetas de `metadatos/` sí se crean solas).
+> En Git Bash, anteponer `MSYS_NO_PATHCONV=1` a los `docker exec` para que no reescriba las rutas `/home/...`.
+
+Experimento 2a sin re-extraer (re-chunkear los .txt de V2 con max_seq_length 384):
+`docker exec -e CORPUS_VERSION=v3a oe1_corpus python .../05_chunking_v2.py --txt-dir /home/jupyteruser/work/corpus_upeu/txt_bruto_v2`
+(requiere copiar `diagnostico_v2.csv` a `metadatos/v3a/diagnostico_v3a.csv`).
+Plan 2b: añadir `-e CHUNK_MODE=pequeno` (chunks ≤120 tokens, max_seq_length 128).
+
+| Cambio | Dónde | Problema que corrige |
+|---|---|---|
+| Rutas centralizadas, V2 protegida | `config.py`, todos | Scripts apuntaban a `scripts/` y a `metadatos/` (no reproducible) |
+| Clasificación manual versionada | `corpus_upeu/config/clasificacion_manual.csv`, `02` | Paso manual VIGENTE no registrado |
+| Tablas en su página, sin duplicar; marcadores `[[PAG N]]` | `extraccion_comun.py`, `04` | Tablas pegadas al final del documento; campo `pagina` vacío |
+| `max_seq_length` explícito, 0 tokens truncados | `05`, `chunking.py` | P1: ~50% de tokens no llegaban al embedding |
+| Preámbulo conservado | `chunking.py` | 5.3% del texto (47% del TUPA) se descartaba |
+| Regex de encabezados con `\b` y sin cruzar líneas | `chunking.py` | Falsos "TÍTULO D", "Capítulo de…" |
+| Breadcrumb de contexto en `texto_embedding` | `chunking.py` | Partes 2+ sin saber de qué artículo eran |
+| Cortes por párrafo/oración/ítem/fila | `chunking.py` | Cortes a mitad de oración |
+| `grupo_articulo_id` | `chunking.py`, `07` | Padre = chunk anterior; base para small-to-big en OE5 |
+| Encabezados cortos se anteponen al bloque siguiente, sin duplicados | `chunking.py` | 256 chunks < 50 chars, 98 duplicados |
+| `nombre_documento`, `seccion` (Subcapítulo/Apartado), `pagina` | `chunking.py` | Metadatos vacíos |
+| Cobertura, trazabilidad y falsos encabezados validados | `06` | La validación no detectaba texto perdido |
+| HNSW `search_ef=100`, sin borrado por defecto | `07` | `search_ef=10` < top_k de OE5; borraba la colección |
+| Corpus léxico BM25 | `texto_lexico.py`, `08` | Base para búsqueda híbrida en OE5 |
+| Versiones fijas + revisión del modelo + `MANIFEST.json` | `requirements.txt`, `config.py`, `05` | Resultados no replicables |
+| M1 perfiles de modelo (`MODEL_KEY`) con prefijos | `config.py`, `05`, `07`, `09` | Comparar modelos de forma justa |
+| M2 `BREADCRUMB_MODO` | `config.py`, `chunking.py` | Ablación del contexto en el embedding |
+| M4 evaluación R@k / MRR (semántico, BM25, híbrido, re-ranker) | `09_evaluacion.py`, `config/banco_preguntas.csv` | Distancias top-1 no miden aciertos |
+| M5 pie de página postal fuera, colas < 15 tokens unidas | `extraccion_comun.py`, `chunking.py` | Ruido residual |
+| M6 índices (tablas de contenido) descartados y registrados | `chunking.py`, `05`, `06` | 191 chunks de índice competían con artículos reales |
+
+---
+
 ## 📋 Resumen Ejecutivo
 
 Este pipeline transforma **48 documentos PDF oficiales** de la Universidad Peruana Unión (UPeU) en un **corpus vectorial semántico** listo para RAG, mediante **chunking por estructura documental** (1 artículo = 1 chunk) con embeddings **mpnet 768-dim** y metadatos enriquecidos (18 campos + relaciones padre-hijo).

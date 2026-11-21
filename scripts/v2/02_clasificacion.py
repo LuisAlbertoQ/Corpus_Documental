@@ -11,9 +11,11 @@ from pathlib import Path
 
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1]
-INVENTARIO_CSV = BASE / "corpus_upeu" / "metadatos" / "inventario_v2.csv"
-OUTPUT_CSV = BASE / "corpus_upeu" / "metadatos" / "clasificacion_v2.csv"
+from config import INVENTARIO_CSV, CLASIF_CSV as OUTPUT_CSV, CLASIF_MANUAL_CSV
+from config import asegurar_version_escribible
+
+# Columnas que la revisión humana puede fijar en corpus_upeu/config/clasificacion_manual.csv
+CAMPOS_MANUALES = ["tipo_documental", "categoria_tematica", "estado", "observaciones"]
 
 # --- Reglas por palabras clave en nombre ---
 TIPO_KEYWORDS = [
@@ -54,7 +56,43 @@ def clasificar_categoria(nombre: str) -> str:
             return cat
     return "E"  # fallback
 
+def aplicar_clasificacion_manual(df: pd.DataFrame) -> pd.DataFrame:
+    """F8: la revisión humana queda versionada en git, no editada a mano en metadatos/.
+
+    Cada valor no vacío de clasificacion_manual.csv sobrescribe la propuesta
+    automática. Los PDFs que no figuran en el archivo quedan en REVISAR y,
+    por lo tanto, 03_diagnostico.py los excluye (solo procesa VIGENTE).
+    """
+    if not CLASIF_MANUAL_CSV.exists():
+        print(f"⚠️  No existe {CLASIF_MANUAL_CSV}: se usa solo la clasificación automática.")
+        return df
+
+    manual = pd.read_csv(CLASIF_MANUAL_CSV, dtype=str).fillna("")
+    manual = manual.set_index("nombre_archivo")
+    df = df.copy()
+    aplicados, sin_revision = 0, []
+    for i, row in df.iterrows():
+        nombre = row["nombre_archivo"]
+        if nombre not in manual.index:
+            sin_revision.append(nombre)
+            continue
+        for campo in CAMPOS_MANUALES:
+            valor = manual.at[nombre, campo] if campo in manual.columns else ""
+            if valor:
+                df.at[i, campo] = valor
+        aplicados += 1
+
+    huerfanos = sorted(set(manual.index) - set(df["nombre_archivo"]))
+    print(f"✅ Clasificación manual aplicada a {aplicados}/{len(df)} documentos ({CLASIF_MANUAL_CSV.name})")
+    for nombre in sin_revision:
+        print(f"   ⚠️  Sin revisión manual (queda {df.loc[df['nombre_archivo'] == nombre, 'estado'].iat[0]}): {nombre}")
+    for nombre in huerfanos:
+        print(f"   ⚠️  En clasificacion_manual.csv pero no en el inventario: {nombre}")
+    return df
+
+
 def main():
+    asegurar_version_escribible()
     if not INVENTARIO_CSV.exists():
         print(f"❌ No existe {INVENTARIO_CSV}. Ejecuta 01_inventario.py primero.")
         return
@@ -90,6 +128,7 @@ def main():
     out_df = pd.DataFrame(rows, columns=[
         "nombre_archivo", "tipo_documental", "categoria_tematica", "estado", "observaciones"
     ])
+    out_df = aplicar_clasificacion_manual(out_df)
     out_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
     print(f"📄 Clasificación propuesta en {OUTPUT_CSV}")
 

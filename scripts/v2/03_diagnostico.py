@@ -17,14 +17,8 @@ import fitz  # PyMuPDF
 import pdfplumber
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1]
-PDF_FOLDER = BASE / "corpus_upeu" / "pdfs"
-INVENTARIO_CSV = BASE / "corpus_upeu" / "metadatos" / "inventario_v2.csv"
-CLASIF_CSV = BASE / "corpus_upeu" / "metadatos" / "clasificacion_v2.csv"
-OUTPUT_CSV = BASE / "corpus_upeu" / "metadatos" / "diagnostico_v2.csv"
-
-# Umbral palabras/página para considerar "digital" (igual que notebook 1)
-UMBRAL_PALABRAS = 30
+from config import PDF_DIR as PDF_FOLDER, INVENTARIO_CSV, CLASIF_CSV, DIAG_CSV as OUTPUT_CSV
+from config import UMBRAL_PALABRAS_PAGINA as UMBRAL_PALABRAS, asegurar_version_escribible
 
 # Heurística columnas: dispersión de coordenadas x
 def detectar_columnas(page) -> bool:
@@ -117,6 +111,7 @@ def decidir_ruta(diag: dict, tipo: str) -> str:
         return "ESCANEADO"
 
 def main():
+    asegurar_version_escribible()
     if not INVENTARIO_CSV.exists() or not CLASIF_CSV.exists():
         print("❌ Faltan inventario_v2.csv o clasificacion_v2.csv")
         return
