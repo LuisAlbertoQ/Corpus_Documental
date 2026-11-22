@@ -75,26 +75,6 @@ EMBEDDING_DIM = PERFIL["dim"]
 PREFIJO_PREGUNTA = PERFIL["prefijo_pregunta"]
 PREFIJO_DOCUMENTO = PERFIL["prefijo_documento"]
 
-SUFIJO = "" if MODEL_KEY == "mpnet" else f"_{MODEL_KEY}"
-COLLECTION_NAME = f"corpus_upeu_{VERSION}{SUFIJO}"
-
-# Archivos por etapa (01-04 no dependen del modelo; 05-08 sí)
-INVENTARIO_CSV = META_DIR / f"inventario_{VERSION}.csv"
-CLASIF_CSV = META_DIR / f"clasificacion_{VERSION}.csv"
-CLASIF_MANUAL_CSV = CONFIG_DIR / "clasificacion_manual.csv"
-BANCO_PREGUNTAS_CSV = CONFIG_DIR / "banco_preguntas.csv"
-DIAG_CSV = META_DIR / f"diagnostico_{VERSION}.csv"
-EXTRACCION_CSV = META_DIR / f"extraccion_{VERSION}_metadatos.csv"
-CHUNKS_CSV = META_DIR / f"chunks_{VERSION}{SUFIJO}.csv"
-EMBEDDINGS_NPY = META_DIR / f"embeddings_{VERSION}{SUFIJO}.npy"
-CHUNK_IDS_NPY = META_DIR / f"chunk_ids_{VERSION}{SUFIJO}.npy"
-DESCARTADOS_CSV = META_DIR / f"chunks_descartados_{VERSION}{SUFIJO}.csv"
-REPORTE_MD = META_DIR / f"reporte_validacion_{VERSION}{SUFIJO}.md"
-DETALLE_CSV = META_DIR / f"validacion_{VERSION}{SUFIJO}_detalle.csv"
-BM25_JSON = META_DIR / f"bm25_corpus_{VERSION}{SUFIJO}.json"
-MANIFEST_JSON = META_DIR / f"MANIFEST{SUFIJO}.json"
-EVAL_DIR = META_DIR / "evaluacion"
-
 # P1: mpnet trae max_seq_length=128 y todo lo que excede se trunca en silencio.
 #   Experimento 2a -> CHUNK_MODE=articulo, MAX_SEQ_LENGTH=384 (chunks grandes, todo embebido)
 #   Plan 2b        -> CHUNK_MODE=pequeno,  MAX_SEQ_LENGTH=128 (chunks <=120 tok + grupo_articulo_id)
@@ -126,6 +106,33 @@ MIN_TOKENS_BLOQUE = int(os.environ.get("MIN_TOKENS_BLOQUE", "25"))
 # ("Documento | Título | Capítulo | Artículo"). En modo pequeno se reduce
 # para no comerse el presupuesto de 128 tokens.
 MAX_TOKENS_BREADCRUMB = int(os.environ.get("MAX_TOKENS_BREADCRUMB", "60" if CHUNK_MODE == "articulo" else "30"))
+
+# --- Nombres de archivo -------------------------------------------------------
+# Sufijo por modelo y, si el tamaño de chunk difiere del de producción del modo
+# (articulo 350/40 max_seq 384; pequeno 120/20 max_seq 128), un sufijo _c<max>o<solape>
+# (p.ej. _c150o50) para que los experimentos de tamaño no pisen los archivos de producción.
+_TAMANO_PRODUCCION = (350, 40, 384) if CHUNK_MODE == "articulo" else (120, 20, 128)
+_TAG_TAMANO = "" if (CHUNK_MAX_TOKENS, CHUNK_OVERLAP_TOKENS, MAX_SEQ_LENGTH) == _TAMANO_PRODUCCION \
+    else f"_c{CHUNK_MAX_TOKENS}o{CHUNK_OVERLAP_TOKENS}"
+SUFIJO = ("" if MODEL_KEY == "mpnet" else f"_{MODEL_KEY}") + _TAG_TAMANO
+COLLECTION_NAME = f"corpus_upeu_{VERSION}{SUFIJO}"
+
+# Archivos por etapa (01-04 no dependen del modelo; 05-08 sí)
+INVENTARIO_CSV = META_DIR / f"inventario_{VERSION}.csv"
+CLASIF_CSV = META_DIR / f"clasificacion_{VERSION}.csv"
+CLASIF_MANUAL_CSV = CONFIG_DIR / "clasificacion_manual.csv"
+BANCO_PREGUNTAS_CSV = CONFIG_DIR / "banco_preguntas.csv"
+DIAG_CSV = META_DIR / f"diagnostico_{VERSION}.csv"
+EXTRACCION_CSV = META_DIR / f"extraccion_{VERSION}_metadatos.csv"
+CHUNKS_CSV = META_DIR / f"chunks_{VERSION}{SUFIJO}.csv"
+EMBEDDINGS_NPY = META_DIR / f"embeddings_{VERSION}{SUFIJO}.npy"
+CHUNK_IDS_NPY = META_DIR / f"chunk_ids_{VERSION}{SUFIJO}.npy"
+DESCARTADOS_CSV = META_DIR / f"chunks_descartados_{VERSION}{SUFIJO}.csv"
+REPORTE_MD = META_DIR / f"reporte_validacion_{VERSION}{SUFIJO}.md"
+DETALLE_CSV = META_DIR / f"validacion_{VERSION}{SUFIJO}_detalle.csv"
+BM25_JSON = META_DIR / f"bm25_corpus_{VERSION}{SUFIJO}.json"
+MANIFEST_JSON = META_DIR / f"MANIFEST{SUFIJO}.json"
+EVAL_DIR = META_DIR / "evaluacion"
 
 # --- Extracción --------------------------------------------------------------
 UMBRAL_PALABRAS_PAGINA = 30     # palabras (>2 letras) para considerar una página "digital"
